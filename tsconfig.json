@@ -1,0 +1,59 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "strict": true,
+    "jsx": "preserve",
+    "types": [
+      "vite/client",
+      "jquery"
+    ],
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "noImplicitAny": false,
+    "sourceMap": false,
+    "baseUrl": "./",
+    "lib": [
+      "ESNext",
+      "ES2021",
+      "dom"
+    ],
+    "paths": {
+      "#Helpers/*": [
+        "resources/ts/Helpers/*"
+      ],
+      "#Composables/*": [
+        "resources/ts/Helpers/Composables/*"
+      ],
+      "#Stores/*": [
+        "resources/ts/Stores/*"
+      ],
+      "#Models/*": [
+        "resources/ts/Helpers/Models/*"
+      ],
+      "@Pages/*": [
+        "resources/ts/Pages/*"
+      ],
+      "@Components/*": [
+        "resources/ts/Components/*"
+      ],
+      "@Layouts/*": [
+        "resources/ts/Layouts/*"
+      ]
+    }
+  },
+  "include": [
+    "resources/ts/**/*.d.ts",
+    "resources/ts/**/*.ts",
+    "resources/ts/**/*.vue",
+  ],
+  "exclude": [
+    ["node_modules", "public"]
+  ]
+}

@@ -1,4 +1,4 @@
-import "@/bootstrap.ts";
+import "./bootstrap.ts";
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'

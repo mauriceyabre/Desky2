@@ -1,4 +1,4 @@
-import { computed, reactive } from "vue";
+import { computed, reactive, ref } from "vue";
 import { defineStore } from "pinia";
 import { useRouter } from "vue-router";
 import { useStorage } from "@vueuse/core";
@@ -6,6 +6,8 @@ import { useStorage } from "@vueuse/core";
 export const useAuthStore = defineStore("authStore", () => {
     const router = useRouter()
     const accessToken = useStorage("access_token", "");
+    const loading = ref(false)
+
     const check = computed(() => !!accessToken.value);
 
     function setAccessToken(value?: string|null) {
@@ -18,7 +20,7 @@ export const useAuthStore = defineStore("authStore", () => {
     function login(accessToken: string) {
         setAccessToken(accessToken);
 
-        router.push({ name: "vehicles.index" });
+        router.push({ name: "dashboard" });
     }
 
     function destroyTokenAndRedirectTo(routeName: string) {
@@ -27,10 +29,12 @@ export const useAuthStore = defineStore("authStore", () => {
     }
 
     async function logout() {
-        return axios.post("auth/logout").finally(() => {
-            destroyTokenAndRedirectTo("register");
+        return axios.post("auth/logout").then(() => {
+            destroyTokenAndRedirectTo("auth.login");
         });
     }
 
-    return { login, logout, check, destroyTokenAndRedirectTo };
+
+
+    return { login, logout, check, destroyTokenAndRedirectTo, loading };
 });

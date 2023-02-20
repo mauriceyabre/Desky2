@@ -25,10 +25,11 @@ export default defineConfig({
     },
     resolve: {
         alias: {
-            '#Helpers': path.resolve('resources/ts/Helpers'),
-            '#Composables': path.resolve('resources/ts/Helpers/Composables'),
-            '#Stores': path.resolve('resources/ts/Stores'),
-            '#Models': path.resolve('resources/ts/Helpers/Models'),
+            '@': path.resolve('resources/ts/Boot'),
+            '@Helpers': path.resolve('resources/ts/Helpers'),
+            '@Composables': path.resolve('resources/ts/Helpers/Composables'),
+            '@Stores': path.resolve('resources/ts/Stores'),
+            '@Models': path.resolve('resources/ts/Helpers/Models'),
             '@Pages': path.resolve('resources/ts/Pages'),
             '@Components': path.resolve('resources/ts/Components'),
             '@Layouts': path.resolve('resources/ts/Layouts'),

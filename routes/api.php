@@ -1,5 +1,9 @@
 <?php
 
+use App\Http\Controllers\Api\V1\Auth\LoginController;
+use App\Http\Controllers\Api\V1\Auth\LogoutController;
+use App\Http\Controllers\Api\V1\Auth\PasswordUpdateController;
+use App\Http\Controllers\Api\V1\Auth\ProfileController;
 use App\Http\Controllers\Api\V1\CustomerController;
 use Illuminate\Support\Facades\Route;
 
@@ -14,15 +18,20 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-//    return response()->json(['roba']);
-//    return $request->user();
-//});
-//
-//Route::post('login', [AuthController::class, 'login']);
-//
+
 Route::middleware('api')->prefix('v1')->namespace('App\Http\Controllers\Api\V1')->name('api.v1.')->group(function () {
     Route::name('customers.')->group(function () {
         Route::get('/customers', [CustomerController::class, 'index'])->name('index');
+    });
+
+    Route::group(['prefix' => 'auth'], function (){
+        Route::post('/login', LoginController::class);
+        Route::post('logout', LogoutController::class)->middleware('auth:sanctum');
+    });
+
+    Route::middleware(['auth:sanctum'])->group(function () {
+        Route::get('profile', [ProfileController::class, 'show']);
+        Route::put('profile', [ProfileController::class, 'update']);
+        Route::put('password', PasswordUpdateController::class);
     });
 });

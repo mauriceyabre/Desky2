@@ -11,8 +11,6 @@
         <link href="{{ asset('assets/plugins/custom/datatables/datatables.bundle.css') }}" rel="stylesheet" type="text/css">
         <link href="{{ asset('assets/plugins/global/plugins.bundle.css') }}" rel="stylesheet" type="text/css">
         <link href="{{ asset('assets/css/style.bundle.css') }}" rel="stylesheet" type="text/css">
-
-
     </head>
     <body id="kt_body" class="header-fixed header-tablet-and-mobile-fixed aside-fixed aside-secondary-enabled">
         <div id="app" class="d-flex flex-column flex-root"></div>

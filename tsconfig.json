@@ -25,16 +25,19 @@
       "dom"
     ],
     "paths": {
-      "#Helpers/*": [
+      "@/*": [
+        "resources/ts/Boot/*"
+      ],
+      "@Helpers/*": [
         "resources/ts/Helpers/*"
       ],
-      "#Composables/*": [
+      "@Composables/*": [
         "resources/ts/Helpers/Composables/*"
       ],
-      "#Stores/*": [
+      "@Stores/*": [
         "resources/ts/Stores/*"
       ],
-      "#Models/*": [
+      "@Models/*": [
         "resources/ts/Helpers/Models/*"
       ],
       "@Pages/*": [
@@ -51,7 +54,7 @@
   "include": [
     "resources/ts/**/*.d.ts",
     "resources/ts/**/*.ts",
-    "resources/ts/**/*.vue",
+    "resources/ts/**/*.vue"
   ],
   "exclude": [
     ["node_modules", "public"]

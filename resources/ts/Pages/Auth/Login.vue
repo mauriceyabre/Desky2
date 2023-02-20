@@ -1,35 +1,26 @@
 <template>
-        <form class="form w-100" novalidate="novalidate" id="kt_sign_in_form" @submit.prevent="login">
+        <form class="form w-100" novalidate="novalidate" id="kt_sign_in_form" @submit.prevent="handleLogin">
             <div class="text-center mb-11">
                 <h1 class="text-dark fw-bolder mb-3">Accedi</h1>
                 <div class="text-gray-500 fw-semibold fs-6">con le tue credenziali</div>
             </div>
             <div class="fv-row mb-8 fv-plugins-icon-container">
-                <input class="form-control bg-transparent" type="text" name="email" autocomplete="off" v-model="form.email" placeholder="Email" @focusin="form.clearErrors()" />
-                <div class="fv-plugins-message-container invalid-feedback"></div>
+                <InputBase :form="form" name="email" placeholder="Email" v-model="form.email" :disabled="form.processing" />
             </div>
             <div class="fv-row mb-3 fv-plugins-icon-container">
-                <input class="form-control bg-transparent" type="password" name="password" autocomplete="off" v-model="form.password" placeholder="Password" @focusin="form.clearErrors()" />
-                <div class="fv-plugins-message-container invalid-feedback"></div>
+                <InputPassword :form="form" name="password" placeholder="Password" v-model="form.password" :disabled="form.processing" />
             </div>
             <div class="d-flex flex-stack flex-wrap gap-3 fs-base fw-semibold mb-8">
                 <div></div>
-                <!--<AppLink v-if="canResetPassword" :href="route('login')" class="link-primary">-->
-                <!--    Password Dimenticata ?-->
-                <!--</AppLink>-->
+                <a class="link-primary">
+                    Password Dimenticata ?
+                </a>
             </div>
             <div class="d-grid mb-10">
-                <!--<AppButtonSubmit block :processing="form.processing">-->
-                <!--    Accedi-->
-                <!--    <template #progress>-->
-                <!--        <span class="spinner-border spinner-border-sm align-middle ms-2"></span>-->
-                <!--    </template>-->
-                <!--</AppButtonSubmit>-->
-            </div>
-            <div class="alert alert-danger d-flex align-items-center p-3" v-if="showError">
-                <div class="d-flex flex-column">
-                    <span>{{ form.errors.email }}</span>
-                </div>
+                <button class="btn w-100 btn-primary" :disabled="form.processing">
+                    Accedi
+                    <span class="spinner-border spinner-border-sm align-middle ms-2" v-if="form.processing"></span>
+                </button>
             </div>
             <div class="separator separator-content my-14">
                 <span class="w-125px text-gray-500 fw-semibold fs-7">oppure</span>
@@ -50,8 +41,14 @@
         </form>
 </template>
 <script setup lang="ts">
-    import { watch } from "vue";
-    import useForm from "#Composables/useForm";
+    import { ref } from "vue";
+    import useForm from "@Composables/useForm";
+    import InputBase from "@Components/Forms/InputBase.vue";
+    import InputPassword from "@Components/Forms/InputPassword.vue";
+    import { useAuthStore } from "@Stores/useAuthStore";
+
+    const auth = useAuthStore()
+    const loading = ref(false)
 
     const form = useForm( {
         email: '',
@@ -59,9 +56,12 @@
         remember: true
     })
 
-    console.log(form.email);
-
-    watch(() => form.data(), (value) => {
-        console.log(value)
-    })
+    function handleLogin() {
+        form.submit('post', 'auth/login').then(res => {
+            console.log(res)
+            auth.login(res.data.access_token)
+        }).finally(() => {
+            form.password = ''
+        })
+    }
 </script>

@@ -3,9 +3,9 @@
         <div id="kt_aside_menu" class="col menu menu-column">
             <div v-for="(item, index) in menuItems" :key="index" :class="{'here': item.starts.includes(pathName), 'm-0': (index + 1) === menuItems.length}" :title="item.title" class="menu-item py-2"
                     data-bs-dismiss="click" data-bs-placement="right" data-bs-toggle="tooltip">
-                <a class="menu-link menu-center" :href="item.route">
+                <RouterLink class="menu-link menu-center" :to="item.route">
                     <span class="menu-icon me-0" v-html="item.icon" />
-                </a>
+                </RouterLink>
             </div>
         </div>
 <!--        <div class="col d-flex justify-content-end flex-column">
@@ -51,7 +51,7 @@
                     {
                         title: 'Dashboard',
                         slug: 'dashboard',
-                        route: 'dashboard',
+                        route: {name: 'dashboard'},
                         starts: ['dashboard'],
                         icon: `<span class="svg-icon svg-icon-muted svg-icon-2hx"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M13.0021 10.9128V3.01281C13.0021 2.41281 13.5021 1.91281 14.1021 2.01281C16.1021 2.21281 17.9021 3.11284 19.3021 4.61284C20.7021 6.01284 21.6021 7.91285 21.9021 9.81285C22.0021 10.4129 21.5021 10.9128 20.9021 10.9128H13.0021Z" fill="currentColor"/>

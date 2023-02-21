@@ -1,0 +1,6916 @@
+{
+  "data": [
+    {
+      "id": "RDP239368084",
+      "date": "2022-12-31",
+      "amount_out": 669.52,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 2532/DU - MEETING 22% - ARCHIVISION, SRL",
+      "entity_name": "HOTEL CRISTALLO SRL",
+      "kind": "received_document",
+      "document": {
+        "id": 201243754,
+        "type": "expense",
+        "path": "received_documents/201243754"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP239368178",
+      "date": "2022-12-31",
+      "amount_out": 1465.22,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 0000002068 -  Saldo elaborazione dati contabili e servizi aziendali al 31/12/2022",
+      "entity_name": "S.C. STUDIO ASSOCIATO SRL",
+      "kind": "received_document",
+      "document": {
+        "id": 201243725,
+        "type": "expense",
+        "path": "received_documents/201243725"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP239368746",
+      "date": "2022-12-31",
+      "amount_out": 50.75,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. GCITD0000956222 - Google Workspace",
+      "entity_name": "Google Cloud Italy S.r.l.",
+      "kind": "received_document",
+      "document": {
+        "id": 201244106,
+        "type": "expense",
+        "path": "received_documents/201244106"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP239368904",
+      "date": "2022-12-31",
+      "amount_out": 24.45,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00010000002095800076 - Riepilogo righe con aliquota 22%",
+      "entity_name": "INDEED IRELAND OPERATIONS LTD",
+      "kind": "received_document",
+      "document": {
+        "id": 201244470,
+        "type": "expense",
+        "path": "received_documents/201244470"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP239368920",
+      "date": "2022-12-31",
+      "amount_out": 56.95,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00010000008804700077 - Riepilogo righe con aliquota 22%",
+      "entity_name": "GOOGLE IRELAND LIMITED",
+      "kind": "received_document",
+      "document": {
+        "id": 201244486,
+        "type": "expense",
+        "path": "received_documents/201244486"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP245076640",
+      "date": "2022-12-31",
+      "amount_out": 30.98,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Google Adwords",
+      "entity_name": "Google Ireland Limited",
+      "kind": "received_document",
+      "document": {
+        "id": 206148169,
+        "type": "expense",
+        "path": "received_documents/206148169"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP239368003",
+      "date": "2022-12-29",
+      "amount_out": 6588,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 19 - Consulenza e Sviluppo di rendering 3d",
+      "entity_name": "Maurice Yabre",
+      "kind": "received_document",
+      "document": {
+        "id": 201243676,
+        "type": "expense",
+        "path": "received_documents/201243676"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP239368021",
+      "date": "2022-12-29",
+      "amount_out": 3600,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 38 - CONSULENZA PER LA STESURA DI PROGETTI ARCHITETTONICI",
+      "entity_name": "Stefano Mondini",
+      "kind": "received_document",
+      "document": {
+        "id": 201243694,
+        "type": "expense",
+        "path": "received_documents/201243694"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP204430539",
+      "date": "2022-12-27",
+      "amount_in": 1098,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 164/2022",
+      "entity_name": "GIANPIERO PANEPINTO",
+      "kind": "issued_document",
+      "document": {
+        "id": 251717329,
+        "type": "invoice",
+        "path": "issued_documents/251717329"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP204362604",
+      "date": "2022-12-26",
+      "amount_in": 300,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 162/2022",
+      "entity_name": "Klingenberg Services SAGL",
+      "kind": "issued_document",
+      "document": {
+        "id": 251637557,
+        "type": "invoice",
+        "path": "issued_documents/251637557"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP204362636",
+      "date": "2022-12-26",
+      "amount_in": 930,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 163/2022",
+      "entity_name": "Klingenberg Services SAGL",
+      "kind": "issued_document",
+      "document": {
+        "id": 251637597,
+        "type": "invoice",
+        "path": "issued_documents/251637597"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP236852578",
+      "date": "2022-12-21",
+      "amount_out": 73.18,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 2022F001164114 - Wind Tre S.p.A. con Socio Unico - Direzione e Coordinamento CK Hutchison Group Telecom Italy Investments S.à r.l. Documento emesso ai sensi degli art. 21 DPR 633/1972 e 4 c. 1 DM. n. 366/2000. L'IVA è stata assolta, ai sensi dell'art. 74, comma 1, lettera d, DPR n. 633/1972, da Wind Tre S.p.A. - P.IVA 13378520152",
+      "entity_name": "Wind Tre S.p.A.",
+      "kind": "received_document",
+      "document": {
+        "id": 199060207,
+        "type": "expense",
+        "path": "received_documents/199060207"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP236331348",
+      "date": "2022-12-20",
+      "amount_out": 1100,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00322000184 - Cena Natalizia",
+      "entity_name": "GESTIONE MOLINO VECCHIO SNC",
+      "kind": "received_document",
+      "document": {
+        "id": 198594909,
+        "type": "expense",
+        "path": "received_documents/198594909"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP236851440",
+      "date": "2022-12-20",
+      "amount_out": 25.7,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 79125/A - PALUCART 500 BICCHIERI IN CARTA PER CAFFE 90ML COLORE AVANA GRAFICA TA ZZINA E CHICCO CAFF   (3 OZ) BICCHIERINI BIODEGRADABILI CARTONCINO",
+      "entity_name": "PALUCART SRLS",
+      "kind": "received_document",
+      "document": {
+        "id": 199059197,
+        "type": "expense",
+        "path": "received_documents/199059197"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP203626527",
+      "date": "2022-12-20",
+      "amount_in": 2135,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 160/2022",
+      "entity_name": "GRUPPO DIPIERRI S.P.A.",
+      "kind": "issued_document",
+      "document": {
+        "id": 250794544,
+        "type": "invoice",
+        "path": "issued_documents/250794544"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP203627005",
+      "date": "2022-12-20",
+      "amount_in": 732,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 161/2022",
+      "entity_name": "STUDIO DI ARCHITETTURA DI BERSELLI CHIARA",
+      "kind": "issued_document",
+      "document": {
+        "id": 250795106,
+        "type": "invoice",
+        "path": "issued_documents/250795106"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP235402008",
+      "date": "2022-12-16",
+      "amount_out": 2040,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 37 - CONSULENZA PER LA STESURA DI PROGETTI ARCHITETTONICI",
+      "entity_name": "Stefano Mondini",
+      "kind": "received_document",
+      "document": {
+        "id": 197785591,
+        "type": "expense",
+        "path": "received_documents/197785591"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP235100107",
+      "date": "2022-12-15",
+      "amount_out": 8.99,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. IIITDN0005207831 - Servizio HP Instant Ink - Piano da 50 pagine",
+      "entity_name": "HP Italy S.r.l.",
+      "kind": "received_document",
+      "document": {
+        "id": 197517489,
+        "type": "expense",
+        "path": "received_documents/197517489"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP235471592",
+      "date": "2022-12-15",
+      "amount_out": 28,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 1323IT-FA - Caffè",
+      "entity_name": "MANCUSO ANTONIO SRL",
+      "kind": "received_document",
+      "document": {
+        "id": 197846581,
+        "type": "expense",
+        "path": "received_documents/197846581"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP235227066",
+      "date": "2022-12-14",
+      "amount_out": 3733.2,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 18 - Consulenza e Sviluppo di rendering 3d",
+      "entity_name": "Maurice Yabre",
+      "kind": "received_document",
+      "document": {
+        "id": 197626828,
+        "type": "expense",
+        "path": "received_documents/197626828"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP202185941",
+      "date": "2022-12-14",
+      "amount_in": 512.4,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 156/2022",
+      "entity_name": "FLUSSOCREATIVO DI FACCHETTI DANIEL E DI COSTANZO GIANFRANCO S.N.C",
+      "kind": "issued_document",
+      "document": {
+        "id": 249100328,
+        "type": "invoice",
+        "path": "issued_documents/249100328"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP202203766",
+      "date": "2022-12-14",
+      "amount_in": 658.8,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 158/2022",
+      "entity_name": "DELL'ANNA CELESTE",
+      "kind": "issued_document",
+      "document": {
+        "id": 249121676,
+        "type": "invoice",
+        "path": "issued_documents/249121676"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP202204185",
+      "date": "2022-12-14",
+      "amount_in": 1537.2,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 159/2022",
+      "entity_name": "DELL'ANNA CELESTE",
+      "kind": "issued_document",
+      "document": {
+        "id": 249122148,
+        "type": "invoice",
+        "path": "issued_documents/249122148"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP202186385",
+      "date": "2022-12-13",
+      "amount_in": 1537.2,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 157/2022",
+      "entity_name": "CONDOMINIO MARTINA (Amm. Turci Simona)",
+      "kind": "issued_document",
+      "document": {
+        "id": 249100868,
+        "type": "invoice",
+        "path": "issued_documents/249100868"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP202185640",
+      "date": "2022-12-12",
+      "amount_in": 610,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 155/2022",
+      "entity_name": "SELLARCHITECTS & PARTNERS DI SELLA ARCH. GIOSUE E SELLA GEOM. SAMUELE",
+      "kind": "issued_document",
+      "document": {
+        "id": 249099952,
+        "type": "invoice",
+        "path": "issued_documents/249099952"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP235099420",
+      "date": "2022-12-10",
+      "amount_out": 146.16,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00010000004680100074 - Corona Renderer",
+      "entity_name": "VERIFONE PAYMENTS BV",
+      "kind": "received_document",
+      "document": {
+        "id": 197516980,
+        "type": "expense",
+        "path": "received_documents/197516980"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP235099954",
+      "date": "2022-12-07",
+      "amount_out": 109.21,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00010000000001500073 - Template Sito Web",
+      "entity_name": "ENVATO PTY LTD",
+      "kind": "received_document",
+      "document": {
+        "id": 197517388,
+        "type": "expense",
+        "path": "received_documents/197517388"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP235099009",
+      "date": "2022-12-06",
+      "amount_out": 162.42,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00010000000000700072 - Acquisto Modelli 3D",
+      "entity_name": "FASTSPRING",
+      "kind": "received_document",
+      "document": {
+        "id": 197516653,
+        "type": "expense",
+        "path": "received_documents/197516653"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP202183655",
+      "date": "2022-12-05",
+      "amount_in": 585.6,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 154/2022",
+      "entity_name": "IDEA+ SRL",
+      "kind": "issued_document",
+      "document": {
+        "id": 249097540,
+        "type": "invoice",
+        "path": "issued_documents/249097540"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP234216633",
+      "date": "2022-12-02",
+      "amount_out": 2873,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Stipendi",
+      "entity_name": "Dipendenti",
+      "kind": "received_document",
+      "document": {
+        "id": 196766653,
+        "type": "expense",
+        "path": "received_documents/196766653"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP234217039",
+      "date": "2022-12-02",
+      "amount_out": 439.81,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Inps Inail",
+      "entity_name": "Agenzia delle Entrate",
+      "kind": "received_document",
+      "document": {
+        "id": 196766999,
+        "type": "expense",
+        "path": "received_documents/196766999"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP200119593",
+      "date": "2022-12-02",
+      "amount_in": 366,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 152/2022",
+      "entity_name": "DERUDI ANDREA",
+      "kind": "issued_document",
+      "document": {
+        "id": 246682259,
+        "type": "invoice",
+        "path": "issued_documents/246682259"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP200119711",
+      "date": "2022-12-02",
+      "amount_in": 658.8,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 153/2022",
+      "entity_name": "DERUDI ANDREA",
+      "kind": "issued_document",
+      "document": {
+        "id": 246682401,
+        "type": "invoice",
+        "path": "issued_documents/246682401"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP235099235",
+      "date": "2022-12-01",
+      "amount_out": 55.89,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00010000005130100070 - Stampa Biglietti Auguri",
+      "entity_name": "VISTAPRINT B.V.",
+      "kind": "received_document",
+      "document": {
+        "id": 197516829,
+        "type": "expense",
+        "path": "received_documents/197516829"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP199935376",
+      "date": "2022-12-01",
+      "amount_out": 366,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Nota di C. n. 4/2022",
+      "entity_name": "GIANPIERO PANEPINTO",
+      "kind": "issued_document",
+      "document": {
+        "id": 246466874,
+        "type": "credit_note",
+        "path": "issued_documents/246466874"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP199935495",
+      "date": "2022-12-01",
+      "amount_out": 658.8,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Nota di C. n. 5/2022",
+      "entity_name": "GIANPIERO PANEPINTO",
+      "kind": "issued_document",
+      "document": {
+        "id": 246467014,
+        "type": "credit_note",
+        "path": "issued_documents/246467014"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP232311980",
+      "date": "2022-11-30",
+      "amount_out": 669.52,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 2345/DU - Affitto Ufficio",
+      "entity_name": "HOTEL CRISTALLO SRL",
+      "kind": "received_document",
+      "document": {
+        "id": 195107327,
+        "type": "expense",
+        "path": "received_documents/195107327"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP232750655",
+      "date": "2022-11-30",
+      "amount_out": 50.75,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. GCITD0000816992 - Google Workspace",
+      "entity_name": "Google Cloud Italy S.r.l.",
+      "kind": "received_document",
+      "document": {
+        "id": 195496575,
+        "type": "expense",
+        "path": "received_documents/195496575"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP235098532",
+      "date": "2022-11-30",
+      "amount_out": 231.87,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00010000008804700069 - Google Ads",
+      "entity_name": "GOOGLE IRELAND LIMITED",
+      "kind": "received_document",
+      "document": {
+        "id": 197516273,
+        "type": "expense",
+        "path": "received_documents/197516273"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP235099630",
+      "date": "2022-11-30",
+      "amount_out": 32.94,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00010000000000600065 - Abbonamento Mensile Textures",
+      "entity_name": "POLIIGON PTY LTD",
+      "kind": "received_document",
+      "document": {
+        "id": 197517155,
+        "type": "expense",
+        "path": "received_documents/197517155"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP199141519",
+      "date": "2022-11-29",
+      "amount_in": 658.8,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 149/2022",
+      "entity_name": "GIANPIERO PANEPINTO",
+      "kind": "issued_document",
+      "document": {
+        "id": 245540554,
+        "type": "invoice",
+        "path": "issued_documents/245540554"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP199141724",
+      "date": "2022-11-29",
+      "amount_in": 366,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 150/2022",
+      "entity_name": "GIANPIERO PANEPINTO",
+      "kind": "issued_document",
+      "document": {
+        "id": 245540808,
+        "type": "invoice",
+        "path": "issued_documents/245540808"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP199141973",
+      "date": "2022-11-29",
+      "amount_in": 2427.8,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 151/2022",
+      "entity_name": "IMMOBILIARE CIURRIERO DI PARIETTI LUCIANO E C. S.A.S.",
+      "kind": "issued_document",
+      "document": {
+        "id": 245541113,
+        "type": "invoice",
+        "path": "issued_documents/245541113"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP234240576",
+      "date": "2022-11-25",
+      "amount_out": 70.48,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Trasferta in Svizzera",
+      "entity_name": "Spese di Rappresentanza",
+      "kind": "received_document",
+      "document": {
+        "id": 196787269,
+        "type": "expense",
+        "path": "received_documents/196787269"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP198601942",
+      "date": "2022-11-25",
+      "amount_in": 1098,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 148/2022",
+      "entity_name": "ARCH. BOGGIO ERMANNO",
+      "kind": "issued_document",
+      "document": {
+        "id": 244887088,
+        "type": "invoice",
+        "path": "issued_documents/244887088"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP198473413",
+      "date": "2022-11-24",
+      "amount_in": 658.8,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 147/2022",
+      "entity_name": "SAPERE TECNICO INGEGNERI E ARCHITETTI ASSOCIATI",
+      "kind": "issued_document",
+      "document": {
+        "id": 244726393,
+        "type": "invoice",
+        "path": "issued_documents/244726393"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP198138639",
+      "date": "2022-11-22",
+      "amount_in": 854,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 145/2022",
+      "entity_name": "NOUS COSTRUZIONI S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 244312298,
+        "type": "invoice",
+        "path": "issued_documents/244312298"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP198138788",
+      "date": "2022-11-22",
+      "amount_in": 183,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 146/2022",
+      "entity_name": "NOUS COSTRUZIONI S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 244312467,
+        "type": "invoice",
+        "path": "issued_documents/244312467"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP230519564",
+      "date": "2022-11-21",
+      "amount_out": 5490,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 17 - Consulenza e Sviluppo di rendering 3d",
+      "entity_name": "Maurice Yabre",
+      "kind": "received_document",
+      "document": {
+        "id": 193606026,
+        "type": "expense",
+        "path": "received_documents/193606026"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP197906713",
+      "date": "2022-11-21",
+      "amount_in": 854,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 144/2022",
+      "entity_name": "EDILVERDE S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 244031715,
+        "type": "invoice",
+        "path": "issued_documents/244031715"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP232311901",
+      "date": "2022-11-18",
+      "amount_out": 3000,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 36 - CONSULENZA PER LA STESURA DI PROGETTI ARCHITETTONICI",
+      "entity_name": "Stefano Mondini",
+      "kind": "received_document",
+      "document": {
+        "id": 195107263,
+        "type": "expense",
+        "path": "received_documents/195107263"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP197447414",
+      "date": "2022-11-17",
+      "amount_in": 366,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 143/2022",
+      "entity_name": "DERUDI ANDREA",
+      "kind": "issued_document",
+      "document": {
+        "id": 243464948,
+        "type": "invoice",
+        "path": "issued_documents/243464948"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP229437065",
+      "date": "2022-11-16",
+      "amount_out": 7280,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 22 - Joy Island // Simulazione Architettonica Joy Island",
+      "entity_name": "OLIVARI JACOPO",
+      "kind": "received_document",
+      "document": {
+        "id": 190558790,
+        "type": "expense",
+        "path": "received_documents/190558790"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP229437221",
+      "date": "2022-11-16",
+      "amount_out": 4.99,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. IIITDN0004999977 - Servizio HP Instant Ink - Piano da 50 pagine",
+      "entity_name": "HP Italy S.r.l.",
+      "kind": "received_document",
+      "document": {
+        "id": 192690665,
+        "type": "expense",
+        "path": "received_documents/192690665"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP229740594",
+      "date": "2022-11-16",
+      "amount_out": 133.93,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 947067/22 - Contributo ambientale CONAI assolto ove dovuto",
+      "entity_name": "Pixartprinting SpA",
+      "kind": "received_document",
+      "document": {
+        "id": 192942755,
+        "type": "expense",
+        "path": "received_documents/192942755"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP197194669",
+      "date": "2022-11-16",
+      "amount_in": 2400,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 138/2022",
+      "entity_name": "SETA MOOD SAGL",
+      "kind": "issued_document",
+      "document": {
+        "id": 243155827,
+        "type": "invoice",
+        "path": "issued_documents/243155827"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP197194964",
+      "date": "2022-11-16",
+      "amount_in": 1421.3,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 139/2022",
+      "entity_name": "NEMO S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 243156184,
+        "type": "invoice",
+        "path": "issued_documents/243156184"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP197195299",
+      "date": "2022-11-16",
+      "amount_in": 9100,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 140/2022",
+      "entity_name": "Uthurumaafaru Holdings Pvt. Ltd",
+      "kind": "issued_document",
+      "document": {
+        "id": 243156556,
+        "type": "invoice",
+        "path": "issued_documents/243156556"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP197195528",
+      "date": "2022-11-16",
+      "amount_in": 1366.4,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 141/2022",
+      "entity_name": "LU.SI.M. IMMOBILIARE S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 243156820,
+        "type": "invoice",
+        "path": "issued_documents/243156820"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP197211398",
+      "date": "2022-11-16",
+      "amount_in": 732,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 142/2022",
+      "entity_name": "PORTARREDO S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 243175761,
+        "type": "invoice",
+        "path": "issued_documents/243175761"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP195858683",
+      "date": "2022-11-14",
+      "amount_in": 658.8,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 136/2022",
+      "entity_name": "DELL'ANNA CELESTE",
+      "kind": "issued_document",
+      "document": {
+        "id": 241549034,
+        "type": "invoice",
+        "path": "issued_documents/241549034"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP196818307",
+      "date": "2022-11-14",
+      "amount_in": 610,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 137/2022",
+      "entity_name": "STUDIO TECNICO MASSERA",
+      "kind": "issued_document",
+      "document": {
+        "id": 242698037,
+        "type": "invoice",
+        "path": "issued_documents/242698037"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP235472763",
+      "date": "2022-11-12",
+      "amount_out": 42.46,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00010000000781500068 - Bollitore Acqua",
+      "entity_name": "AMAZON EU SARL - SUCCURSALE POLACCA",
+      "kind": "received_document",
+      "document": {
+        "id": 197847596,
+        "type": "expense",
+        "path": "received_documents/197847596"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP232311272",
+      "date": "2022-11-11",
+      "amount_out": 198.25,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00010000000000700059 - Acquisto Modelli 3D",
+      "entity_name": "FASTSPRING",
+      "kind": "received_document",
+      "document": {
+        "id": 195106750,
+        "type": "expense",
+        "path": "received_documents/195106750"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP235473622",
+      "date": "2022-11-10",
+      "amount_out": 60.98,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00010000004680100067 - Corona Renderer",
+      "entity_name": "VERIFONE PAYMENTS BV",
+      "kind": "received_document",
+      "document": {
+        "id": 197848332,
+        "type": "expense",
+        "path": "received_documents/197848332"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP235473291",
+      "date": "2022-11-08",
+      "amount_out": 592.11,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00010000008714900066 - Magliette di Rappresentanza",
+      "entity_name": "SPRD.NET AG",
+      "kind": "received_document",
+      "document": {
+        "id": 197848046,
+        "type": "expense",
+        "path": "received_documents/197848046"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP195458001",
+      "date": "2022-11-04",
+      "amount_in": 2391.2,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 134/2022",
+      "entity_name": "DELL'ANNA CELESTE",
+      "kind": "issued_document",
+      "document": {
+        "id": 241079857,
+        "type": "invoice",
+        "path": "issued_documents/241079857"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP235473972",
+      "date": "2022-11-03",
+      "amount_out": 32.94,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00010000000000600071 - Abbonamento Mensile Textures",
+      "entity_name": "POLIIGON PTY LTD",
+      "kind": "received_document",
+      "document": {
+        "id": 197848633,
+        "type": "expense",
+        "path": "received_documents/197848633"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP195458852",
+      "date": "2022-11-03",
+      "amount_in": 1586,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 135/2022",
+      "entity_name": "BRIGNOLI CLAUDIO",
+      "kind": "issued_document",
+      "document": {
+        "id": 241080834,
+        "type": "invoice",
+        "path": "issued_documents/241080834"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP226931852",
+      "date": "2022-11-02",
+      "amount_out": 2500,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 25 - CONSULENZA PER LA STESURA DI PROGETTI ARCHITETTONICI",
+      "entity_name": "Stefano Mondini",
+      "kind": "received_document",
+      "document": {
+        "id": 190558727,
+        "type": "expense",
+        "path": "received_documents/190558727"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP234215846",
+      "date": "2022-11-02",
+      "amount_out": 2082,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Stipendi",
+      "entity_name": "Dipendenti",
+      "kind": "received_document",
+      "document": {
+        "id": 196765969,
+        "type": "expense",
+        "path": "received_documents/196765969"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP234216310",
+      "date": "2022-11-02",
+      "amount_out": 248.98,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Inps Inail",
+      "entity_name": "Agenzia delle Entrate",
+      "kind": "received_document",
+      "document": {
+        "id": 196766377,
+        "type": "expense",
+        "path": "received_documents/196766377"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP194567127",
+      "date": "2022-11-01",
+      "amount_in": 488,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 133/2022",
+      "entity_name": "GIOVANNI TRIBERTI",
+      "kind": "issued_document",
+      "document": {
+        "id": 240040250,
+        "type": "invoice",
+        "path": "issued_documents/240040250"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP226324348",
+      "date": "2022-10-31",
+      "amount_out": 669.52,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 2168/DU - Affitto Ufficio",
+      "entity_name": "HOTEL CRISTALLO SRL",
+      "kind": "received_document",
+      "document": {
+        "id": 190047533,
+        "type": "expense",
+        "path": "received_documents/190047533"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP226324555",
+      "date": "2022-10-31",
+      "amount_out": 50.75,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. GCITD0000732960 - Google Workspace",
+      "entity_name": "Google Cloud Italy S.r.l.",
+      "kind": "received_document",
+      "document": {
+        "id": 190047715,
+        "type": "expense",
+        "path": "received_documents/190047715"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP235472349",
+      "date": "2022-10-31",
+      "amount_out": 34.68,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00010000008804700064 - Pubblicità Google Ads",
+      "entity_name": "GOOGLE IRELAND LIMITED",
+      "kind": "received_document",
+      "document": {
+        "id": 197847246,
+        "type": "expense",
+        "path": "received_documents/197847246"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP232310753",
+      "date": "2022-10-28",
+      "amount_out": 25.74,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00010000000001500063 - Acquisto base musicale",
+      "entity_name": "ENVATO PTY LTD",
+      "kind": "received_document",
+      "document": {
+        "id": 195106334,
+        "type": "expense",
+        "path": "received_documents/195106334"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP194566260",
+      "date": "2022-10-26",
+      "amount_in": 549,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 132/2022",
+      "entity_name": "GRUPPO DIPIERRI S.P.A.",
+      "kind": "issued_document",
+      "document": {
+        "id": 240039255,
+        "type": "invoice",
+        "path": "issued_documents/240039255"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP224523893",
+      "date": "2022-10-24",
+      "amount_out": 1647,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 26 - Consulenza OTTOBRE - DICEMBRE",
+      "entity_name": "PAOLO RUGGERI",
+      "kind": "received_document",
+      "document": {
+        "id": 188515573,
+        "type": "expense",
+        "path": "received_documents/188515573"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP192900518",
+      "date": "2022-10-24",
+      "amount_in": 488,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 129/2022",
+      "entity_name": "ING. FABRIZIO BOSSI",
+      "kind": "issued_document",
+      "document": {
+        "id": 238046281,
+        "type": "invoice",
+        "path": "issued_documents/238046281"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP192946883",
+      "date": "2022-10-24",
+      "amount_in": 585.6,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 130/2022",
+      "entity_name": "LU.SI.M. IMMOBILIARE S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 238102804,
+        "type": "invoice",
+        "path": "issued_documents/238102804"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP192947050",
+      "date": "2022-10-24",
+      "amount_in": 488,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 131/2022",
+      "entity_name": "LU.SI.M. IMMOBILIARE S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 238103008,
+        "type": "invoice",
+        "path": "issued_documents/238103008"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP226323051",
+      "date": "2022-10-21",
+      "amount_out": 60.98,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00010000004680100054 - Riepilogo righe con aliquota 22%",
+      "entity_name": "VERIFONE PAYMENTS BV",
+      "kind": "received_document",
+      "document": {
+        "id": 190046437,
+        "type": "expense",
+        "path": "received_documents/190046437"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP226324181",
+      "date": "2022-10-21",
+      "amount_out": 73.18,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 2022F000823631 - Wind Tre S.p.A. con Socio Unico - Direzione e Coordinamento VIP - CKH Luxembourg S.à r.l. Documento emesso ai sensi degli art. 21 DPR 633/1972 e 4 c. 1 DM. n. 366/2000. L'IVA è stata assolta, ai sensi dell'art. 74, comma 1, lettera d, DPR n. 633/1972, da Wind Tre S.p.A. - P.IVA 13378520152",
+      "entity_name": "Wind Tre S.p.A.",
+      "kind": "received_document",
+      "document": {
+        "id": 190047385,
+        "type": "expense",
+        "path": "received_documents/190047385"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP192625483",
+      "date": "2022-10-21",
+      "amount_in": 305,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 127/2022",
+      "entity_name": "C.R. 73 PROJECT SRL",
+      "kind": "issued_document",
+      "document": {
+        "id": 237708996,
+        "type": "invoice",
+        "path": "issued_documents/237708996"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP192627537",
+      "date": "2022-10-21",
+      "amount_in": 2049.6,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 128/2022",
+      "entity_name": "BONFANTE INTERIOR CONTRACTOR S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 237711487,
+        "type": "invoice",
+        "path": "issued_documents/237711487"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP232310452",
+      "date": "2022-10-20",
+      "amount_out": 510.94,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00010000004680100061 - Corona Renderer",
+      "entity_name": "VERIFONE PAYMENTS BV",
+      "kind": "received_document",
+      "document": {
+        "id": 195106107,
+        "type": "expense",
+        "path": "received_documents/195106107"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP224073039",
+      "date": "2022-10-19",
+      "amount_out": 3.99,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. IIITDN0004806096 - Servizio HP Instant Ink - Piano da 50 pagine",
+      "entity_name": "HP Italy S.r.l.",
+      "kind": "received_document",
+      "document": {
+        "id": 188137762,
+        "type": "expense",
+        "path": "received_documents/188137762"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP226931794",
+      "date": "2022-10-18",
+      "amount_out": 4575,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 16 - Consulenza e Sviluppo di rendering 3d",
+      "entity_name": "Maurice Yabre",
+      "kind": "received_document",
+      "document": {
+        "id": 190558675,
+        "type": "expense",
+        "path": "received_documents/190558675"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP232311127",
+      "date": "2022-10-18",
+      "amount_out": 510.94,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00010000004680100062 - Corona Renderer",
+      "entity_name": "VERIFONE PAYMENTS BV",
+      "kind": "received_document",
+      "document": {
+        "id": 195106631,
+        "type": "expense",
+        "path": "received_documents/195106631"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP186779705",
+      "date": "2022-10-17",
+      "amount_in": 1830,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 116/2022",
+      "entity_name": "DD CHEM S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 230939683,
+        "type": "invoice",
+        "path": "issued_documents/230939683"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP232311613",
+      "date": "2022-10-15",
+      "amount_out": 75.13,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00010000000000500060 - Acquisto Modelli 3D",
+      "entity_name": "GLOBE PLANTS",
+      "kind": "received_document",
+      "document": {
+        "id": 195107041,
+        "type": "expense",
+        "path": "received_documents/195107041"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP222978698",
+      "date": "2022-10-14",
+      "amount_out": 260.37,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 5634/2022 - Monitor Computer",
+      "entity_name": "SFERATRADE Srl",
+      "kind": "received_document",
+      "document": {
+        "id": 187238410,
+        "type": "expense",
+        "path": "received_documents/187238410"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP221939785",
+      "date": "2022-10-10",
+      "amount_out": 2.27,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. IT22-AEUI-9649792 - Penna Permanente",
+      "entity_name": "Amazon EU S.a r.l., Succursale Italiana",
+      "kind": "received_document",
+      "document": {
+        "id": 186380598,
+        "type": "expense",
+        "path": "received_documents/186380598"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP232311008",
+      "date": "2022-10-10",
+      "amount_out": 60.98,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00010000004680100058 - Corona Renderer",
+      "entity_name": "VERIFONE PAYMENTS BV",
+      "kind": "received_document",
+      "document": {
+        "id": 195106540,
+        "type": "expense",
+        "path": "received_documents/195106540"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP190495526",
+      "date": "2022-10-10",
+      "amount_in": 1281,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 126/2022",
+      "entity_name": "SALVETTI COSTRUZIONI S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 235241176,
+        "type": "invoice",
+        "path": "issued_documents/235241176"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP221759972",
+      "date": "2022-10-06",
+      "amount_out": 99.98,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. IT22-AEUI-9659415 - Mouse Wireless",
+      "entity_name": "Amazon EU S.a r.l., Succursale Italiana",
+      "kind": "received_document",
+      "document": {
+        "id": 186221332,
+        "type": "expense",
+        "path": "received_documents/186221332"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP221263987",
+      "date": "2022-10-05",
+      "amount_out": 133.48,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. IT22-AEUI-9659414 - Chiavetta USB 128gb + Adattatore di rete PCIe ethernet",
+      "entity_name": "Amazon EU S.a r.l., Succursale Italiana",
+      "kind": "received_document",
+      "document": {
+        "id": 185808713,
+        "type": "expense",
+        "path": "received_documents/185808713"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP221264375",
+      "date": "2022-10-05",
+      "amount_out": 17.97,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. IT22-AEUI-9642140 - Antenna Wifi per computer",
+      "entity_name": "Amazon EU S.a r.l., Succursale Italiana",
+      "kind": "received_document",
+      "document": {
+        "id": 185809029,
+        "type": "expense",
+        "path": "received_documents/185809029"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP221571161",
+      "date": "2022-10-05",
+      "amount_out": 134.98,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. IT22-AEUI-9649791 - Tastiera Wireless",
+      "entity_name": "Amazon EU S.a r.l., Succursale Italiana",
+      "kind": "received_document",
+      "document": {
+        "id": 186063490,
+        "type": "expense",
+        "path": "received_documents/186063490"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP221940293",
+      "date": "2022-10-05",
+      "amount_out": 102.98,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. IT22-21175I-26707 - Hard Disk SSD 1Tb",
+      "entity_name": "DIGITAL ELECTRONIK srl",
+      "kind": "received_document",
+      "document": {
+        "id": 186381037,
+        "type": "expense",
+        "path": "received_documents/186381037"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP232310286",
+      "date": "2022-10-05",
+      "amount_out": 30.17,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00010000000781500057 - memoria ram per server",
+      "entity_name": "AMAZON EU SARL - SUCCURSALE POLACCA",
+      "kind": "received_document",
+      "document": {
+        "id": 195105977,
+        "type": "expense",
+        "path": "received_documents/195105977"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP220986817",
+      "date": "2022-10-04",
+      "amount_out": 410.97,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. IT22-AEUI-9599315 - Samsung Memorie SSD 870 EVO, 4 TB",
+      "entity_name": "Amazon EU S.a r.l., Succursale Italiana",
+      "kind": "received_document",
+      "document": {
+        "id": 185574827,
+        "type": "expense",
+        "path": "received_documents/185574827"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP226337209",
+      "date": "2022-10-04",
+      "amount_out": 1368,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Stipendio",
+      "entity_name": "Vanessa Cauzzi",
+      "kind": "received_document",
+      "document": {
+        "id": 190058272,
+        "type": "expense",
+        "path": "received_documents/190058272"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP232311798",
+      "date": "2022-10-04",
+      "amount_out": 271.32,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00010000000000500056 - Acquisto Modelli 3D",
+      "entity_name": "GLOBE PLANTS",
+      "kind": "received_document",
+      "document": {
+        "id": 195107179,
+        "type": "expense",
+        "path": "received_documents/195107179"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP189571727",
+      "date": "2022-10-04",
+      "amount_in": 1403,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 124/2022",
+      "entity_name": "SALVETTI COSTRUZIONI S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 234224906,
+        "type": "invoice",
+        "path": "issued_documents/234224906"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP189573743",
+      "date": "2022-10-04",
+      "amount_in": 1220,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 125/2022",
+      "entity_name": "WEARENA S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 234227259,
+        "type": "invoice",
+        "path": "issued_documents/234227259"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP226330644",
+      "date": "2022-10-03",
+      "amount_out": 4486,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Royalties",
+      "entity_name": "Maurice Yabre",
+      "kind": "received_document",
+      "document": {
+        "id": 190052870,
+        "type": "expense",
+        "path": "received_documents/190052870"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP226333982",
+      "date": "2022-10-03",
+      "amount_out": 20.04,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Sponsorizzazione Annuncio Ricerca Dipendente",
+      "entity_name": "Indeed Ireland Operations Ltd",
+      "kind": "received_document",
+      "document": {
+        "id": 190055689,
+        "type": "expense",
+        "path": "received_documents/190055689"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP226337575",
+      "date": "2022-10-03",
+      "amount_out": 262.83,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - F24 Dipendente",
+      "entity_name": "Agenzia delle Entrate",
+      "kind": "received_document",
+      "document": {
+        "id": 190058579,
+        "type": "expense",
+        "path": "received_documents/190058579"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP232311474",
+      "date": "2022-10-03",
+      "amount_out": 32.94,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00010000000000600055 - Abbonamento Texture Mensile",
+      "entity_name": "POLIIGON PTY LTD",
+      "kind": "received_document",
+      "document": {
+        "id": 195106920,
+        "type": "expense",
+        "path": "received_documents/195106920"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP220287391",
+      "date": "2022-10-02",
+      "amount_out": 37.99,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. IT22-AEUI-9482375 - Xerox Business, carta bianca A4 80 gr/m2, box da n. 5 risme per 500 fogli a risma.",
+      "entity_name": "Amazon EU S.a r.l., Succursale Italiana",
+      "kind": "received_document",
+      "document": {
+        "id": 184988876,
+        "type": "expense",
+        "path": "received_documents/184988876"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP220287448",
+      "date": "2022-10-02",
+      "amount_out": 287.86,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. IT22-AEUI-9459888 - HP 27xq Monitor Gaming TN, Schermo 27 pollici LED/QHD, Risoluzione 2560x1440, Micro-Edge, Tecnologia AMD FreeSync, Tempo di Risposta 1 ms, Frequenza 144 Hz, Regolabile in Altezza, Pivoting 90o, Nero",
+      "entity_name": "Amazon EU S.a r.l., Succursale Italiana",
+      "kind": "received_document",
+      "document": {
+        "id": 184988930,
+        "type": "expense",
+        "path": "received_documents/184988930"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP220183840",
+      "date": "2022-10-01",
+      "amount_out": 1205.24,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 0000001483 - Saldo trimestrale Commercialista",
+      "entity_name": "S.C. STUDIO ASSOCIATO SRL",
+      "kind": "received_document",
+      "document": {
+        "id": 184896663,
+        "type": "expense",
+        "path": "received_documents/184896663"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP220763917",
+      "date": "2022-10-01",
+      "amount_out": 50.75,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. GCITD0000632716 - Google Workspace",
+      "entity_name": "Google Cloud Italy S.r.l.",
+      "kind": "received_document",
+      "document": {
+        "id": 185386291,
+        "type": "expense",
+        "path": "received_documents/185386291"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP221570577",
+      "date": "2022-10-01",
+      "amount_out": 669.52,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 1894/DU - Affitto Ufficio",
+      "entity_name": "Hotel Cristallo Srl",
+      "kind": "received_document",
+      "document": {
+        "id": 186026231,
+        "type": "expense",
+        "path": "received_documents/186026231"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP226335921",
+      "date": "2022-10-01",
+      "amount_out": 46.68,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Google ADS",
+      "entity_name": "Google Ireland Limited",
+      "kind": "received_document",
+      "document": {
+        "id": 190057239,
+        "type": "expense",
+        "path": "received_documents/190057239"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP188427982",
+      "date": "2022-09-30",
+      "amount_in": 939.4,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 123/2022",
+      "entity_name": "SELLARCHITECTS & PARTNERS DI SELLA ARCH. GIOSUE E SELLA GEOM. SAMUELE",
+      "kind": "issued_document",
+      "document": {
+        "id": 232938876,
+        "type": "invoice",
+        "path": "issued_documents/232938876"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP188195733",
+      "date": "2022-09-29",
+      "amount_in": 2440,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 122/2022",
+      "entity_name": "STUDIO DI ARCHITETTURA DI BERSELLI CHIARA",
+      "kind": "issued_document",
+      "document": {
+        "id": 232659558,
+        "type": "invoice",
+        "path": "issued_documents/232659558"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP220185928",
+      "date": "2022-09-28",
+      "amount_out": 31.85,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00010000000000600047 - Abbonamento Mensile Textures",
+      "entity_name": "POLIIGON PTY LTD",
+      "kind": "received_document",
+      "document": {
+        "id": 184898414,
+        "type": "expense",
+        "path": "received_documents/184898414"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP188001752",
+      "date": "2022-09-28",
+      "amount_in": 610,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 121/2022",
+      "entity_name": "GIOVANNI TRIBERTI",
+      "kind": "issued_document",
+      "document": {
+        "id": 232422933,
+        "type": "invoice",
+        "path": "issued_documents/232422933"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP219604121",
+      "date": "2022-09-26",
+      "amount_out": 1248,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 19 - Collaboratore Esterno",
+      "entity_name": "OLIVARI JACOPO",
+      "kind": "received_document",
+      "document": {
+        "id": 184432805,
+        "type": "expense",
+        "path": "received_documents/184432805"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP187240985",
+      "date": "2022-09-23",
+      "amount_in": 878.4,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 117/2022",
+      "entity_name": "BONFANTE INTERIOR CONTRACTOR S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 231493503,
+        "type": "invoice",
+        "path": "issued_documents/231493503"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP187241695",
+      "date": "2022-09-23",
+      "amount_in": 1024.8,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 118/2022",
+      "entity_name": "DELL'ANNA CELESTE",
+      "kind": "issued_document",
+      "document": {
+        "id": 231494357,
+        "type": "invoice",
+        "path": "issued_documents/231494357"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP187242390",
+      "date": "2022-09-23",
+      "amount_in": 3050,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 119/2022",
+      "entity_name": "GRUPPO DIPIERRI S.P.A.",
+      "kind": "issued_document",
+      "document": {
+        "id": 231495173,
+        "type": "invoice",
+        "path": "issued_documents/231495173"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP187432042",
+      "date": "2022-09-23",
+      "amount_in": 988.2,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 120/2022",
+      "entity_name": "IMMOBILIARE CIURRIERO DI PARIETTI LUCIANO E C. S.A.S.",
+      "kind": "issued_document",
+      "document": {
+        "id": 231726184,
+        "type": "invoice",
+        "path": "issued_documents/231726184"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP218542837",
+      "date": "2022-09-21",
+      "amount_out": 4318.8,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 14 - Consulenza e Sviluppo di rendering 3d",
+      "entity_name": "Maurice Yabre",
+      "kind": "received_document",
+      "document": {
+        "id": 183545405,
+        "type": "expense",
+        "path": "received_documents/183545405"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP218744010",
+      "date": "2022-09-21",
+      "amount_out": 2360,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 14 - CONSULENZA PER LA STESURA DI PROGETTI ARCHITETTONICI",
+      "entity_name": "Stefano Mondini",
+      "kind": "received_document",
+      "document": {
+        "id": 183712156,
+        "type": "expense",
+        "path": "received_documents/183712156"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP213482055",
+      "date": "2022-09-20",
+      "amount_out": 91.91,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 2022F000484089 - Abbonamento Telefono Internet Wind",
+      "entity_name": "Wind Tre S.p.A.",
+      "kind": "received_document",
+      "document": {
+        "id": 179323406,
+        "type": "expense",
+        "path": "received_documents/179323406"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP218028496",
+      "date": "2022-09-19",
+      "amount_out": 92.32,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 68688/2022 - Hosting Sito Web",
+      "entity_name": "Serverplan srl societá unipersonale",
+      "kind": "received_document",
+      "document": {
+        "id": 183117967,
+        "type": "expense",
+        "path": "received_documents/183117967"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP218238958",
+      "date": "2022-09-19",
+      "amount_out": 234.24,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 204901 - Licenza annuale FattureInCloud.it // Licenza Premium di 12 mesi (365 giorni) per l'utilizzo della piattaforma www.fattureincloud.it  Competenza 15/10/2022 - 15/10/2023.  [Transazione LTID1045957UID874844]",
+      "entity_name": "MadBit Entertainment S.r.l. a socio unico",
+      "kind": "received_document",
+      "document": {
+        "id": 183293523,
+        "type": "expense",
+        "path": "received_documents/183293523"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP217982576",
+      "date": "2022-09-18",
+      "amount_out": 3.99,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. IIITDN0004597270 - Servizio HP Instant Ink - Piano da 50 pagine",
+      "entity_name": "HP Italy S.r.l.",
+      "kind": "received_document",
+      "document": {
+        "id": 183080722,
+        "type": "expense",
+        "path": "received_documents/183080722"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP226323450",
+      "date": "2022-09-16",
+      "amount_out": 171.58,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00010000000000700053 - Licenza Corona Renderer",
+      "entity_name": "FASTSPRING",
+      "kind": "received_document",
+      "document": {
+        "id": 190046775,
+        "type": "expense",
+        "path": "received_documents/190046775"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP186229349",
+      "date": "2022-09-16",
+      "amount_in": 1708,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 114/2022",
+      "entity_name": "STUDIO TECNICO MASSERA",
+      "kind": "issued_document",
+      "document": {
+        "id": 230288811,
+        "type": "invoice",
+        "path": "issued_documents/230288811"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP186229409",
+      "date": "2022-09-16",
+      "amount_in": 488,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 115/2022",
+      "entity_name": "TODIMA SRL",
+      "kind": "issued_document",
+      "document": {
+        "id": 230288898,
+        "type": "invoice",
+        "path": "issued_documents/230288898"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP186036009",
+      "date": "2022-09-15",
+      "amount_in": 402.6,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 113/2022",
+      "entity_name": "SELLARCHITECTS & PARTNERS DI SELLA ARCH. GIOSUE E SELLA GEOM. SAMUELE",
+      "kind": "issued_document",
+      "document": {
+        "id": 230054081,
+        "type": "invoice",
+        "path": "issued_documents/230054081"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP185735099",
+      "date": "2022-09-14",
+      "amount_in": 1952,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 112/2022",
+      "entity_name": "SALVETTI COSTRUZIONI S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 229719130,
+        "type": "invoice",
+        "path": "issued_documents/229719130"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP217101935",
+      "date": "2022-09-09",
+      "amount_out": 25.7,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 56996/A - Palette di Legno Caffè",
+      "entity_name": "PALUCART SRLS",
+      "kind": "received_document",
+      "document": {
+        "id": 182336444,
+        "type": "expense",
+        "path": "received_documents/182336444"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP220194330",
+      "date": "2022-09-09",
+      "amount_out": 49.98,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Licenza Plugin Corona Render",
+      "entity_name": "VERIFONE PAYMENTS BV",
+      "kind": "received_document",
+      "document": {
+        "id": 184905591,
+        "type": "expense",
+        "path": "received_documents/184905591"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP220194526",
+      "date": "2022-09-08",
+      "amount_out": 22.87,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Bicchieri di Carta per caffè",
+      "entity_name": "Samo Distribution ",
+      "kind": "received_document",
+      "document": {
+        "id": 184905777,
+        "type": "expense",
+        "path": "received_documents/184905777"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP226323608",
+      "date": "2022-09-08",
+      "amount_out": 192.58,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00010000000000700051 - Licenza Corona Renderer",
+      "entity_name": "FASTSPRING",
+      "kind": "received_document",
+      "document": {
+        "id": 190046902,
+        "type": "expense",
+        "path": "received_documents/190046902"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP184340819",
+      "date": "2022-09-06",
+      "amount_in": 1242,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 111/2022",
+      "entity_name": "C.R. 73 PROJECT SRL",
+      "kind": "issued_document",
+      "document": {
+        "id": 228112674,
+        "type": "invoice",
+        "path": "issued_documents/228112674"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP220193505",
+      "date": "2022-09-05",
+      "amount_out": 255.37,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - INPS e INAIL Dipendente",
+      "entity_name": "Agenzia delle Entrate",
+      "kind": "received_document",
+      "document": {
+        "id": 184904842,
+        "type": "expense",
+        "path": "received_documents/184904842"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP220193549",
+      "date": "2022-09-05",
+      "amount_out": 1357,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Stipendio",
+      "entity_name": "Vanessa Cauzzi",
+      "kind": "received_document",
+      "document": {
+        "id": 184904885,
+        "type": "expense",
+        "path": "received_documents/184904885"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP217100598",
+      "date": "2022-09-04",
+      "amount_out": 371.67,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00010000008408100042 - Server NAS\n",
+      "entity_name": "AMAZON EU SARL - SUCCURSALE SPAGNOLA",
+      "kind": "received_document",
+      "document": {
+        "id": 182335334,
+        "type": "expense",
+        "path": "received_documents/182335334"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP183825288",
+      "date": "2022-09-02",
+      "amount_in": 1964.2,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 109/2022",
+      "entity_name": "GRUPPO DIPIERRI S.P.A.",
+      "kind": "issued_document",
+      "document": {
+        "id": 227516758,
+        "type": "invoice",
+        "path": "issued_documents/227516758"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP184194220",
+      "date": "2022-09-02",
+      "amount_in": 658.8,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 110/2022",
+      "entity_name": "CONDOMINIO MARTINA (Amm. Turci Simona)",
+      "kind": "issued_document",
+      "document": {
+        "id": 227950804,
+        "type": "invoice",
+        "path": "issued_documents/227950804"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP215053174",
+      "date": "2022-09-01",
+      "amount_out": 50.75,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. GCITD0000490384 - Google Workspace",
+      "entity_name": "Google Cloud Italy S.r.l.",
+      "kind": "received_document",
+      "document": {
+        "id": 180603334,
+        "type": "expense",
+        "path": "received_documents/180603334"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP215042556",
+      "date": "2022-08-31",
+      "amount_out": 669.52,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 1656/DU - Affitto Ufficio",
+      "entity_name": "HOTEL CRISTALLO SRL",
+      "kind": "received_document",
+      "document": {
+        "id": 180594572,
+        "type": "expense",
+        "path": "received_documents/180594572"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP183081380",
+      "date": "2022-08-30",
+      "amount_in": 1400,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 108/2022",
+      "entity_name": "ROR Capital SA",
+      "kind": "issued_document",
+      "document": {
+        "id": 226647233,
+        "type": "invoice",
+        "path": "issued_documents/226647233"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP182530824",
+      "date": "2022-08-25",
+      "amount_in": 1098,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 105/2022",
+      "entity_name": "GEOM. RADICI GUGLIELMO",
+      "kind": "issued_document",
+      "document": {
+        "id": 225979668,
+        "type": "invoice",
+        "path": "issued_documents/225979668"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP182531009",
+      "date": "2022-08-25",
+      "amount_in": 725.9,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 106/2022",
+      "entity_name": "ILTI LUCE S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 225979882,
+        "type": "invoice",
+        "path": "issued_documents/225979882"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP182531155",
+      "date": "2022-08-25",
+      "amount_in": 719.8,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 107/2022",
+      "entity_name": "ILTI LUCE S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 225980049,
+        "type": "invoice",
+        "path": "issued_documents/225980049"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP213604444",
+      "date": "2022-08-23",
+      "amount_out": 3660,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 13 - RENDERING COMMERCIALE: Consulenza allo sviluppo di rendering 3d",
+      "entity_name": "Maurice Yabre",
+      "kind": "received_document",
+      "document": {
+        "id": 179424119,
+        "type": "expense",
+        "path": "received_documents/179424119"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP213604514",
+      "date": "2022-08-23",
+      "amount_out": 2000,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 12 - CONSULENZA PER LA STESURA DI PROGETTI ARCHITETTONICI",
+      "entity_name": "Stefano Mondini",
+      "kind": "received_document",
+      "document": {
+        "id": 179424173,
+        "type": "expense",
+        "path": "received_documents/179424173"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP217101353",
+      "date": "2022-08-22",
+      "amount_out": 170.78,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00010000000000700046 - Acquisto Modelli 3D",
+      "entity_name": "FASTSPRING",
+      "kind": "received_document",
+      "document": {
+        "id": 182335949,
+        "type": "expense",
+        "path": "received_documents/182335949"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP182413544",
+      "date": "2022-08-18",
+      "amount_in": 500,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 103/2022",
+      "entity_name": "Klingenberg Services SAGL",
+      "kind": "issued_document",
+      "document": {
+        "id": 225837446,
+        "type": "invoice",
+        "path": "issued_documents/225837446"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP182413669",
+      "date": "2022-08-18",
+      "amount_in": 1000,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 104/2022",
+      "entity_name": "Klingenberg Services SAGL",
+      "kind": "issued_document",
+      "document": {
+        "id": 225837597,
+        "type": "invoice",
+        "path": "issued_documents/225837597"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP182413386",
+      "date": "2022-08-15",
+      "amount_in": 854,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 102/2022",
+      "entity_name": "FASOLINO MATTEO",
+      "kind": "issued_document",
+      "document": {
+        "id": 225837247,
+        "type": "invoice",
+        "path": "issued_documents/225837247"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP181650770",
+      "date": "2022-08-12",
+      "amount_in": 732,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 101/2022",
+      "entity_name": "ALTA RIVIERA REAL ESTATE S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 224949950,
+        "type": "invoice",
+        "path": "issued_documents/224949950"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP213481590",
+      "date": "2022-08-11",
+      "amount_out": 172,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 1578/DU - RISTORANTE - ARCHIVISION, SRL",
+      "entity_name": "HOTEL CRISTALLO SRL",
+      "kind": "received_document",
+      "document": {
+        "id": 179323062,
+        "type": "expense",
+        "path": "received_documents/179323062"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP181521951",
+      "date": "2022-08-11",
+      "amount_in": 671,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 100/2022",
+      "entity_name": "MARIANI ROBERTO",
+      "kind": "issued_document",
+      "document": {
+        "id": 224799548,
+        "type": "invoice",
+        "path": "issued_documents/224799548"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP217100438",
+      "date": "2022-08-10",
+      "amount_out": 60.98,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00010000004680100045 - Corona Renderer",
+      "entity_name": "VERIFONE PAYMENTS BV",
+      "kind": "received_document",
+      "document": {
+        "id": 182335081,
+        "type": "expense",
+        "path": "received_documents/182335081"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP213481746",
+      "date": "2022-08-09",
+      "amount_out": 3.99,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. IIITDN0004382333 - Servizio HP Instant Ink - Piano da 50 pagine",
+      "entity_name": "HP Italy S.r.l.",
+      "kind": "received_document",
+      "document": {
+        "id": 179323182,
+        "type": "expense",
+        "path": "received_documents/179323182"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP211624608",
+      "date": "2022-08-08",
+      "amount_out": 3120,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 15 - Acconto Animazione architettonica Joy Island",
+      "entity_name": "OLIVARI JACOPO",
+      "kind": "received_document",
+      "document": {
+        "id": 177755384,
+        "type": "expense",
+        "path": "received_documents/177755384"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP211624702",
+      "date": "2022-08-08",
+      "amount_out": 83.2,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 14 - Rendering residenza Via Giudici Arzo",
+      "entity_name": "OLIVARI JACOPO",
+      "kind": "received_document",
+      "document": {
+        "id": 177755465,
+        "type": "expense",
+        "path": "received_documents/177755465"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP215016564",
+      "date": "2022-08-08",
+      "amount_out": 8.19,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Cavo Ethernet 3m",
+      "entity_name": "Ganz Einfach GmbH",
+      "kind": "received_document",
+      "document": {
+        "id": 180574220,
+        "type": "expense",
+        "path": "received_documents/180574220"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP211625388",
+      "date": "2022-08-04",
+      "amount_out": 430.22,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. IT22-AEUI-7271487 - Samsung Memorie SSD 870 EVO, 4 TB, Fattore di forma 2.5, Tecnologia Intelligent Turbo Write, Software Magician 6, Colore Nero",
+      "entity_name": "Amazon EU S.a r.l., Succursale Italiana",
+      "kind": "received_document",
+      "document": {
+        "id": 177756027,
+        "type": "expense",
+        "path": "received_documents/177756027"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP217101679",
+      "date": "2022-08-04",
+      "amount_out": 32.88,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00010000001604500043 - Cavo Ethernet 5m",
+      "entity_name": "SHENZHENSHIAIGUANGXIANKEJIYOUXIANGONGSI",
+      "kind": "received_document",
+      "document": {
+        "id": 182336217,
+        "type": "expense",
+        "path": "received_documents/182336217"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP217101806",
+      "date": "2022-08-04",
+      "amount_out": 344.03,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00010000000781500044 - Switch per Server Netgear a 8 Porte Lan 10gbe",
+      "entity_name": "AMAZON EU SARL - SUCCURSALE POLACCA",
+      "kind": "received_document",
+      "document": {
+        "id": 182336329,
+        "type": "expense",
+        "path": "received_documents/182336329"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP215021754",
+      "date": "2022-08-03",
+      "amount_out": 392.58,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - INPS e INAIL Dipendente",
+      "entity_name": "Agenzia delle Entrate",
+      "kind": "received_document",
+      "document": {
+        "id": 180578312,
+        "type": "expense",
+        "path": "received_documents/180578312"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP215022213",
+      "date": "2022-08-03",
+      "amount_out": 1366,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Stipendio",
+      "entity_name": "Vanessa Cauzzi",
+      "kind": "received_document",
+      "document": {
+        "id": 180578691,
+        "type": "expense",
+        "path": "received_documents/180578691"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP220192527",
+      "date": "2022-08-03",
+      "amount_out": 4208,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Computer Assemblato",
+      "entity_name": "Maurice Yabre",
+      "kind": "received_document",
+      "document": {
+        "id": 181001798,
+        "type": "expense",
+        "path": "received_documents/181001798"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP179897469",
+      "date": "2022-08-02",
+      "amount_in": 366,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 99/2022",
+      "entity_name": "FASOLINO MATTEO",
+      "kind": "issued_document",
+      "document": {
+        "id": 222992126,
+        "type": "invoice",
+        "path": "issued_documents/222992126"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP211625132",
+      "date": "2022-08-01",
+      "amount_out": 163.78,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 025501 - Logitech MX Master 3 Mouse Wireless Avanzato, Ricevitore Bluetooth o USB 2.4 GHz, Scorrimento Rapido, 4000 DPI Qualsiasi",
+      "entity_name": "BLASS S.R.L.",
+      "kind": "received_document",
+      "document": {
+        "id": 177755818,
+        "type": "expense",
+        "path": "received_documents/177755818"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP213476803",
+      "date": "2022-08-01",
+      "amount_out": 45.42,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. GCITD0000373167 - Google Workspace",
+      "entity_name": "Google Cloud Italy S.r.l.",
+      "kind": "received_document",
+      "document": {
+        "id": 179319228,
+        "type": "expense",
+        "path": "received_documents/179319228"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP179664106",
+      "date": "2022-08-01",
+      "amount_in": 3900,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 98/2022",
+      "entity_name": "Uthurumaafaru Holdings Pvt. Ltd",
+      "kind": "issued_document",
+      "document": {
+        "id": 222722621,
+        "type": "invoice",
+        "path": "issued_documents/222722621"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP210009305",
+      "date": "2022-07-31",
+      "amount_out": 679.28,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 1513/DU - Affitto Ufficio",
+      "entity_name": "HOTEL CRISTALLO SRL",
+      "kind": "received_document",
+      "document": {
+        "id": 176415481,
+        "type": "expense",
+        "path": "received_documents/176415481"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP217101223",
+      "date": "2022-07-31",
+      "amount_out": 317.71,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00010000008804700040 - Google Ads Pubblicità",
+      "entity_name": "GOOGLE IRELAND LIMITED",
+      "kind": "received_document",
+      "document": {
+        "id": 182335839,
+        "type": "expense",
+        "path": "received_documents/182335839"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP239368821",
+      "date": "2022-07-31",
+      "amount_out": 19.64,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00010000008804700075 - Riepilogo righe con aliquota 22%",
+      "entity_name": "GOOGLE IRELAND LIMITED",
+      "kind": "received_document",
+      "document": {
+        "id": 201244390,
+        "type": "expense",
+        "path": "received_documents/201244390"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP209886874",
+      "date": "2022-07-30",
+      "amount_out": 182.89,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. IT22-AEUI-7060250 - Logitech MX Keys Tastiera Wireless Illuminata Avanzata, Bluetooth, Digitazione tattile, Tasti Retroilluminati, USB-C, PC/Mac/Laptop Windows/Linux/IOS/Android, Layout Italiano QWERTY - Nero Grafite",
+      "entity_name": "Amazon EU S.a r.l., Succursale Italiana",
+      "kind": "received_document",
+      "document": {
+        "id": 176308772,
+        "type": "expense",
+        "path": "received_documents/176308772"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP209886997",
+      "date": "2022-07-30",
+      "amount_out": 3660,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 12 - RENDERING COMMERCIALE: Consulenza allo sviluppo di rendering 3d",
+      "entity_name": "Maurice Yabre",
+      "kind": "received_document",
+      "document": {
+        "id": 176308874,
+        "type": "expense",
+        "path": "received_documents/176308874"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP209887010",
+      "date": "2022-07-30",
+      "amount_out": 2000,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 10 - CONSULENZA PER LA STESURA DI PROGETTI ARCHITETTONICI",
+      "entity_name": "Stefano Mondini",
+      "kind": "received_document",
+      "document": {
+        "id": 176308886,
+        "type": "expense",
+        "path": "received_documents/176308886"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP213481271",
+      "date": "2022-07-28",
+      "amount_out": 41.98,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00010000008408100039 - Accessori Computer",
+      "entity_name": "AMAZON EU SARL - SUCCURSALE SPAGNOLA",
+      "kind": "received_document",
+      "document": {
+        "id": 179322817,
+        "type": "expense",
+        "path": "received_documents/179322817"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP178720125",
+      "date": "2022-07-27",
+      "amount_in": 549,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 97/2022",
+      "entity_name": "BRIGNOLI CLAUDIO",
+      "kind": "issued_document",
+      "document": {
+        "id": 221603841,
+        "type": "invoice",
+        "path": "issued_documents/221603841"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP209010402",
+      "date": "2022-07-26",
+      "amount_out": 1647,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 21 - Consulenza LUGLIO - SETTEMBRE",
+      "entity_name": "PAOLO RUGGERI",
+      "kind": "received_document",
+      "document": {
+        "id": 175569625,
+        "type": "expense",
+        "path": "received_documents/175569625"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP178471521",
+      "date": "2022-07-26",
+      "amount_in": 2135,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 96/2022",
+      "entity_name": "AMA PROTEZIONI SOLARI S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 221302131,
+        "type": "invoice",
+        "path": "issued_documents/221302131"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP213477221",
+      "date": "2022-07-22",
+      "amount_out": 437.74,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00010000003857900038 - Teamviewer",
+      "entity_name": "TEAMVIEWER GERMANY GMBH",
+      "kind": "received_document",
+      "document": {
+        "id": 179319549,
+        "type": "expense",
+        "path": "received_documents/179319549"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP178023269",
+      "date": "2022-07-22",
+      "amount_in": 3031.7,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 92/2022",
+      "entity_name": "AMA PROTEZIONI SOLARI S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 220754299,
+        "type": "invoice",
+        "path": "issued_documents/220754299"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP178023524",
+      "date": "2022-07-22",
+      "amount_in": 256.2,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 93/2022",
+      "entity_name": "AMA PROTEZIONI SOLARI S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 220754631,
+        "type": "invoice",
+        "path": "issued_documents/220754631"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP178023894",
+      "date": "2022-07-22",
+      "amount_in": 1024.8,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 94/2022",
+      "entity_name": "AMA PROTEZIONI SOLARI S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 220755106,
+        "type": "invoice",
+        "path": "issued_documents/220755106"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP178024302",
+      "date": "2022-07-22",
+      "amount_in": 183,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 95/2022",
+      "entity_name": "AMA PROTEZIONI SOLARI S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 220755635,
+        "type": "invoice",
+        "path": "issued_documents/220755635"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP177853824",
+      "date": "2022-07-21",
+      "amount_in": 530.7,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 91/2022",
+      "entity_name": "NEMO S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 220546059,
+        "type": "invoice",
+        "path": "issued_documents/220546059"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP177509810",
+      "date": "2022-07-19",
+      "amount_in": 982.1,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 90/2022",
+      "entity_name": "STUDIO TECNICO MASSERA",
+      "kind": "issued_document",
+      "document": {
+        "id": 220137909,
+        "type": "invoice",
+        "path": "issued_documents/220137909"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP207948640",
+      "date": "2022-07-18",
+      "amount_out": 4.99,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. IIITDN0004202699 - Servizio HP Instant Ink - Piano da 50 pagine",
+      "entity_name": "HP Italy S.r.l.",
+      "kind": "received_document",
+      "document": {
+        "id": 174709622,
+        "type": "expense",
+        "path": "received_documents/174709622"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP205691118",
+      "date": "2022-07-15",
+      "amount_out": 196,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 2022018279 - Visita Medica Dipendente",
+      "entity_name": "IPHIGENIA SRL - BENACUS LAB",
+      "kind": "received_document",
+      "document": {
+        "id": 172809273,
+        "type": "expense",
+        "path": "received_documents/172809273"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP176921007",
+      "date": "2022-07-15",
+      "amount_in": 1848.3,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 89/2022",
+      "entity_name": "AMA PROTEZIONI SOLARI S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 219444565,
+        "type": "invoice",
+        "path": "issued_documents/219444565"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP209710646",
+      "date": "2022-07-14",
+      "amount_out": 216.659938,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Acquisto Modelli 3D",
+      "entity_name": "Shutterstock, Inc.",
+      "kind": "received_document",
+      "document": {
+        "id": 176162092,
+        "type": "expense",
+        "path": "received_documents/176162092"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP213478238",
+      "date": "2022-07-14",
+      "amount_out": 414.57,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00010000000000500037 - Acquisto Modelli 3D",
+      "entity_name": "GLOBE PLANTS",
+      "kind": "received_document",
+      "document": {
+        "id": 179319989,
+        "type": "expense",
+        "path": "received_documents/179319989"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP213479612",
+      "date": "2022-07-14",
+      "amount_out": 255.21,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00010000000001000036 - Acquisto Modello 3D",
+      "entity_name": "SHUTTERSTOCK INC.",
+      "kind": "received_document",
+      "document": {
+        "id": 179321452,
+        "type": "expense",
+        "path": "received_documents/179321452"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP176718457",
+      "date": "2022-07-14",
+      "amount_in": 3111,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 88/2022",
+      "entity_name": "ROMA S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 219204172,
+        "type": "invoice",
+        "path": "issued_documents/219204172"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP176527341",
+      "date": "2022-07-13",
+      "amount_in": 683.2,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 87/2022",
+      "entity_name": "SICLAFIN S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 218980818,
+        "type": "invoice",
+        "path": "issued_documents/218980818"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP176517973",
+      "date": "2022-07-12",
+      "amount_in": 405,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 85/2022",
+      "entity_name": "C.R. 73 PROJECT SRL",
+      "kind": "issued_document",
+      "document": {
+        "id": 218968893,
+        "type": "invoice",
+        "path": "issued_documents/218968893"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP176518303",
+      "date": "2022-07-12",
+      "amount_in": 900,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 86/2022",
+      "entity_name": "SETA ARCHITECTURE SAGL",
+      "kind": "issued_document",
+      "document": {
+        "id": 218969299,
+        "type": "invoice",
+        "path": "issued_documents/218969299"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP176517381",
+      "date": "2022-07-11",
+      "amount_in": 640.5,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 84/2022",
+      "entity_name": "SELLARCHITECTS & PARTNERS DI SELLA ARCH. GIOSUE E SELLA GEOM. SAMUELE",
+      "kind": "issued_document",
+      "document": {
+        "id": 218968154,
+        "type": "invoice",
+        "path": "issued_documents/218968154"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP213478572",
+      "date": "2022-07-10",
+      "amount_out": 60.98,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00010000004680100035 - Abbonamento Corona Renderer",
+      "entity_name": "VERIFONE PAYMENTS BV",
+      "kind": "received_document",
+      "document": {
+        "id": 179320639,
+        "type": "expense",
+        "path": "received_documents/179320639"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP176517257",
+      "date": "2022-07-08",
+      "amount_in": 341.6,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 83/2022",
+      "entity_name": "SUPER INOX S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 218967999,
+        "type": "invoice",
+        "path": "issued_documents/218967999"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP205260048",
+      "date": "2022-07-04",
+      "amount_out": 2009,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Stipendio",
+      "entity_name": "Vanessa Cauzzi",
+      "kind": "received_document",
+      "document": {
+        "id": 172443497,
+        "type": "expense",
+        "path": "received_documents/172443497"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP205260175",
+      "date": "2022-07-04",
+      "amount_out": 110.03,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Inps e Inail Dipendente F24",
+      "entity_name": "Agenzia delle Entrate",
+      "kind": "received_document",
+      "document": {
+        "id": 172443615,
+        "type": "expense",
+        "path": "received_documents/172443615"
+      },
+      "type": "out"
+    },
+    {
+      "id": "TAX891986",
+      "date": "2022-07-04",
+      "amount_out": 559.74,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Tasse F24 - Ritenuta d'acconto ROYALTIES",
+      "entity_name": null,
+      "kind": "tax",
+      "document": {
+        "id": 891986,
+        "type": null,
+        "path": "taxes/891986"
+      },
+      "type": "out"
+    },
+    {
+      "id": "TAX891987",
+      "date": "2022-07-04",
+      "amount_out": 110.03,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Tasse F24 - Inps e Inail Dipendente",
+      "entity_name": null,
+      "kind": "tax",
+      "document": {
+        "id": 891987,
+        "type": null,
+        "path": "taxes/891987"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP204126605",
+      "date": "2022-07-01",
+      "amount_out": 1655.85,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 0000000818 - Commercialista",
+      "entity_name": "S.C. STUDIO ASSOCIATO SRL",
+      "kind": "received_document",
+      "document": {
+        "id": 171495105,
+        "type": "expense",
+        "path": "received_documents/171495105"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP204730006",
+      "date": "2022-07-01",
+      "amount_out": 669.52,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 1227/DU - Affitto Giugno",
+      "entity_name": "Hotel Cristallo Srl",
+      "kind": "received_document",
+      "document": {
+        "id": 171998325,
+        "type": "expense",
+        "path": "received_documents/171998325"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP205260422",
+      "date": "2022-07-01",
+      "amount_out": 230.5,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Pubblicità Google Ads",
+      "entity_name": "Google Ireland Limited",
+      "kind": "received_document",
+      "document": {
+        "id": 172443849,
+        "type": "expense",
+        "path": "received_documents/172443849"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP226330895",
+      "date": "2022-07-01",
+      "amount_out": 4664.5,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Royalties",
+      "entity_name": "Maurice Yabre",
+      "kind": "received_document",
+      "document": {
+        "id": 172444015,
+        "type": "expense",
+        "path": "received_documents/172444015"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP174584455",
+      "date": "2022-07-01",
+      "amount_in": 3500,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 82/2022",
+      "entity_name": "Klingenberg Services SAGL",
+      "kind": "issued_document",
+      "document": {
+        "id": 216751455,
+        "type": "invoice",
+        "path": "issued_documents/216751455"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP204729568",
+      "date": "2022-06-30",
+      "amount_out": 38.06,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. GCITD0000277211 - Google Workspace",
+      "entity_name": "Google Cloud Italy S.r.l.",
+      "kind": "received_document",
+      "document": {
+        "id": 171997950,
+        "type": "expense",
+        "path": "received_documents/171997950"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP205259917",
+      "date": "2022-06-30",
+      "amount_out": 29,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Licenza Plugin Tuilegen",
+      "entity_name": "Alessandro Maniscalco C4DZone",
+      "kind": "received_document",
+      "document": {
+        "id": 172443364,
+        "type": "expense",
+        "path": "received_documents/172443364"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP213479190",
+      "date": "2022-06-30",
+      "amount_out": 29,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 76 - Licenza Software",
+      "entity_name": "ZuccherodiKanna di Alessandro Maniscalco",
+      "kind": "received_document",
+      "document": {
+        "id": 179321149,
+        "type": "expense",
+        "path": "received_documents/179321149"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP173821118",
+      "date": "2022-06-30",
+      "amount_in": 549,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 81/2022",
+      "entity_name": "DE PONTE INNOVAZIONI S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 215868206,
+        "type": "invoice",
+        "path": "issued_documents/215868206"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP205259345",
+      "date": "2022-06-27",
+      "amount_out": 33.480021,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Abbonamento Mensile Texture",
+      "entity_name": "Poliigon Pty Ltd",
+      "kind": "received_document",
+      "document": {
+        "id": 172442615,
+        "type": "expense",
+        "path": "received_documents/172442615"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP203482893",
+      "date": "2022-06-24",
+      "amount_out": 3660,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 10 - Consulenza",
+      "entity_name": "Maurice Yabre",
+      "kind": "received_document",
+      "document": {
+        "id": 170973921,
+        "type": "expense",
+        "path": "received_documents/170973921"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP205258088",
+      "date": "2022-06-23",
+      "amount_out": 50,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Acquisto Modelli 3D",
+      "entity_name": "Evermotion S.C.",
+      "kind": "received_document",
+      "document": {
+        "id": 172441702,
+        "type": "expense",
+        "path": "received_documents/172441702"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP205258220",
+      "date": "2022-06-23",
+      "amount_out": 157.43948,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Acquisto Modelli 3D",
+      "entity_name": "Globe Plants",
+      "kind": "received_document",
+      "document": {
+        "id": 172441826,
+        "type": "expense",
+        "path": "received_documents/172441826"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP173144668",
+      "date": "2022-06-23",
+      "amount_in": 274.5,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 80/2022",
+      "entity_name": "SELLARCHITECTS & PARTNERS DI SELLA ARCH. GIOSUE E SELLA GEOM. SAMUELE",
+      "kind": "issued_document",
+      "document": {
+        "id": 215039490,
+        "type": "invoice",
+        "path": "issued_documents/215039490"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP172285859",
+      "date": "2022-06-21",
+      "amount_in": 420.9,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 78/2022",
+      "entity_name": "STUDIO TECNICO MASSERA",
+      "kind": "issued_document",
+      "document": {
+        "id": 213999407,
+        "type": "invoice",
+        "path": "issued_documents/213999407"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP172286022",
+      "date": "2022-06-21",
+      "amount_in": 427,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 79/2022",
+      "entity_name": "DUEARCHITETTI",
+      "kind": "issued_document",
+      "document": {
+        "id": 213999608,
+        "type": "invoice",
+        "path": "issued_documents/213999608"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP202362022",
+      "date": "2022-06-20",
+      "amount_out": 9.99,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. IIITDN0004004455 - Stampante",
+      "entity_name": "HP Italy S.r.l.",
+      "kind": "received_document",
+      "document": {
+        "id": 170035316,
+        "type": "expense",
+        "path": "received_documents/170035316"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP220186199",
+      "date": "2022-06-20",
+      "amount_out": 1456,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Collaboratore",
+      "entity_name": "OLIVARI JACOPO",
+      "kind": "received_document",
+      "document": {
+        "id": 172440498,
+        "type": "expense",
+        "path": "received_documents/172440498"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP205258328",
+      "date": "2022-06-16",
+      "amount_out": 2000,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Consulenza al rendering",
+      "entity_name": "Stefano Mondini",
+      "kind": "received_document",
+      "document": {
+        "id": 172441932,
+        "type": "expense",
+        "path": "received_documents/172441932"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP201713341",
+      "date": "2022-06-15",
+      "amount_out": 13.98,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. IT22-48211I-20343 - Cavo Ethernet",
+      "entity_name": "HONG KONG UGREEN LIMITED",
+      "kind": "received_document",
+      "document": {
+        "id": 169490520,
+        "type": "expense",
+        "path": "received_documents/169490520"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP205257793",
+      "date": "2022-06-15",
+      "amount_out": 39.280011,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Plugin Wordpress Sito Web",
+      "entity_name": "WP Media",
+      "kind": "received_document",
+      "document": {
+        "id": 172441440,
+        "type": "expense",
+        "path": "received_documents/172441440"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP205257909",
+      "date": "2022-06-15",
+      "amount_out": 77.229807,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Plugin Wordpress Sito Web",
+      "entity_name": "WP Media",
+      "kind": "received_document",
+      "document": {
+        "id": 172441543,
+        "type": "expense",
+        "path": "received_documents/172441543"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP171470506",
+      "date": "2022-06-15",
+      "amount_in": 2391.2,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 76/2022",
+      "entity_name": "DEVELOG 6 S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 213006246,
+        "type": "invoice",
+        "path": "issued_documents/213006246"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP171473620",
+      "date": "2022-06-15",
+      "amount_in": 915,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 77/2022",
+      "entity_name": "AMA PROTEZIONI SOLARI S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 213009963,
+        "type": "invoice",
+        "path": "issued_documents/213009963"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP205255512",
+      "date": "2022-06-14",
+      "amount_out": 663.93,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Memoria SSD Sabrent Rocket 4 Plus 4TB",
+      "entity_name": "Nexark Inc",
+      "kind": "received_document",
+      "document": {
+        "id": 172439376,
+        "type": "expense",
+        "path": "received_documents/172439376"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP205255590",
+      "date": "2022-06-14",
+      "amount_out": 17.58,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Copricavi Computer",
+      "entity_name": "SHENZHENSHI",
+      "kind": "received_document",
+      "document": {
+        "id": 172439444,
+        "type": "expense",
+        "path": "received_documents/172439444"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP205255755",
+      "date": "2022-06-14",
+      "amount_out": 52.7,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - 3x Copricavo Computer",
+      "entity_name": "SHENZHENSHI",
+      "kind": "received_document",
+      "document": {
+        "id": 172439585,
+        "type": "expense",
+        "path": "received_documents/172439585"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP213480173",
+      "date": "2022-06-14",
+      "amount_out": 23.17,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00010000000000900034 - Adattatore Usb",
+      "entity_name": "LONGTAN",
+      "kind": "received_document",
+      "document": {
+        "id": 179321935,
+        "type": "expense",
+        "path": "received_documents/179321935"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP171316467",
+      "date": "2022-06-14",
+      "amount_in": 366,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 74/2022",
+      "entity_name": "MARIANI ROBERTO",
+      "kind": "issued_document",
+      "document": {
+        "id": 212815887,
+        "type": "invoice",
+        "path": "issued_documents/212815887"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP171316593",
+      "date": "2022-06-14",
+      "amount_in": 366,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 75/2022",
+      "entity_name": "MARIANI ROBERTO",
+      "kind": "issued_document",
+      "document": {
+        "id": 212816030,
+        "type": "invoice",
+        "path": "issued_documents/212816030"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP205255382",
+      "date": "2022-06-13",
+      "amount_out": 225.14,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Modem Huawei",
+      "entity_name": "Getic SIA",
+      "kind": "received_document",
+      "document": {
+        "id": 172439265,
+        "type": "expense",
+        "path": "received_documents/172439265"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP205256164",
+      "date": "2022-06-10",
+      "amount_out": 49.98,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Licenza Mensile Corona Renderer",
+      "entity_name": "ChaosStore",
+      "kind": "received_document",
+      "document": {
+        "id": 172439970,
+        "type": "expense",
+        "path": "received_documents/172439970"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP170755922",
+      "date": "2022-06-10",
+      "amount_in": 2879.2,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 72/2022",
+      "entity_name": "ROMA S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 212149385,
+        "type": "invoice",
+        "path": "issued_documents/212149385"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP170756176",
+      "date": "2022-06-10",
+      "amount_in": 5246,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 73/2022",
+      "entity_name": "IDEA+ SRL",
+      "kind": "issued_document",
+      "document": {
+        "id": 212149695,
+        "type": "invoice",
+        "path": "issued_documents/212149695"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP170482589",
+      "date": "2022-06-09",
+      "amount_in": 549,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 70/2022",
+      "entity_name": "EDILBESANA S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 211834876,
+        "type": "invoice",
+        "path": "issued_documents/211834876"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP170483266",
+      "date": "2022-06-09",
+      "amount_in": 366,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 71/2022",
+      "entity_name": "STUDIO TECNICO MASSERA",
+      "kind": "issued_document",
+      "document": {
+        "id": 211835684,
+        "type": "invoice",
+        "path": "issued_documents/211835684"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP205255060",
+      "date": "2022-06-08",
+      "amount_out": 177.64,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Monitor PC",
+      "entity_name": "Amazon EU S.a r.l., Succursale Polacca",
+      "kind": "received_document",
+      "document": {
+        "id": 172438991,
+        "type": "expense",
+        "path": "received_documents/172438991"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP205255155",
+      "date": "2022-06-08",
+      "amount_out": 209.12,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Monitor PC",
+      "entity_name": "Amazon EU S.a r.l., Succursale Polacca",
+      "kind": "received_document",
+      "document": {
+        "id": 172439066,
+        "type": "expense",
+        "path": "received_documents/172439066"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP205255220",
+      "date": "2022-06-08",
+      "amount_out": 222.61,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Monitor PC",
+      "entity_name": "Amazon EU S.a r.l., Succursale Tedesca",
+      "kind": "received_document",
+      "document": {
+        "id": 172439127,
+        "type": "expense",
+        "path": "received_documents/172439127"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP205255285",
+      "date": "2022-06-08",
+      "amount_out": 209.12,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Monitor PC",
+      "entity_name": "Amazon EU S.a r.l., Succursale Spagnola",
+      "kind": "received_document",
+      "document": {
+        "id": 172439181,
+        "type": "expense",
+        "path": "received_documents/172439181"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP205254093",
+      "date": "2022-06-07",
+      "amount_out": 262.120744,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Acquisto Modelli 3D",
+      "entity_name": "FastSpring",
+      "kind": "received_document",
+      "document": {
+        "id": 172438171,
+        "type": "expense",
+        "path": "received_documents/172438171"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP205253702",
+      "date": "2022-06-06",
+      "amount_out": 1406,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Stipendio",
+      "entity_name": "Vanessa Cauzzi",
+      "kind": "received_document",
+      "document": {
+        "id": 172437794,
+        "type": "expense",
+        "path": "received_documents/172437794"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP205253809",
+      "date": "2022-06-06",
+      "amount_out": 264.01,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Inps e Inail Vanessa Cauzzi",
+      "entity_name": "Agenzia delle Entrate",
+      "kind": "received_document",
+      "document": {
+        "id": 172437920,
+        "type": "expense",
+        "path": "received_documents/172437920"
+      },
+      "type": "out"
+    },
+    {
+      "id": "TAX891985",
+      "date": "2022-06-06",
+      "amount_out": 264.01,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Tasse F24 - Inps e Inail Dipendente",
+      "entity_name": null,
+      "kind": "tax",
+      "document": {
+        "id": 891985,
+        "type": null,
+        "path": "taxes/891985"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP169394041",
+      "date": "2022-06-03",
+      "amount_in": 427,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 69/2022",
+      "entity_name": "DUEARCHITETTI",
+      "kind": "issued_document",
+      "document": {
+        "id": 210555048,
+        "type": "invoice",
+        "path": "issued_documents/210555048"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP199332773",
+      "date": "2022-06-02",
+      "amount_out": 38.06,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. GCITD0000153267 - Google Suite",
+      "entity_name": "Google Cloud Italy S.r.l.",
+      "kind": "received_document",
+      "document": {
+        "id": 167482249,
+        "type": "expense",
+        "path": "received_documents/167482249"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP169296033",
+      "date": "2022-06-02",
+      "amount_in": 2196,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 68/2022",
+      "entity_name": "DANDI S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 210442082,
+        "type": "invoice",
+        "path": "issued_documents/210442082"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP169116124",
+      "date": "2022-06-01",
+      "amount_in": 597.8,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 64/2022",
+      "entity_name": "NEMO S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 210235373,
+        "type": "invoice",
+        "path": "issued_documents/210235373"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP169116333",
+      "date": "2022-06-01",
+      "amount_in": 1006.5,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 65/2022",
+      "entity_name": "NEMO S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 210235613,
+        "type": "invoice",
+        "path": "issued_documents/210235613"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP169116561",
+      "date": "2022-06-01",
+      "amount_in": 488,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 66/2022",
+      "entity_name": "NEMO S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 210235863,
+        "type": "invoice",
+        "path": "issued_documents/210235863"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP169116714",
+      "date": "2022-06-01",
+      "amount_in": 427,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 67/2022",
+      "entity_name": "NEMO S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 210236042,
+        "type": "invoice",
+        "path": "issued_documents/210236042"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP199067586",
+      "date": "2022-05-31",
+      "amount_out": 669.52,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 1011/DU - Affitto Ufficio Maggio",
+      "entity_name": "Hotel Cristallo Srl",
+      "kind": "received_document",
+      "document": {
+        "id": 167256902,
+        "type": "expense",
+        "path": "received_documents/167256902"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP200208078",
+      "date": "2022-05-31",
+      "amount_out": 487.92,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Google Ads - Pubblicità",
+      "entity_name": "Google Ireland Limited",
+      "kind": "received_document",
+      "document": {
+        "id": 168222522,
+        "type": "expense",
+        "path": "received_documents/168222522"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP205824764",
+      "date": "2022-05-27",
+      "amount_out": 26.959888,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Abbonamento mensile Textures",
+      "entity_name": "Poliigon Pty Ltd",
+      "kind": "received_document",
+      "document": {
+        "id": 172918571,
+        "type": "expense",
+        "path": "received_documents/172918571"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP197738993",
+      "date": "2022-05-23",
+      "amount_out": 1464,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 19 - Consulente",
+      "entity_name": "PAOLO RUGGERI",
+      "kind": "received_document",
+      "document": {
+        "id": 166163033,
+        "type": "expense",
+        "path": "received_documents/166163033"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP167441511",
+      "date": "2022-05-23",
+      "amount_in": 488,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 63/2022",
+      "entity_name": "MARIANI ROBERTO",
+      "kind": "issued_document",
+      "document": {
+        "id": 208224520,
+        "type": "invoice",
+        "path": "issued_documents/208224520"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP205258543",
+      "date": "2022-05-20",
+      "amount_out": 9699,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 8 - Consulenza",
+      "entity_name": "Maurice Yabre",
+      "kind": "received_document",
+      "document": {
+        "id": 166163125,
+        "type": "expense",
+        "path": "received_documents/166163125"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP197249344",
+      "date": "2022-05-19",
+      "amount_out": 133.870089,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Modelli 3D",
+      "entity_name": "FastSpring",
+      "kind": "received_document",
+      "document": {
+        "id": 165751465,
+        "type": "expense",
+        "path": "received_documents/165751465"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP167181783",
+      "date": "2022-05-19",
+      "amount_in": 841.8,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 62/2022",
+      "entity_name": "GRUPPO DIPIERRI S.P.A.",
+      "kind": "issued_document",
+      "document": {
+        "id": 207900481,
+        "type": "invoice",
+        "path": "issued_documents/207900481"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP196845190",
+      "date": "2022-05-18",
+      "amount_out": 5.99,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. IIITDN0003821299 - Hp Instant Ink ",
+      "entity_name": "HP Italy S.r.l.",
+      "kind": "received_document",
+      "document": {
+        "id": 165413099,
+        "type": "expense",
+        "path": "received_documents/165413099"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP166826717",
+      "date": "2022-05-18",
+      "amount_in": 610,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 61/2022",
+      "entity_name": "GRUPPO FERRARI S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 207463074,
+        "type": "invoice",
+        "path": "issued_documents/207463074"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP197484869",
+      "date": "2022-05-17",
+      "amount_out": 5300,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Consulenza al rendering",
+      "entity_name": "Stefano Mondini",
+      "kind": "received_document",
+      "document": {
+        "id": 165954044,
+        "type": "expense",
+        "path": "received_documents/165954044"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP166649157",
+      "date": "2022-05-17",
+      "amount_in": 244,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 60/2022",
+      "entity_name": "STUDIO TECNICO DI VEZZARO ANDREA",
+      "kind": "issued_document",
+      "document": {
+        "id": 207249232,
+        "type": "invoice",
+        "path": "issued_documents/207249232"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP197248506",
+      "date": "2022-05-16",
+      "amount_out": 246.71,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Inps e Inail Vanessa Cauzzi",
+      "entity_name": "Agenzia delle Entrate",
+      "kind": "received_document",
+      "document": {
+        "id": 165750759,
+        "type": "expense",
+        "path": "received_documents/165750759"
+      },
+      "type": "out"
+    },
+    {
+      "id": "TAX866159",
+      "date": "2022-05-16",
+      "amount_out": 246.71,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Tasse F24 - Inps e Inail Dipendente",
+      "entity_name": null,
+      "kind": "tax",
+      "document": {
+        "id": 866159,
+        "type": null,
+        "path": "taxes/866159"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP165739569",
+      "date": "2022-05-11",
+      "amount_in": 1037,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 58/2022",
+      "entity_name": "SALVETTI COSTRUZIONI S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 206151234,
+        "type": "invoice",
+        "path": "issued_documents/206151234"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP165739763",
+      "date": "2022-05-11",
+      "amount_in": 1220,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 59/2022",
+      "entity_name": "SALVETTI COSTRUZIONI S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 206151475,
+        "type": "invoice",
+        "path": "issued_documents/206151475"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP197249109",
+      "date": "2022-05-10",
+      "amount_out": 49.98,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Licenza Corona Renderer",
+      "entity_name": "ChaosStore",
+      "kind": "received_document",
+      "document": {
+        "id": 165751268,
+        "type": "expense",
+        "path": "received_documents/165751268"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP165309129",
+      "date": "2022-05-09",
+      "amount_in": 512.4,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 56/2022",
+      "entity_name": "FAST S.P.A.",
+      "kind": "issued_document",
+      "document": {
+        "id": 205630561,
+        "type": "invoice",
+        "path": "issued_documents/205630561"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP165309395",
+      "date": "2022-05-09",
+      "amount_in": 183,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 57/2022",
+      "entity_name": "EDILVERDE S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 205630898,
+        "type": "invoice",
+        "path": "issued_documents/205630898"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP197248857",
+      "date": "2022-05-05",
+      "amount_out": 1403,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Stipendio",
+      "entity_name": "Vanessa Cauzzi",
+      "kind": "received_document",
+      "document": {
+        "id": 165751056,
+        "type": "expense",
+        "path": "received_documents/165751056"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP164665458",
+      "date": "2022-05-04",
+      "amount_in": 274.5,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 53/2022",
+      "entity_name": "NEMO S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 204857666,
+        "type": "invoice",
+        "path": "issued_documents/204857666"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP164665626",
+      "date": "2022-05-04",
+      "amount_in": 732,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 54/2022",
+      "entity_name": "BOTTICINI + FACCHINELLI ARCHITECTURAL RESEARCH WORKSHOP SRL",
+      "kind": "issued_document",
+      "document": {
+        "id": 204857856,
+        "type": "invoice",
+        "path": "issued_documents/204857856"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP164665719",
+      "date": "2022-05-04",
+      "amount_in": 1586,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 55/2022",
+      "entity_name": "BOTTICINI + FACCHINELLI ARCHITECTURAL RESEARCH WORKSHOP SRL",
+      "kind": "issued_document",
+      "document": {
+        "id": 204857965,
+        "type": "invoice",
+        "path": "issued_documents/204857965"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP159842216",
+      "date": "2022-05-03",
+      "amount_in": 219.6,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 37/2022",
+      "entity_name": "FAST S.P.A.",
+      "kind": "issued_document",
+      "document": {
+        "id": 199033795,
+        "type": "invoice",
+        "path": "issued_documents/199033795"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP164304038",
+      "date": "2022-05-03",
+      "amount_in": 256.2,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 51/2022",
+      "entity_name": "ILTI LUCE S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 204435196,
+        "type": "invoice",
+        "path": "issued_documents/204435196"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP164665281",
+      "date": "2022-05-03",
+      "amount_in": 244,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 52/2022",
+      "entity_name": "ROSSI FEDERICA",
+      "kind": "issued_document",
+      "document": {
+        "id": 204857459,
+        "type": "invoice",
+        "path": "issued_documents/204857459"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP193461306",
+      "date": "2022-05-02",
+      "amount_out": 669.52,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 792/DU - Affitto Ufficio Aprile",
+      "entity_name": "Hotel Cristallo Srl",
+      "kind": "received_document",
+      "document": {
+        "id": 162573874,
+        "type": "expense",
+        "path": "received_documents/162573874"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP197248239",
+      "date": "2022-05-02",
+      "amount_out": 191,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - SEO Analizer",
+      "entity_name": "Seobility GMBH",
+      "kind": "received_document",
+      "document": {
+        "id": 165750551,
+        "type": "expense",
+        "path": "received_documents/165750551"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP164018812",
+      "date": "2022-05-02",
+      "amount_in": 2348.5,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 50/2022",
+      "entity_name": "AMA PROTEZIONI SOLARI S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 204104510,
+        "type": "invoice",
+        "path": "issued_documents/204104510"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP193877642",
+      "date": "2022-04-30",
+      "amount_out": 38.06,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. GCITD0000031060 - Google Workspace",
+      "entity_name": "Google Cloud Italy S.r.l.",
+      "kind": "received_document",
+      "document": {
+        "id": 162916612,
+        "type": "expense",
+        "path": "received_documents/162916612"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP163633650",
+      "date": "2022-04-29",
+      "amount_in": 3115,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 47/2022",
+      "entity_name": "Klingenberg Services SAGL",
+      "kind": "issued_document",
+      "document": {
+        "id": 203655274,
+        "type": "invoice",
+        "path": "issued_documents/203655274"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP163634354",
+      "date": "2022-04-29",
+      "amount_in": 1500,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 48/2022",
+      "entity_name": "Klingenberg Services SAGL",
+      "kind": "issued_document",
+      "document": {
+        "id": 203656090,
+        "type": "invoice",
+        "path": "issued_documents/203656090"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP163634630",
+      "date": "2022-04-29",
+      "amount_in": 250,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 49/2022",
+      "entity_name": "Klingenberg Services SAGL",
+      "kind": "issued_document",
+      "document": {
+        "id": 203656398,
+        "type": "invoice",
+        "path": "issued_documents/203656398"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP195084014",
+      "date": "2022-04-28",
+      "amount_out": 104.01,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 798/DU - Cena Aziendale",
+      "entity_name": "Hotel Cristallo Srl",
+      "kind": "received_document",
+      "document": {
+        "id": 163936744,
+        "type": "expense",
+        "path": "received_documents/163936744"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP197246582",
+      "date": "2022-04-27",
+      "amount_out": 27.439951,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Abbonamento Mensile - Texture",
+      "entity_name": "Poliigon Pty Ltd",
+      "kind": "received_document",
+      "document": {
+        "id": 165749200,
+        "type": "expense",
+        "path": "received_documents/165749200"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP192459583",
+      "date": "2022-04-26",
+      "amount_out": 646.6,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 73 - DVR e Corso di formazione RSPP Datore di Lavoro",
+      "entity_name": "S3 SRL",
+      "kind": "received_document",
+      "document": {
+        "id": 161739171,
+        "type": "expense",
+        "path": "received_documents/161739171"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP220186093",
+      "date": "2022-04-26",
+      "amount_out": 967.2,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Collaboratore",
+      "entity_name": "OLIVARI JACOPO",
+      "kind": "received_document",
+      "document": {
+        "id": 161744850,
+        "type": "expense",
+        "path": "received_documents/161744850"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP220186108",
+      "date": "2022-04-26",
+      "amount_out": 592.8,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Collaboratore",
+      "entity_name": "OLIVARI JACOPO",
+      "kind": "received_document",
+      "document": {
+        "id": 161745269,
+        "type": "expense",
+        "path": "received_documents/161745269"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP162880484",
+      "date": "2022-04-25",
+      "amount_in": 3525.8,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 44/2022",
+      "entity_name": "SQUEE DI GIRARDI MATTIA",
+      "kind": "issued_document",
+      "document": {
+        "id": 202726894,
+        "type": "invoice",
+        "path": "issued_documents/202726894"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP162880782",
+      "date": "2022-04-25",
+      "amount_in": 3550.2,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 45/2022",
+      "entity_name": "SQUEE DI GIRARDI MATTIA",
+      "kind": "issued_document",
+      "document": {
+        "id": 202727270,
+        "type": "invoice",
+        "path": "issued_documents/202727270"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP162881241",
+      "date": "2022-04-25",
+      "amount_in": 976,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 46/2022",
+      "entity_name": "DANDI S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 202727858,
+        "type": "invoice",
+        "path": "issued_documents/202727858"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP162453592",
+      "date": "2022-04-21",
+      "amount_in": 1024.8,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 43/2022",
+      "entity_name": "DEVELOG 6 S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 202194943,
+        "type": "invoice",
+        "path": "issued_documents/202194943"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP161599087",
+      "date": "2022-04-20",
+      "amount_in": 488,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 40/2022",
+      "entity_name": "MICHAEL ARCH. FRANZOSI",
+      "kind": "issued_document",
+      "document": {
+        "id": 201130391,
+        "type": "invoice",
+        "path": "issued_documents/201130391"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP162240634",
+      "date": "2022-04-20",
+      "amount_in": 3489.2,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 42/2022",
+      "entity_name": "B S D INVESTMENTS S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 201931797,
+        "type": "invoice",
+        "path": "issued_documents/201931797"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP197247644",
+      "date": "2022-04-19",
+      "amount_out": 218.98,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Inps e Inail Vanessa Cauzzi",
+      "entity_name": "Agenzia delle Entrate",
+      "kind": "received_document",
+      "document": {
+        "id": 165750025,
+        "type": "expense",
+        "path": "received_documents/165750025"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP162047383",
+      "date": "2022-04-19",
+      "amount_in": 2177.7,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 41/2022",
+      "entity_name": "Immobiliare CA' ROSSA S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 201692560,
+        "type": "invoice",
+        "path": "issued_documents/201692560"
+      },
+      "type": "in"
+    },
+    {
+      "id": "TAX866157",
+      "date": "2022-04-19",
+      "amount_out": 218.98,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Tasse F24 - Inps e Inail Dipendente",
+      "entity_name": null,
+      "kind": "tax",
+      "document": {
+        "id": 866157,
+        "type": null,
+        "path": "taxes/866157"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP191320075",
+      "date": "2022-04-18",
+      "amount_out": 8.99,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. IIITDN0003642321 - Hp InstantInk",
+      "entity_name": "HP Italy S.r.l.",
+      "kind": "received_document",
+      "document": {
+        "id": 160771390,
+        "type": "expense",
+        "path": "received_documents/160771390"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP161275011",
+      "date": "2022-04-12",
+      "amount_in": 1708,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 39/2022",
+      "entity_name": "GNALI ETTORE DI GNALI AMELIO SRL",
+      "kind": "issued_document",
+      "document": {
+        "id": 200738013,
+        "type": "invoice",
+        "path": "issued_documents/200738013"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP197246189",
+      "date": "2022-04-10",
+      "amount_out": 49.98,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Licenza Software Corona Renderer",
+      "entity_name": "ChaosStore",
+      "kind": "received_document",
+      "document": {
+        "id": 165748898,
+        "type": "expense",
+        "path": "received_documents/165748898"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP197245470",
+      "date": "2022-04-07",
+      "amount_out": 2483.5,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Royalties",
+      "entity_name": "Maurice Yabre",
+      "kind": "received_document",
+      "document": {
+        "id": 165748338,
+        "type": "expense",
+        "path": "received_documents/165748338"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP197245803",
+      "date": "2022-04-06",
+      "amount_out": 128.460402,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Modelli 3D",
+      "entity_name": "FastSpring",
+      "kind": "received_document",
+      "document": {
+        "id": 165748598,
+        "type": "expense",
+        "path": "received_documents/165748598"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP160355095",
+      "date": "2022-04-06",
+      "amount_in": 292.8,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 38/2022",
+      "entity_name": "SICLAFIN S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 199632925,
+        "type": "invoice",
+        "path": "issued_documents/199632925"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP197247733",
+      "date": "2022-04-04",
+      "amount_out": 1424,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Stipendio",
+      "entity_name": "Vanessa Cauzzi",
+      "kind": "received_document",
+      "document": {
+        "id": 165750154,
+        "type": "expense",
+        "path": "received_documents/165750154"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP159819698",
+      "date": "2022-04-04",
+      "amount_in": 1756.8,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 36/2022",
+      "entity_name": "B S D INVESTMENTS S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 199006846,
+        "type": "invoice",
+        "path": "issued_documents/199006846"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP188699804",
+      "date": "2022-04-03",
+      "amount_out": 43.92,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. IT22-AEUI-2916427 - AMAZON BUSINESS",
+      "entity_name": "Amazon EU S.a r.l., Succursale Italiana",
+      "kind": "received_document",
+      "document": {
+        "id": 158568191,
+        "type": "expense",
+        "path": "received_documents/158568191"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP197244348",
+      "date": "2022-04-02",
+      "amount_out": 31.2,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Google Workspace",
+      "entity_name": "Google Ireland Limited",
+      "kind": "received_document",
+      "document": {
+        "id": 165747446,
+        "type": "expense",
+        "path": "received_documents/165747446"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP188313323",
+      "date": "2022-04-01",
+      "amount_out": 2615.07,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 0000000268 - Studio commercialista",
+      "entity_name": "S.C. STUDIO ASSOCIATO SRL",
+      "kind": "received_document",
+      "document": {
+        "id": 158243984,
+        "type": "expense",
+        "path": "received_documents/158243984"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP188762461",
+      "date": "2022-04-01",
+      "amount_out": 669.52,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 593/DU - Affitto Ufficio",
+      "entity_name": "Hotel Cristallo Srl",
+      "kind": "received_document",
+      "document": {
+        "id": 158618999,
+        "type": "expense",
+        "path": "received_documents/158618999"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP197244947",
+      "date": "2022-04-01",
+      "amount_out": 307.320481,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Modelli 3D",
+      "entity_name": "Globe Plants",
+      "kind": "received_document",
+      "document": {
+        "id": 165747932,
+        "type": "expense",
+        "path": "received_documents/165747932"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP159347591",
+      "date": "2022-04-01",
+      "amount_in": 982.1,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 34/2022",
+      "entity_name": "ILTI LUCE S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 198455777,
+        "type": "invoice",
+        "path": "issued_documents/198455777"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP159347929",
+      "date": "2022-04-01",
+      "amount_in": 311.1,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 35/2022",
+      "entity_name": "ILTI LUCE S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 198456166,
+        "type": "invoice",
+        "path": "issued_documents/198456166"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP188177478",
+      "date": "2022-03-31",
+      "amount_out": 3000,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Consulenza al rendering",
+      "entity_name": "Stefano Mondini",
+      "kind": "received_document",
+      "document": {
+        "id": 158136937,
+        "type": "expense",
+        "path": "received_documents/158136937"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP205258563",
+      "date": "2022-03-31",
+      "amount_out": 5490,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 5 - Consulenza",
+      "entity_name": "Maurice Yabre",
+      "kind": "received_document",
+      "document": {
+        "id": 158408320,
+        "type": "expense",
+        "path": "received_documents/158408320"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP159093067",
+      "date": "2022-03-31",
+      "amount_in": 1403,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 31/2022",
+      "entity_name": "BONFANTE INTERIOR CONTRACTOR S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 198157621,
+        "type": "invoice",
+        "path": "issued_documents/198157621"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP159205315",
+      "date": "2022-03-31",
+      "amount_in": 1000,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 32/2022",
+      "entity_name": "SETA ARCHITECTURE SAGL",
+      "kind": "issued_document",
+      "document": {
+        "id": 198289007,
+        "type": "invoice",
+        "path": "issued_documents/198289007"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP159205626",
+      "date": "2022-03-31",
+      "amount_in": 1250,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 33/2022",
+      "entity_name": "SETA ARCHITECTURE SAGL",
+      "kind": "issued_document",
+      "document": {
+        "id": 198289375,
+        "type": "invoice",
+        "path": "issued_documents/198289375"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP158804118",
+      "date": "2022-03-30",
+      "amount_in": 292.8,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 30/2022",
+      "entity_name": "SICLA INVESTIMENTI S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 197817211,
+        "type": "invoice",
+        "path": "issued_documents/197817211"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP188051984",
+      "date": "2022-03-29",
+      "amount_out": 35,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Mail Track - Verifica Lettura Email",
+      "entity_name": "The Mail Track Company S.L.",
+      "kind": "received_document",
+      "document": {
+        "id": 158043871,
+        "type": "expense",
+        "path": "received_documents/158043871"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP188052274",
+      "date": "2022-03-29",
+      "amount_out": 1562.08,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Rimborso Anticipo Amministratore - Spese Notarili",
+      "entity_name": "Maurice Yabre",
+      "kind": "received_document",
+      "document": {
+        "id": 158044115,
+        "type": "expense",
+        "path": "received_documents/158044115"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP158592405",
+      "date": "2022-03-29",
+      "amount_in": 1006.5,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 27/2022",
+      "entity_name": "AMA PROTEZIONI SOLARI S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 197554327,
+        "type": "invoice",
+        "path": "issued_documents/197554327"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP158593225",
+      "date": "2022-03-29",
+      "amount_in": 1342,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 28/2022",
+      "entity_name": "SCHIBUOLA COSTRUZIONI S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 197555327,
+        "type": "invoice",
+        "path": "issued_documents/197555327"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP158594072",
+      "date": "2022-03-29",
+      "amount_in": 1708,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 29/2022",
+      "entity_name": "STUDIO DI ARCHITETTURA DI BERSELLI CHIARA",
+      "kind": "issued_document",
+      "document": {
+        "id": 197556366,
+        "type": "invoice",
+        "path": "issued_documents/197556366"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP188051521",
+      "date": "2022-03-27",
+      "amount_out": 26.030046,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Abbonamento Mensile - Texture",
+      "entity_name": "Poliigon Pty Ltd",
+      "kind": "received_document",
+      "document": {
+        "id": 158043481,
+        "type": "expense",
+        "path": "received_documents/158043481"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP158200794",
+      "date": "2022-03-25",
+      "amount_in": 2665,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 25/2022",
+      "entity_name": "Klingenberg Services SAGL",
+      "kind": "issued_document",
+      "document": {
+        "id": 197066399,
+        "type": "invoice",
+        "path": "issued_documents/197066399"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP158201019",
+      "date": "2022-03-25",
+      "amount_in": 1500,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 26/2022",
+      "entity_name": "Klingenberg Services SAGL",
+      "kind": "issued_document",
+      "document": {
+        "id": 197066688,
+        "type": "invoice",
+        "path": "issued_documents/197066688"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP187146078",
+      "date": "2022-03-24",
+      "amount_out": 250,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 000159 - Formazione Personale",
+      "entity_name": "FONDAZIONE ENAIP LOMBARDIA",
+      "kind": "received_document",
+      "document": {
+        "id": 157287889,
+        "type": "expense",
+        "path": "received_documents/157287889"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP158083135",
+      "date": "2022-03-23",
+      "amount_in": 1403,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 22/2022",
+      "entity_name": "BRIGNOLI CLAUDIO",
+      "kind": "issued_document",
+      "document": {
+        "id": 196915460,
+        "type": "invoice",
+        "path": "issued_documents/196915460"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP158083351",
+      "date": "2022-03-23",
+      "amount_in": 244,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 23/2022",
+      "entity_name": "BRIGNOLI CLAUDIO",
+      "kind": "issued_document",
+      "document": {
+        "id": 196915713,
+        "type": "invoice",
+        "path": "issued_documents/196915713"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP157494454",
+      "date": "2022-03-21",
+      "amount_in": 366,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 21/2022",
+      "entity_name": "EDILVERDE S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 196173448,
+        "type": "invoice",
+        "path": "issued_documents/196173448"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP158191946",
+      "date": "2022-03-18",
+      "amount_in": 341.6,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 24/2022",
+      "entity_name": "ILTI LUCE S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 197055544,
+        "type": "invoice",
+        "path": "issued_documents/197055544"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP157067761",
+      "date": "2022-03-17",
+      "amount_in": 256.2,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 20/2022",
+      "entity_name": "NEMO S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 195641950,
+        "type": "invoice",
+        "path": "issued_documents/195641950"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP186023695",
+      "date": "2022-03-16",
+      "amount_out": 18.99,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. IIITDN0003454853 - Hp Instant Ink",
+      "entity_name": "HP Italy S.r.l.",
+      "kind": "received_document",
+      "document": {
+        "id": 156354521,
+        "type": "expense",
+        "path": "received_documents/156354521"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP156890423",
+      "date": "2022-03-16",
+      "amount_in": 1354.2,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 18/2022",
+      "entity_name": "SQUEE DI GIRARDI MATTIA",
+      "kind": "issued_document",
+      "document": {
+        "id": 195426302,
+        "type": "invoice",
+        "path": "issued_documents/195426302"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP156891682",
+      "date": "2022-03-16",
+      "amount_in": 3294,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 19/2022",
+      "entity_name": "MORBIO COSTRUZIONI S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 195427885,
+        "type": "invoice",
+        "path": "issued_documents/195427885"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP188051013",
+      "date": "2022-03-11",
+      "amount_out": 13.759953,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Servizio Virtual Tour",
+      "entity_name": "Roundme Ltd",
+      "kind": "received_document",
+      "document": {
+        "id": 158043067,
+        "type": "expense",
+        "path": "received_documents/158043067"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP188051209",
+      "date": "2022-03-11",
+      "amount_out": 13.759953,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Servizio Virtual Tour",
+      "entity_name": "Roundme Ltd",
+      "kind": "received_document",
+      "document": {
+        "id": 158043127,
+        "type": "expense",
+        "path": "received_documents/158043127"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP156102448",
+      "date": "2022-03-10",
+      "amount_in": 146.4,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 17/2022",
+      "entity_name": "ILTI LUCE S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 194456833,
+        "type": "invoice",
+        "path": "issued_documents/194456833"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP183838933",
+      "date": "2022-03-07",
+      "amount_out": 1830,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 12 - Consulente Finanziario",
+      "entity_name": "PAOLO RUGGERI",
+      "kind": "received_document",
+      "document": {
+        "id": 154504541,
+        "type": "expense",
+        "path": "received_documents/154504541"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP188049196",
+      "date": "2022-03-07",
+      "amount_out": 592,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Stipendio",
+      "entity_name": "Vanessa Cauzzi",
+      "kind": "received_document",
+      "document": {
+        "id": 158041656,
+        "type": "expense",
+        "path": "received_documents/158041656"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP188050030",
+      "date": "2022-03-07",
+      "amount_out": 181.18,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Inps e Inail Vanessa Cauzzi",
+      "entity_name": "Agenzia delle Entrate",
+      "kind": "received_document",
+      "document": {
+        "id": 158042318,
+        "type": "expense",
+        "path": "received_documents/158042318"
+      },
+      "type": "out"
+    },
+    {
+      "id": "TAX835025",
+      "date": "2022-03-07",
+      "amount_out": 181.18,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Tasse F24 - Inps e Inail Dipendente",
+      "entity_name": null,
+      "kind": "tax",
+      "document": {
+        "id": 835025,
+        "type": null,
+        "path": "taxes/835025"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP154637098",
+      "date": "2022-03-02",
+      "amount_in": 1207.8,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 14/2022",
+      "entity_name": "SQUEE DI GIRARDI MATTIA",
+      "kind": "issued_document",
+      "document": {
+        "id": 192697327,
+        "type": "invoice",
+        "path": "issued_documents/192697327"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP154865126",
+      "date": "2022-03-02",
+      "amount_in": 110,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 15/2022",
+      "entity_name": "DELOGU MARIA GIOVANNA",
+      "kind": "issued_document",
+      "document": {
+        "id": 192967480,
+        "type": "invoice",
+        "path": "issued_documents/192967480"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP154865941",
+      "date": "2022-03-02",
+      "amount_in": 732,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 16/2022",
+      "entity_name": "GIOVANARDI DI GIOVANARDI CARLO & C. S.N.C.",
+      "kind": "issued_document",
+      "document": {
+        "id": 192968442,
+        "type": "invoice",
+        "path": "issued_documents/192968442"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP152988321",
+      "date": "2022-03-01",
+      "amount_in": 330,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 12/2022",
+      "entity_name": "PICECI ARCHITEKTEN GMBH",
+      "kind": "issued_document",
+      "document": {
+        "id": 190684033,
+        "type": "invoice",
+        "path": "issued_documents/190684033"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP154336934",
+      "date": "2022-03-01",
+      "amount_in": 244,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 13/2022",
+      "entity_name": "DANIELE GIRARDI ARCHITETTURA e DESIGN",
+      "kind": "issued_document",
+      "document": {
+        "id": 192353786,
+        "type": "invoice",
+        "path": "issued_documents/192353786"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP183496988",
+      "date": "2022-02-28",
+      "amount_out": 669.52,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 333/DU - Affitto Ufficio",
+      "entity_name": "Hotel Cristallo Srl",
+      "kind": "received_document",
+      "document": {
+        "id": 154212272,
+        "type": "expense",
+        "path": "received_documents/154212272"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP183559633",
+      "date": "2022-02-28",
+      "amount_out": 31.2,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Google Workspace",
+      "entity_name": "Google Ireland Limited",
+      "kind": "received_document",
+      "document": {
+        "id": 154265166,
+        "type": "expense",
+        "path": "received_documents/154265166"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP220185161",
+      "date": "2022-02-28",
+      "amount_out": 60.98,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00010000004680100049 - Riepilogo righe con aliquota 22%",
+      "entity_name": "VERIFONE PAYMENTS BV",
+      "kind": "received_document",
+      "document": {
+        "id": 184897768,
+        "type": "expense",
+        "path": "received_documents/184897768"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP220185453",
+      "date": "2022-02-27",
+      "amount_out": 30.5,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00010000000000600050 - Abbonamento Mensile Textures",
+      "entity_name": "POLIIGON PTY LTD",
+      "kind": "received_document",
+      "document": {
+        "id": 184898015,
+        "type": "expense",
+        "path": "received_documents/184898015"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP182165941",
+      "date": "2022-02-24",
+      "amount_out": 123.900384,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Acquisto Modelli 3D",
+      "entity_name": "FastSpring",
+      "kind": "received_document",
+      "document": {
+        "id": 153132991,
+        "type": "expense",
+        "path": "received_documents/153132991"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP181528513",
+      "date": "2022-02-17",
+      "amount_out": 48.17,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 22-002421 - Timbri Aziendali",
+      "entity_name": "Presspower S.r.l.",
+      "kind": "received_document",
+      "document": {
+        "id": 152606480,
+        "type": "expense",
+        "path": "received_documents/152606480"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP152724585",
+      "date": "2022-02-17",
+      "amount_in": 933.3,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 10/2022",
+      "entity_name": "Immobiliare CA' ROSSA S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 190354812,
+        "type": "invoice",
+        "path": "issued_documents/190354812"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP152725251",
+      "date": "2022-02-17",
+      "amount_in": 195,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 11/2022",
+      "entity_name": "DELOGU MARIA GIOVANNA",
+      "kind": "issued_document",
+      "document": {
+        "id": 190355657,
+        "type": "invoice",
+        "path": "issued_documents/190355657"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP181046132",
+      "date": "2022-02-16",
+      "amount_out": 6.99,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. IIITDN0003288690 - Abbonamento Stampe",
+      "entity_name": "HP Italy S.r.l.",
+      "kind": "received_document",
+      "document": {
+        "id": 152202934,
+        "type": "expense",
+        "path": "received_documents/152202934"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP152537913",
+      "date": "2022-02-16",
+      "amount_in": 420.9,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 8/2022",
+      "entity_name": "ILTI LUCE S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 190123351,
+        "type": "invoice",
+        "path": "issued_documents/190123351"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP152539042",
+      "date": "2022-02-16",
+      "amount_in": 366,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 9/2022",
+      "entity_name": "IDEA+ SRL",
+      "kind": "issued_document",
+      "document": {
+        "id": 190124750,
+        "type": "invoice",
+        "path": "issued_documents/190124750"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP152395107",
+      "date": "2022-02-11",
+      "amount_in": 1830,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 5/2022",
+      "entity_name": "IDEA+ SRL",
+      "kind": "issued_document",
+      "document": {
+        "id": 189943965,
+        "type": "invoice",
+        "path": "issued_documents/189943965"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP152396279",
+      "date": "2022-02-11",
+      "amount_in": 366,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 6/2022",
+      "entity_name": "IDEA+ SRL",
+      "kind": "issued_document",
+      "document": {
+        "id": 189945400,
+        "type": "invoice",
+        "path": "issued_documents/189945400"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP152396924",
+      "date": "2022-02-11",
+      "amount_in": 475.8,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 7/2022",
+      "entity_name": "ROMA S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 189946162,
+        "type": "invoice",
+        "path": "issued_documents/189946162"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP152394639",
+      "date": "2022-02-10",
+      "amount_in": 420.9,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 4/2022",
+      "entity_name": "NEMO S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 189943427,
+        "type": "invoice",
+        "path": "issued_documents/189943427"
+      },
+      "type": "in"
+    },
+    {
+      "id": "IDP152394085",
+      "date": "2022-02-09",
+      "amount_in": 220,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 3/2022",
+      "entity_name": "PICECI ARCHITEKTEN GMBH",
+      "kind": "issued_document",
+      "document": {
+        "id": 189942761,
+        "type": "invoice",
+        "path": "issued_documents/189942761"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP181121171",
+      "date": "2022-02-08",
+      "amount_out": 142.06,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Stampa Biglietti da Visita",
+      "entity_name": "Pixartprinting SPA",
+      "kind": "received_document",
+      "document": {
+        "id": 152262454,
+        "type": "expense",
+        "path": "received_documents/152262454"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP152392953",
+      "date": "2022-02-08",
+      "amount_in": 732,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 2/2022",
+      "entity_name": "ROSSI FEDERICA",
+      "kind": "issued_document",
+      "document": {
+        "id": 189941476,
+        "type": "invoice",
+        "path": "issued_documents/189941476"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP220185573",
+      "date": "2022-02-07",
+      "amount_out": 38.06,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto n. 00010000008804700048 - Google Workspace",
+      "entity_name": "GOOGLE IRELAND LIMITED",
+      "kind": "received_document",
+      "document": {
+        "id": 184898116,
+        "type": "expense",
+        "path": "received_documents/184898116"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP181119977",
+      "date": "2022-01-31",
+      "amount_out": 679.27,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Affitto Ufficio",
+      "entity_name": "Hotel Cristallo Srl",
+      "kind": "received_document",
+      "document": {
+        "id": 152261505,
+        "type": "expense",
+        "path": "received_documents/152261505"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP181118675",
+      "date": "2022-01-28",
+      "amount_out": 25.930008,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Abbonamento Mensile - Texture",
+      "entity_name": "Poliigon Pty Ltd",
+      "kind": "received_document",
+      "document": {
+        "id": 152260468,
+        "type": "expense",
+        "path": "received_documents/152260468"
+      },
+      "type": "out"
+    },
+    {
+      "id": "IDP150183240",
+      "date": "2022-01-26",
+      "amount_in": 610,
+      "payment_account_in": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Fattura n. 1/2022",
+      "entity_name": "EDILVERDE S.R.L.",
+      "kind": "issued_document",
+      "document": {
+        "id": 187276883,
+        "type": "invoice",
+        "path": "issued_documents/187276883"
+      },
+      "type": "in"
+    },
+    {
+      "id": "RDP181117816",
+      "date": "2022-01-24",
+      "amount_out": 192,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Software Gestione Progetti",
+      "entity_name": "Axonic Informationssysteme GmbH",
+      "kind": "received_document",
+      "document": {
+        "id": 152259751,
+        "type": "expense",
+        "path": "received_documents/152259751"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP182643033",
+      "date": "2022-01-18",
+      "amount_out": 2.99,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Hp Instant Ink",
+      "entity_name": "HP Italy S.r.l.",
+      "kind": "received_document",
+      "document": {
+        "id": 153516490,
+        "type": "expense",
+        "path": "received_documents/153516490"
+      },
+      "type": "out"
+    },
+    {
+      "id": "RDP182642742",
+      "date": "2022-01-17",
+      "amount_out": 234.24,
+      "payment_account_out": {
+        "id": 842683,
+        "name": "INTESA SAN PAOLO S.P.A."
+      },
+      "description": "Acquisto - Fatture in Cloud - Abbonamento",
+      "entity_name": "MadBit Entertainment S.r.l. a socio unico",
+      "kind": "received_document",
+      "document": {
+        "id": 153516259,
+        "type": "expense",
+        "path": "received_documents/153516259"
+      },
+      "type": "out"
+    }
+  ]
+}

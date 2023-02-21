@@ -3,8 +3,9 @@ import AuthLayout from "@Layouts/AuthLayout.vue";
 import Login from "@Pages/Auth/Login.vue";
 import Register from "@Pages/Auth/Register.vue";
 import AppLayout from "@Layouts/AppLayout.vue";
+import { useAuthStore } from "@Stores/useAuthStore";
 
-function auth(to, from, next) {
+async function auth(to, from, next) {
     if (!localStorage.getItem("access_token")) {
         return next({ name: "auth.login" });
     }
@@ -37,15 +38,38 @@ const guestRoutes: RouteRecordRaw = {
 }
 
 const authRoutes: RouteRecordRaw = {
-    path: '/',
+    path: '',
     component: AppLayout,
     beforeEnter: auth,
     children: [
         {
-            path: '',
+            path: '/',
             component: () => import('@Pages/App/Dashboard/Dashboard.vue'),
             alias: ['/dashboard'],
             name: 'dashboard'
+        },
+        {
+            path: 'profile',
+            component: () => import('@Pages/App/Members/Partials/MemberShowLayout.vue'),
+            children: [
+                {
+                    path: 'overview',
+                    name: 'profile.overview',
+                    alias: ['/profile'],
+                    component: () => import('@Pages/App/Members/MemberOverview.vue')
+                },
+                {
+                    path: 'timesheet',
+                    name: 'profile.timesheet',
+                    props: route => ({ date: route.query.date }),
+                    component: () => import('@Pages/App/Members/MemberTimesheet.vue')
+                },
+                {
+                    path: 'settings',
+                    name: 'profile.settings',
+                    component: () => import('@Pages/App/Members/MemberSettings.vue')
+                }
+            ]
         }
     ]
 }
@@ -57,5 +81,15 @@ const router = createRouter({
         guestRoutes
     ],
 });
+
+router.beforeEach(async (to, from, next) => {
+    console.log('check store')
+    const store = useAuthStore()
+    console.log(store.hasUser, store.check)
+    if (store.check && !store.hasUser) {
+        store.set(await store.fetch())
+    }
+    next()
+})
 
 export default router;

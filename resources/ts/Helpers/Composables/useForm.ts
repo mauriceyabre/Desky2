@@ -1,19 +1,16 @@
 import isEqual from 'lodash/isEqual'
-import { reactive, readonly, watch } from 'vue'
+import { computed, reactive, readonly, ref, watch } from 'vue'
 import cloneDeep from 'lodash/cloneDeep'
-import { callbackFn } from "@tinymce/tinymce-vue/lib/es2015/main/ts/ScriptLoader";
-
-interface DFormParams {}
 
 interface ADFormProps<TForm> {
     isDirty: boolean
-    errors: { [key: string]: string[] }
+    errors?: TForm
     hasErrors: boolean
     processing: boolean
     progress: null | number
     wasSuccessful: boolean
     recentlySuccessful: boolean
-
+    setErrors(err: Object): void
     data(): TForm
     defaults(): TForm
     clearErrors(): this
@@ -25,16 +22,23 @@ export type ADForm<TForm> = TForm & ADFormProps<TForm>
 export default function useForm<TForm>(args: TForm): ADForm<TForm> {
     const data = args || {}
     const defaults = cloneDeep(data)
+    const errorsData = ref({})
 
     let form = reactive({
         ...data,
         isDirty: false,
-        errors: {},
+        errors: computed(() => errorsData.value),
         hasErrors: false,
         processing: false,
         progress: null,
         wasSuccessful: false,
         recentlySuccessful: false,
+        setErrors(err: Object) {
+            Object.entries(err).forEach(([key, value]) => {
+                errorsData.value[key] = value?.[0];
+                console.log(this.errors)
+            })
+        },
         data() {
             return Object
                 .keys(data)
@@ -47,14 +51,14 @@ export default function useForm<TForm>(args: TForm): ADForm<TForm> {
             return readonly(defaults) as TForm
         },
         clearErrors(...fields) {
-            this.errors = Object
-                .keys(this.errors)
+            errorsData.value = Object
+                .keys(errorsData.value)
                 .reduce((carry, field) => ({
                     ...carry,
-                    ...(fields.length > 0 && !fields.includes(field) ? { [field]: this.errors[field] } : {}),
+                    ...(fields.length > 0 && !fields.includes(field) ? { [field]: errorsData.value[field] } : {}),
                 }), {})
 
-            this.hasErrors = Object.keys(this.errors).length > 0
+            this.hasErrors = Object.keys(errorsData.value).length > 0
             return this
         },
         async submit(method: 'get'|'post'|'put'|'delete', url, params?: {
@@ -74,7 +78,7 @@ export default function useForm<TForm>(args: TForm): ADForm<TForm> {
             return await axios[method](url, { ...this.data(), params: params })
                 .catch((err) => {
                     (!!err.response.data.errors) ? Object.entries(err.response.data.errors).forEach(([key, value]) => {
-                        this.errors[key] = value?.[0];
+                        errorsData.value[key] = value?.[0];
                     }) : {}
                 })
                 .finally(() => {
@@ -83,7 +87,7 @@ export default function useForm<TForm>(args: TForm): ADForm<TForm> {
         }
     })
 
-    watch(form, newValue => {
+    watch(form, () => {
         form.isDirty = !isEqual(form.data(), defaults)
     }, { immediate: true, deep: true })
 

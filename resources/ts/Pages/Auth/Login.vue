@@ -17,9 +17,12 @@
                 </a>
             </div>
             <div class="d-grid mb-10">
-                <button class="btn w-100 btn-primary" :disabled="form.processing">
-                    Accedi
-                    <span class="spinner-border spinner-border-sm align-middle ms-2" v-if="form.processing"></span>
+                <button class="btn w-100 btn-primary" :disabled="auth.isLoading">
+                    <span v-if="!auth.isLoading">Accedi</span>
+                    <span v-if="auth.isLoading">
+                        Attendere
+                        <span class="spinner-border spinner-border-sm align-middle ms-2"></span>
+                    </span>
                 </button>
             </div>
             <div class="separator separator-content my-14">
@@ -46,6 +49,7 @@
     import InputBase from "@Components/Forms/InputBase.vue";
     import InputPassword from "@Components/Forms/InputPassword.vue";
     import { useAuthStore } from "@Stores/useAuthStore";
+    import router from "../../Router/router";
 
     const auth = useAuthStore()
     const loading = ref(false)
@@ -57,11 +61,12 @@
     })
 
     function handleLogin() {
-        form.submit('post', 'auth/login').then(res => {
-            console.log(res)
-            auth.login(res.data.access_token)
-        }).finally(() => {
-            form.password = ''
-        })
+        auth.login(form.data())
+            .then(() => {
+                router.push({name: 'dashboard'})
+            })
+            .catch(err => {
+            form.setErrors( err.response.data.errors)
+        }).finally(() => form.password = "")
     }
 </script>

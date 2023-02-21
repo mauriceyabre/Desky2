@@ -1,0 +1,77 @@
+{
+  "current_page": 1,
+  "data": [
+    {
+      "id": 152086538,
+      "type": "passive_credit_note",
+      "category": "Costi di vendita",
+      "description": "Storno",
+      "amortization": 1,
+      "rc_center": "",
+      "invoice_number": "1",
+      "is_marked": false,
+      "is_detailed": false,
+      "e_invoice": true,
+      "created_at": "2022-02-16 12:25:57",
+      "updated_at": "2022-02-16 12:25:57",
+      "auto_calculate": true,
+      "entity": {
+        "id": 26104321,
+        "name": "Maurice Yabre",
+        "address_street": "",
+        "address_postal_code": "",
+        "address_city": "",
+        "address_province": "",
+        "country": "",
+        "vat_number": "",
+        "tax_code": ""
+      },
+      "date": "2022-02-15",
+      "next_due_date": null,
+      "currency": {
+        "id": "EUR",
+        "exchange_rate": "1.00000",
+        "symbol": "€"
+      },
+      "amount_net": 300,
+      "amount_vat": 66,
+      "amount_gross": 366,
+      "amount_withholding_tax": 0,
+      "amount_other_withholding_tax": 0,
+      "tax_deductibility": 100,
+      "vat_deductibility": 100,
+      "items_list": null,
+      "payments_list": [
+        {
+          "amount": 366,
+          "due_date": "2022-02-15",
+          "paid_date": null,
+          "id": 180906872,
+          "payment_terms": {
+            "days": 0,
+            "type": "standard"
+          },
+          "status": "reversed",
+          "payment_account": null,
+          "paid_with_ts_pay": false
+        }
+      ],
+      "attachment_url": "https://s3.eu-west-1.amazonaws.com/fattureincloud/userdata/expenses/874844/ppiea5lhzpb8hsswgeqebyvzwozow0sf/IT01641790702_H4Iq5.xml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZKNATQGV7OO42ILZ%2F20230209%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20230209T192131Z&X-Amz-Expires=7200&X-Amz-SignedHeaders=host&X-Amz-Signature=035d79b863fbaff9bf744ea0accfd969801b6193a6391705c524d1b7aa56a2fe",
+      "attachment_preview_url": null,
+      "attachments": [],
+      "extra_data": null,
+      "locked": false,
+      "has_ts_pay_pending_payment": false
+    }
+  ],
+  "first_page_url": "https://api-v2.fattureincloud.it/c/874844/received_documents?type=passive_credit_note&fieldset=detailed&per_page=500&page=1",
+  "from": 1,
+  "last_page": 1,
+  "last_page_url": "https://api-v2.fattureincloud.it/c/874844/received_documents?type=passive_credit_note&fieldset=detailed&per_page=500&page=1",
+  "next_page_url": null,
+  "path": "https://api-v2.fattureincloud.it/c/874844/received_documents",
+  "per_page": 100,
+  "prev_page_url": null,
+  "to": 1,
+  "total": 1
+}

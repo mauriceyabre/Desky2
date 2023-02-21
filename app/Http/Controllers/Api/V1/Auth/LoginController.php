@@ -13,7 +13,7 @@ class LoginController extends Controller {
     public function __invoke(Request $request) {
         $this->validateRequest($request);
 
-        $user = User::where('email', $request->input('email'))->first();
+        $user = User::query()->where('email', $request->input('email'))->first();
         $this->checkUserCredentials($request, $user);
 
         $device = substr($request->userAgent() ?? '', 0, 255);
@@ -23,7 +23,8 @@ class LoginController extends Controller {
 
         return response()->json([
             'access_token' => $user->createToken($device, ['expires_at' => $expiresAt])->plainTextToken,
-        ], Response::HTTP_CREATED);
+            'user' => $user
+        ]);
     }
 
     private function validateRequest(Request $request) {

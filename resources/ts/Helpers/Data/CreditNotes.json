@@ -1,0 +1,1121 @@
+{
+  "current_page": 1,
+  "data": [
+    {
+      "id": 190122955,
+      "type": "credit_note",
+      "year": 2022,
+      "numeration": "",
+      "subject": "",
+      "visible_subject": "RENDERING COMMERCIALE: Collezione Zirkol - ACCONTO",
+      "rc_center": "",
+      "amount_rivalsa": 0,
+      "amount_rivalsa_taxable": 345,
+      "amount_global_cassa_taxable": 345,
+      "amount_cassa": 0,
+      "amount_cassa_taxable": 345,
+      "amount_cassa2": 0,
+      "amount_cassa2_taxable": 345,
+      "amount_withholding_tax": 0,
+      "amount_withholding_tax_taxable": 345,
+      "amount_other_withholding_tax": 0,
+      "amount_enasarco_taxable": 0,
+      "amount_other_withholding_tax_taxable": 345,
+      "ei_cassa_type": null,
+      "ei_cassa2_type": null,
+      "ei_withholding_tax_causal": null,
+      "ei_other_withholding_tax_type": null,
+      "ei_other_withholding_tax_causal": null,
+      "stamp_duty": 0,
+      "use_gross_prices": false,
+      "e_invoice": true,
+      "delivery_note": false,
+      "accompanying_invoice": false,
+      "amount_net": 345,
+      "amount_vat": 75.9,
+      "amount_gross": 420.9,
+      "amount_due_discount": 0,
+      "h_margins": 15,
+      "v_margins": 16,
+      "show_payment_method": false,
+      "show_payments": false,
+      "show_totals": "all",
+      "show_paypal_button": false,
+      "show_notification_button": false,
+      "is_marked": false,
+      "created_at": "2022-02-16 12:30:16",
+      "updated_at": "2022-02-17 14:50:31",
+      "entity": {
+        "name": "NEMO S.R.L.",
+        "vat_number": "08053950963",
+        "tax_code": "08053950963",
+        "address_street": "VIA MONTE BIANCO, 2/A",
+        "address_postal_code": "20149",
+        "address_city": "MILANO",
+        "address_province": "MI",
+        "address_extra": "",
+        "country": "Italia",
+        "certified_email": "",
+        "ei_code": "0XQCRT5",
+        "id": 54754806,
+        "entity_type": "client",
+        "type": "company",
+        "default_payment_terms": 0,
+        "default_payment_terms_type": "standard",
+        "shipping_address": "",
+        "default_vat": null,
+        "default_payment_method": null,
+        "bank_name": "",
+        "bank_iban": "",
+        "default_discount": 0,
+        "discount_highlight": false,
+        "has_intent_declaration": false,
+        "intent_declaration_protocol_number": null,
+        "intent_declaration_protocol_date": null
+      },
+      "date": "2022-02-16",
+      "number": 1,
+      "currency": {
+        "id": "EUR",
+        "exchange_rate": "1.00000",
+        "symbol": "€"
+      },
+      "language": {
+        "code": "it",
+        "name": "Italiano"
+      },
+      "notes": "<br /><strong>In riferimento alla seguente proforma:</strong><br />Proforma n. 13 del 04/02/2022",
+      "payment_method": {
+        "id": null,
+        "name": "",
+        "details": [
+          {
+            "title": "",
+            "description": ""
+          },
+          {
+            "title": "",
+            "description": ""
+          },
+          {
+            "title": "",
+            "description": ""
+          },
+          {
+            "title": "",
+            "description": ""
+          },
+          {
+            "title": "",
+            "description": ""
+          }
+        ]
+      },
+      "use_split_payment": false,
+      "merged_in": null,
+      "original_document": null,
+      "items_list": [
+        {
+          "product_id": null,
+          "code": "",
+          "name": "Proforma n. 13 del 04/02/2022",
+          "measure": "",
+          "category": "",
+          "id": 588728397,
+          "apply_withholding_taxes": false,
+          "discount": 0,
+          "discount_highlight": false,
+          "in_dn": false,
+          "qty": 1,
+          "net_price": 0,
+          "vat": {
+            "id": 0,
+            "value": 22,
+            "description": ""
+          },
+          "stock": null,
+          "description": "",
+          "gross_price": 0,
+          "not_taxable": true,
+          "ei_raw": null
+        },
+        {
+          "product_id": 22613388,
+          "code": "ACCONTO",
+          "name": "Acconto 30%",
+          "measure": "",
+          "category": "Rendering Interni",
+          "id": 588728398,
+          "apply_withholding_taxes": true,
+          "discount": 0,
+          "discount_highlight": false,
+          "in_dn": false,
+          "qty": 1,
+          "net_price": 345,
+          "vat": {
+            "id": 0,
+            "value": 22,
+            "description": ""
+          },
+          "stock": null,
+          "description": "",
+          "gross_price": 420.9,
+          "not_taxable": false,
+          "ei_raw": null
+        }
+      ],
+      "payments_list": [
+        {
+          "amount": 420.9,
+          "due_date": "2022-02-16",
+          "paid_date": null,
+          "id": 152537595,
+          "forfettari_revenue": 420.9,
+          "payment_terms": {
+            "days": 0,
+            "type": "standard"
+          },
+          "status": "reversed",
+          "payment_account": null,
+          "ei_raw": null
+        }
+      ],
+      "extra_data": {
+        "show_sofort_button": false,
+        "multifatture_sent": null,
+        "accountant_causal_code": null,
+        "ts_communication": false,
+        "ts_tipo_spesa": null,
+        "ts_flag_tipo_spesa": null,
+        "ts_pagamento_tracciato": null,
+        "ts_opposizione": null,
+        "ts_status": null,
+        "ts_file_id": null,
+        "ts_sent_date": null,
+        "ts_full_amount": false,
+        "imported_by": null,
+        "ts_single_sending": null
+      },
+      "rivalsa": 0,
+      "rivalsa_taxable": 100,
+      "cassa": 0,
+      "cassa2": 0,
+      "global_cassa_taxable": 100,
+      "cassa_taxable": 100,
+      "cassa2_taxable": 100,
+      "withholding_tax": 0,
+      "withholding_tax_taxable": 100,
+      "other_withholding_tax": 0,
+      "other_withholding_tax_taxable": 100,
+      "seen_date": null,
+      "next_due_date": null,
+      "template": {
+        "id": 67448,
+        "name": "Archivision - Template"
+      },
+      "show_tspay_button": false,
+      "url": "https://compute.fattureincloud.it/doc/cii3gl2xdn3sv6ws42x7vnjqfksn3b6o.pdf",
+      "ei_data": {
+        "vat_kind": null,
+        "original_document_type": null,
+        "od_number": "",
+        "od_date": "2022-02-15",
+        "cig": "",
+        "cup": "",
+        "payment_method": "MP05",
+        "bank_name": "INTESA SAN PAOLO S.P.A.",
+        "bank_iban": "IT84R0306957571100000010507",
+        "bank_beneficiary": "",
+        "invoice_number": "4",
+        "invoice_date": "2022-02-15"
+      },
+      "ei_raw": null,
+      "ei_ts_data": {
+        "status": 0,
+        "id": null,
+        "info": null
+      },
+      "ei_status": "sent",
+      "locked": true,
+      "has_ts_pay_pending_payment": false
+    },
+    {
+      "id": 190124626,
+      "type": "credit_note",
+      "year": 2022,
+      "numeration": "",
+      "subject": "",
+      "visible_subject": "RENDERING COMMERCIALI: Tenda per Pasticceria Massari",
+      "rc_center": "",
+      "amount_rivalsa": 0,
+      "amount_rivalsa_taxable": 0,
+      "amount_global_cassa_taxable": 0,
+      "amount_cassa": 0,
+      "amount_cassa_taxable": 0,
+      "amount_cassa2": 0,
+      "amount_cassa2_taxable": 0,
+      "amount_withholding_tax": 0,
+      "amount_withholding_tax_taxable": 0,
+      "amount_other_withholding_tax": 0,
+      "amount_enasarco_taxable": 0,
+      "amount_other_withholding_tax_taxable": 0,
+      "ei_cassa_type": null,
+      "ei_cassa2_type": null,
+      "ei_withholding_tax_causal": null,
+      "ei_other_withholding_tax_type": null,
+      "ei_other_withholding_tax_causal": null,
+      "stamp_duty": 0,
+      "use_gross_prices": false,
+      "e_invoice": true,
+      "delivery_note": false,
+      "accompanying_invoice": false,
+      "amount_net": 0,
+      "amount_vat": 66,
+      "amount_gross": 366,
+      "amount_due_discount": 0,
+      "h_margins": 15,
+      "v_margins": 16,
+      "show_payment_method": false,
+      "show_payments": false,
+      "show_totals": "all",
+      "show_paypal_button": false,
+      "show_notification_button": false,
+      "is_marked": false,
+      "created_at": "2022-02-16 12:36:14",
+      "updated_at": "2022-02-17 14:50:25",
+      "entity": {
+        "name": "IDEA+ SRL",
+        "vat_number": "02571930201",
+        "tax_code": "02571930201",
+        "address_street": "VIA EMILIA ROMAGNA, 14",
+        "address_postal_code": "46029",
+        "address_city": "SUZZARA",
+        "address_province": "MN",
+        "address_extra": "",
+        "country": "Italia",
+        "certified_email": "",
+        "ei_code": "J6URRTW",
+        "id": 54095459,
+        "entity_type": "client",
+        "type": "company",
+        "default_payment_terms": 0,
+        "default_payment_terms_type": "standard",
+        "shipping_address": "",
+        "default_vat": null,
+        "default_payment_method": null,
+        "bank_name": "",
+        "bank_iban": "",
+        "default_discount": 0,
+        "discount_highlight": false,
+        "has_intent_declaration": false,
+        "intent_declaration_protocol_number": null,
+        "intent_declaration_protocol_date": null
+      },
+      "date": "2022-02-16",
+      "number": 2,
+      "currency": {
+        "id": "EUR",
+        "exchange_rate": "1.00000",
+        "symbol": "€"
+      },
+      "language": {
+        "code": "it",
+        "name": "Italiano"
+      },
+      "notes": "",
+      "payment_method": {
+        "id": null,
+        "name": "",
+        "details": [
+          {
+            "title": "",
+            "description": ""
+          },
+          {
+            "title": "",
+            "description": ""
+          },
+          {
+            "title": "",
+            "description": ""
+          },
+          {
+            "title": "",
+            "description": ""
+          },
+          {
+            "title": "",
+            "description": ""
+          }
+        ]
+      },
+      "use_split_payment": false,
+      "merged_in": null,
+      "original_document": null,
+      "items_list": [
+        {
+          "product_id": 22416548,
+          "code": "PRDFFT",
+          "name": "RENDERING PRODOTTO: Configurazione e Produzione Immagini",
+          "measure": "",
+          "category": "Rendering Prodotti",
+          "id": 588734319,
+          "apply_withholding_taxes": false,
+          "discount": 0,
+          "discount_highlight": false,
+          "in_dn": false,
+          "qty": 1,
+          "net_price": 300,
+          "vat": {
+            "id": 0,
+            "value": 22,
+            "description": ""
+          },
+          "stock": null,
+          "description": "- Ottimizzazione/Modellazione 3D e Configurazione Progetto\n- Realizzazione n.1 Immagini in HD",
+          "gross_price": 366,
+          "not_taxable": true,
+          "ei_raw": null
+        }
+      ],
+      "payments_list": [
+        {
+          "amount": 366,
+          "due_date": "2022-03-02",
+          "paid_date": null,
+          "id": 152538944,
+          "forfettari_revenue": null,
+          "payment_terms": {
+            "days": 14,
+            "type": "standard"
+          },
+          "status": "reversed",
+          "payment_account": null,
+          "ei_raw": null
+        }
+      ],
+      "extra_data": {
+        "show_sofort_button": false,
+        "multifatture_sent": null,
+        "accountant_causal_code": null,
+        "ts_communication": false,
+        "ts_tipo_spesa": null,
+        "ts_flag_tipo_spesa": null,
+        "ts_pagamento_tracciato": null,
+        "ts_opposizione": null,
+        "ts_status": null,
+        "ts_file_id": null,
+        "ts_sent_date": null,
+        "ts_full_amount": false,
+        "imported_by": null,
+        "ts_single_sending": null
+      },
+      "rivalsa": 0,
+      "rivalsa_taxable": 100,
+      "cassa": 0,
+      "cassa2": 0,
+      "global_cassa_taxable": 100,
+      "cassa_taxable": 100,
+      "cassa2_taxable": 100,
+      "withholding_tax": 0,
+      "withholding_tax_taxable": 100,
+      "other_withholding_tax": 0,
+      "other_withholding_tax_taxable": 100,
+      "seen_date": null,
+      "next_due_date": null,
+      "template": {
+        "id": 67448,
+        "name": "Archivision - Template"
+      },
+      "show_tspay_button": false,
+      "url": "https://compute.fattureincloud.it/doc/k0sodogvwk2nz4bykl9i8jj8jamtamh3.pdf",
+      "ei_data": {
+        "vat_kind": null,
+        "original_document_type": null,
+        "od_number": "",
+        "od_date": "2022-02-15",
+        "cig": "",
+        "cup": "",
+        "payment_method": "MP05",
+        "bank_name": "INTESA SAN PAOLO S.P.A.",
+        "bank_iban": "IT84R0306957571100000010507",
+        "bank_beneficiary": "",
+        "invoice_number": "6",
+        "invoice_date": "2022-02-15"
+      },
+      "ei_raw": null,
+      "ei_ts_data": {
+        "status": 0,
+        "id": null,
+        "info": null
+      },
+      "ei_status": "sent",
+      "locked": true,
+      "has_ts_pay_pending_payment": false
+    },
+    {
+      "id": 199632213,
+      "type": "credit_note",
+      "year": 2022,
+      "numeration": "",
+      "subject": "",
+      "visible_subject": "RENDERING COMMERCIALE: Immobile in Via Vittorio Emanuele II",
+      "rc_center": "",
+      "amount_rivalsa": 0,
+      "amount_rivalsa_taxable": 0,
+      "amount_global_cassa_taxable": 0,
+      "amount_cassa": 0,
+      "amount_cassa_taxable": 0,
+      "amount_cassa2": 0,
+      "amount_cassa2_taxable": 0,
+      "amount_withholding_tax": 0,
+      "amount_withholding_tax_taxable": 0,
+      "amount_other_withholding_tax": 0,
+      "amount_enasarco_taxable": 0,
+      "amount_other_withholding_tax_taxable": 0,
+      "ei_cassa_type": null,
+      "ei_cassa2_type": null,
+      "ei_withholding_tax_causal": null,
+      "ei_other_withholding_tax_type": null,
+      "ei_other_withholding_tax_causal": null,
+      "stamp_duty": 0,
+      "use_gross_prices": false,
+      "e_invoice": true,
+      "delivery_note": false,
+      "accompanying_invoice": false,
+      "amount_net": 240,
+      "amount_vat": 52.8,
+      "amount_gross": 292.8,
+      "amount_due_discount": 0,
+      "h_margins": 15,
+      "v_margins": 16,
+      "show_payment_method": false,
+      "show_payments": false,
+      "show_totals": "all",
+      "show_paypal_button": false,
+      "show_notification_button": false,
+      "is_marked": false,
+      "created_at": "2022-04-06 14:54:23",
+      "updated_at": "2022-04-06 14:59:11",
+      "entity": {
+        "name": "SICLA INVESTIMENTI S.R.L.",
+        "vat_number": "01978200200",
+        "tax_code": "01978200200",
+        "address_street": "VIA FRATELLI BANDIERA, 18",
+        "address_postal_code": "46100",
+        "address_city": "MANTOVA",
+        "address_province": "MN",
+        "address_extra": "",
+        "country": "Italia",
+        "certified_email": "",
+        "ei_code": "M5UXCR1",
+        "id": 54810154,
+        "entity_type": "client",
+        "type": "company",
+        "default_payment_terms": 0,
+        "default_payment_terms_type": "standard",
+        "shipping_address": "",
+        "default_vat": null,
+        "default_payment_method": null,
+        "bank_name": "",
+        "bank_iban": "",
+        "default_discount": 0,
+        "discount_highlight": false,
+        "has_intent_declaration": false,
+        "intent_declaration_protocol_number": null,
+        "intent_declaration_protocol_date": null
+      },
+      "date": "2022-04-06",
+      "number": 3,
+      "currency": {
+        "id": "EUR",
+        "exchange_rate": "1.00000",
+        "symbol": "€"
+      },
+      "language": {
+        "code": "it",
+        "name": "Italiano"
+      },
+      "notes": "",
+      "payment_method": {
+        "id": null,
+        "name": "",
+        "details": [
+          {
+            "title": "",
+            "description": ""
+          },
+          {
+            "title": "",
+            "description": ""
+          },
+          {
+            "title": "",
+            "description": ""
+          },
+          {
+            "title": "",
+            "description": ""
+          },
+          {
+            "title": "",
+            "description": ""
+          }
+        ]
+      },
+      "use_split_payment": false,
+      "merged_in": null,
+      "original_document": null,
+      "items_list": [
+        {
+          "product_id": null,
+          "code": "ACCONT",
+          "name": "ACCONTO",
+          "measure": "",
+          "category": "",
+          "id": 619018803,
+          "apply_withholding_taxes": false,
+          "discount": 0,
+          "discount_highlight": false,
+          "in_dn": false,
+          "qty": 1,
+          "net_price": 240,
+          "vat": {
+            "id": 0,
+            "value": 22,
+            "description": ""
+          },
+          "stock": null,
+          "description": "",
+          "gross_price": 292.8,
+          "not_taxable": false,
+          "ei_raw": null
+        }
+      ],
+      "payments_list": [
+        {
+          "amount": 292.8,
+          "due_date": "2022-04-20",
+          "paid_date": null,
+          "id": 160354503,
+          "forfettari_revenue": 292.8,
+          "payment_terms": {
+            "days": 14,
+            "type": "standard"
+          },
+          "status": "reversed",
+          "payment_account": null,
+          "ei_raw": null
+        }
+      ],
+      "extra_data": {
+        "show_sofort_button": false,
+        "multifatture_sent": null,
+        "accountant_causal_code": null,
+        "ts_communication": false,
+        "ts_tipo_spesa": null,
+        "ts_flag_tipo_spesa": null,
+        "ts_pagamento_tracciato": null,
+        "ts_opposizione": null,
+        "ts_status": null,
+        "ts_file_id": null,
+        "ts_sent_date": null,
+        "ts_full_amount": false,
+        "imported_by": null,
+        "ts_single_sending": null
+      },
+      "rivalsa": 0,
+      "rivalsa_taxable": 100,
+      "cassa": 0,
+      "cassa2": 0,
+      "global_cassa_taxable": 100,
+      "cassa_taxable": 100,
+      "cassa2_taxable": 100,
+      "withholding_tax": 0,
+      "withholding_tax_taxable": 100,
+      "other_withholding_tax": 0,
+      "other_withholding_tax_taxable": 100,
+      "seen_date": null,
+      "next_due_date": null,
+      "template": {
+        "id": 67448,
+        "name": "Archivision - Template"
+      },
+      "show_tspay_button": false,
+      "url": "https://compute.fattureincloud.it/doc/qalrz49mfyd30hgapa2znqelc1opbsmg.pdf",
+      "ei_data": {
+        "vat_kind": null,
+        "original_document_type": null,
+        "od_number": "",
+        "od_date": "2022-03-30",
+        "cig": "",
+        "cup": "",
+        "payment_method": "MP05",
+        "bank_name": "INTESA SAN PAOLO S.P.A.",
+        "bank_iban": "IT84R0306957571100000010507",
+        "bank_beneficiary": "",
+        "invoice_number": "30",
+        "invoice_date": "2022-03-30"
+      },
+      "ei_raw": null,
+      "ei_ts_data": {
+        "status": 0,
+        "id": null,
+        "info": null
+      },
+      "ei_status": "sent",
+      "locked": true,
+      "has_ts_pay_pending_payment": false
+    },
+    {
+      "id": 246466874,
+      "type": "credit_note",
+      "year": 2022,
+      "numeration": "",
+      "subject": "",
+      "visible_subject": "RENDERING COMMERCIALI: Capri Tiberio Palace - ACCONTO",
+      "rc_center": "",
+      "amount_rivalsa": 0,
+      "amount_rivalsa_taxable": 0,
+      "amount_global_cassa_taxable": 0,
+      "amount_cassa": 0,
+      "amount_cassa_taxable": 0,
+      "amount_cassa2": 0,
+      "amount_cassa2_taxable": 0,
+      "amount_withholding_tax": 0,
+      "amount_withholding_tax_taxable": 0,
+      "amount_other_withholding_tax": 0,
+      "amount_enasarco_taxable": 0,
+      "amount_other_withholding_tax_taxable": 0,
+      "ei_cassa_type": null,
+      "ei_cassa2_type": null,
+      "ei_withholding_tax_causal": null,
+      "ei_other_withholding_tax_type": null,
+      "ei_other_withholding_tax_causal": null,
+      "stamp_duty": 0,
+      "use_gross_prices": false,
+      "e_invoice": true,
+      "delivery_note": false,
+      "accompanying_invoice": false,
+      "amount_net": 300,
+      "amount_vat": 66,
+      "amount_gross": 366,
+      "amount_due_discount": 0,
+      "h_margins": 15,
+      "v_margins": 16,
+      "show_payment_method": false,
+      "show_payments": false,
+      "show_totals": "all",
+      "show_paypal_button": false,
+      "show_notification_button": false,
+      "is_marked": false,
+      "created_at": "2022-12-01 18:40:04",
+      "updated_at": "2022-12-02 14:12:39",
+      "entity": {
+        "name": "GIANPIERO PANEPINTO",
+        "vat_number": "05323650969",
+        "tax_code": "",
+        "address_street": "VIA BELLINI, 15",
+        "address_postal_code": "20122",
+        "address_city": "Milano",
+        "address_province": "MI",
+        "address_extra": "",
+        "country": "Italia",
+        "certified_email": "",
+        "ei_code": "USAL8PV",
+        "id": 64436249,
+        "entity_type": "client",
+        "type": "person",
+        "first_name": "",
+        "last_name": "",
+        "default_payment_terms": 0,
+        "default_payment_terms_type": "standard",
+        "shipping_address": "",
+        "default_vat": null,
+        "default_payment_method": null,
+        "bank_name": "",
+        "bank_iban": "",
+        "default_discount": 0,
+        "discount_highlight": false,
+        "has_intent_declaration": false,
+        "intent_declaration_protocol_number": null,
+        "intent_declaration_protocol_date": null
+      },
+      "date": "2022-12-01",
+      "number": 4,
+      "currency": {
+        "id": "EUR",
+        "exchange_rate": "1.00000",
+        "symbol": "€"
+      },
+      "language": {
+        "code": "it",
+        "name": "Italiano"
+      },
+      "notes": "<br /><strong>In riferimento alla seguente proforma:</strong><br />Proforma n. 144 del 21/11/2022",
+      "payment_method": {
+        "id": null,
+        "name": "",
+        "details": [
+          {
+            "title": "",
+            "description": ""
+          },
+          {
+            "title": "",
+            "description": ""
+          },
+          {
+            "title": "",
+            "description": ""
+          },
+          {
+            "title": "",
+            "description": ""
+          },
+          {
+            "title": "",
+            "description": ""
+          }
+        ]
+      },
+      "use_split_payment": false,
+      "merged_in": null,
+      "original_document": null,
+      "items_list": [
+        {
+          "product_id": 22320337,
+          "code": "ACCONT",
+          "name": "ACCONTO",
+          "measure": "",
+          "category": "Rendering Esterni",
+          "id": 765405241,
+          "apply_withholding_taxes": false,
+          "discount": 0,
+          "discount_highlight": false,
+          "in_dn": false,
+          "qty": 1,
+          "net_price": 300,
+          "vat": {
+            "id": 0,
+            "value": 22,
+            "description": ""
+          },
+          "stock": null,
+          "description": "- Rif.to: Preventivo n. 125 del 18/11/2022",
+          "gross_price": 366,
+          "not_taxable": false,
+          "ei_raw": null
+        }
+      ],
+      "payments_list": [
+        {
+          "amount": 366,
+          "due_date": "2022-12-09",
+          "paid_date": "2022-12-01",
+          "id": 199935376,
+          "forfettari_revenue": 366,
+          "payment_terms": {
+            "days": 8,
+            "type": "standard"
+          },
+          "status": "paid",
+          "payment_account": {
+            "id": 842683,
+            "name": "INTESA SAN PAOLO S.P.A.",
+            "virtual": false
+          },
+          "ei_raw": null
+        }
+      ],
+      "extra_data": {
+        "show_sofort_button": false,
+        "multifatture_sent": null,
+        "accountant_causal_code": null,
+        "ts_communication": false,
+        "ts_tipo_spesa": null,
+        "ts_flag_tipo_spesa": null,
+        "ts_pagamento_tracciato": null,
+        "ts_opposizione": null,
+        "ts_status": null,
+        "ts_file_id": null,
+        "ts_sent_date": null,
+        "ts_full_amount": false,
+        "imported_by": null,
+        "ts_single_sending": null
+      },
+      "rivalsa": 0,
+      "rivalsa_taxable": 100,
+      "cassa": 0,
+      "cassa2": 0,
+      "global_cassa_taxable": 100,
+      "cassa_taxable": 100,
+      "cassa2_taxable": 100,
+      "withholding_tax": 0,
+      "withholding_tax_taxable": 100,
+      "other_withholding_tax": 0,
+      "other_withholding_tax_taxable": 100,
+      "seen_date": null,
+      "next_due_date": null,
+      "template": {
+        "id": 67448,
+        "name": "Archivision - Template"
+      },
+      "show_tspay_button": false,
+      "url": "https://compute.fattureincloud.it/doc/93g32vf7lexar3lqdyu0b0r1ztsbqlfe.pdf",
+      "ei_data": {
+        "vat_kind": null,
+        "original_document_type": null,
+        "od_number": "",
+        "od_date": null,
+        "cig": "",
+        "cup": "",
+        "payment_method": "MP05",
+        "bank_name": "INTESA SAN PAOLO S.P.A.",
+        "bank_iban": "IT84R0306957571100000010507",
+        "bank_beneficiary": "",
+        "invoice_number": "150",
+        "invoice_date": "2022-11-29"
+      },
+      "ei_raw": null,
+      "ei_ts_data": {
+        "status": 0,
+        "id": null,
+        "info": null
+      },
+      "ei_status": "sent",
+      "locked": true,
+      "has_ts_pay_pending_payment": false
+    },
+    {
+      "id": 246467014,
+      "type": "credit_note",
+      "year": 2022,
+      "numeration": "",
+      "subject": "",
+      "visible_subject": "RENDERING COMMERCIALI: Interni Villa Miami - ACCONTO",
+      "rc_center": "",
+      "amount_rivalsa": 0,
+      "amount_rivalsa_taxable": 0,
+      "amount_global_cassa_taxable": 0,
+      "amount_cassa": 0,
+      "amount_cassa_taxable": 0,
+      "amount_cassa2": 0,
+      "amount_cassa2_taxable": 0,
+      "amount_withholding_tax": 0,
+      "amount_withholding_tax_taxable": 0,
+      "amount_other_withholding_tax": 0,
+      "amount_enasarco_taxable": 0,
+      "amount_other_withholding_tax_taxable": 0,
+      "ei_cassa_type": null,
+      "ei_cassa2_type": null,
+      "ei_withholding_tax_causal": null,
+      "ei_other_withholding_tax_type": null,
+      "ei_other_withholding_tax_causal": null,
+      "stamp_duty": 0,
+      "use_gross_prices": false,
+      "e_invoice": true,
+      "delivery_note": false,
+      "accompanying_invoice": false,
+      "amount_net": 540,
+      "amount_vat": 118.8,
+      "amount_gross": 658.8,
+      "amount_due_discount": 0,
+      "h_margins": 15,
+      "v_margins": 16,
+      "show_payment_method": false,
+      "show_payments": false,
+      "show_totals": "all",
+      "show_paypal_button": false,
+      "show_notification_button": false,
+      "is_marked": false,
+      "created_at": "2022-12-01 18:40:27",
+      "updated_at": "2022-12-02 14:13:02",
+      "entity": {
+        "name": "GIANPIERO PANEPINTO",
+        "vat_number": "05323650969",
+        "tax_code": "",
+        "address_street": "VIA BELLINI, 15",
+        "address_postal_code": "20122",
+        "address_city": "Milano",
+        "address_province": "MI",
+        "address_extra": "",
+        "country": "Italia",
+        "certified_email": "",
+        "ei_code": "USAL8PV",
+        "id": 64436249,
+        "entity_type": "client",
+        "type": "person",
+        "first_name": "",
+        "last_name": "",
+        "default_payment_terms": 0,
+        "default_payment_terms_type": "standard",
+        "shipping_address": "",
+        "default_vat": null,
+        "default_payment_method": null,
+        "bank_name": "",
+        "bank_iban": "",
+        "default_discount": 0,
+        "discount_highlight": false,
+        "has_intent_declaration": false,
+        "intent_declaration_protocol_number": null,
+        "intent_declaration_protocol_date": null
+      },
+      "date": "2022-12-01",
+      "number": 5,
+      "currency": {
+        "id": "EUR",
+        "exchange_rate": "1.00000",
+        "symbol": "€"
+      },
+      "language": {
+        "code": "it",
+        "name": "Italiano"
+      },
+      "notes": "<br /><strong>In riferimento alla seguente proforma:</strong><br />Proforma n. 143 del 21/11/2022",
+      "payment_method": {
+        "id": null,
+        "name": "",
+        "details": [
+          {
+            "title": "",
+            "description": ""
+          },
+          {
+            "title": "",
+            "description": ""
+          },
+          {
+            "title": "",
+            "description": ""
+          },
+          {
+            "title": "",
+            "description": ""
+          },
+          {
+            "title": "",
+            "description": ""
+          }
+        ]
+      },
+      "use_split_payment": false,
+      "merged_in": null,
+      "original_document": null,
+      "items_list": [
+        {
+          "product_id": 23048821,
+          "code": "ACCONT",
+          "name": "ACCONTO",
+          "measure": "",
+          "category": "Rendering Interni",
+          "id": 765405615,
+          "apply_withholding_taxes": false,
+          "discount": 0,
+          "discount_highlight": false,
+          "in_dn": false,
+          "qty": 1,
+          "net_price": 540,
+          "vat": {
+            "id": 0,
+            "value": 22,
+            "description": ""
+          },
+          "stock": null,
+          "description": "- Rif.to: Preventivo n. 124 del 18/11/2022",
+          "gross_price": 658.8,
+          "not_taxable": false,
+          "ei_raw": null
+        }
+      ],
+      "payments_list": [
+        {
+          "amount": 658.8,
+          "due_date": "2022-12-09",
+          "paid_date": "2022-12-01",
+          "id": 199935495,
+          "forfettari_revenue": 658.8,
+          "payment_terms": {
+            "days": 8,
+            "type": "standard"
+          },
+          "status": "paid",
+          "payment_account": {
+            "id": 842683,
+            "name": "INTESA SAN PAOLO S.P.A.",
+            "virtual": false
+          },
+          "ei_raw": null
+        }
+      ],
+      "extra_data": {
+        "show_sofort_button": false,
+        "multifatture_sent": null,
+        "accountant_causal_code": null,
+        "ts_communication": false,
+        "ts_tipo_spesa": null,
+        "ts_flag_tipo_spesa": null,
+        "ts_pagamento_tracciato": null,
+        "ts_opposizione": null,
+        "ts_status": null,
+        "ts_file_id": null,
+        "ts_sent_date": null,
+        "ts_full_amount": false,
+        "imported_by": null,
+        "ts_single_sending": null
+      },
+      "rivalsa": 0,
+      "rivalsa_taxable": 100,
+      "cassa": 0,
+      "cassa2": 0,
+      "global_cassa_taxable": 100,
+      "cassa_taxable": 100,
+      "cassa2_taxable": 100,
+      "withholding_tax": 0,
+      "withholding_tax_taxable": 100,
+      "other_withholding_tax": 0,
+      "other_withholding_tax_taxable": 100,
+      "seen_date": null,
+      "next_due_date": null,
+      "template": {
+        "id": 67448,
+        "name": "Archivision - Template"
+      },
+      "show_tspay_button": false,
+      "url": "https://compute.fattureincloud.it/doc/hp203xt89xx52gevicgkn915p4vxcutm.pdf",
+      "ei_data": {
+        "vat_kind": null,
+        "original_document_type": null,
+        "od_number": "",
+        "od_date": null,
+        "cig": "",
+        "cup": "",
+        "payment_method": "MP05",
+        "bank_name": "INTESA SAN PAOLO S.P.A.",
+        "bank_iban": "IT84R0306957571100000010507",
+        "bank_beneficiary": "",
+        "invoice_number": "149",
+        "invoice_date": "2022-11-29"
+      },
+      "ei_raw": null,
+      "ei_ts_data": {
+        "status": 0,
+        "id": null,
+        "info": null
+      },
+      "ei_status": "sent",
+      "locked": true,
+      "has_ts_pay_pending_payment": false
+    }
+  ],
+  "first_page_url": "https://api-v2.fattureincloud.it/c/874844/issued_documents?type=credit_note&fieldset=detailed&per_page=500&page=1",
+  "from": 1,
+  "last_page": 1,
+  "last_page_url": "https://api-v2.fattureincloud.it/c/874844/issued_documents?type=credit_note&fieldset=detailed&per_page=500&page=1",
+  "next_page_url": null,
+  "path": "https://api-v2.fattureincloud.it/c/874844/issued_documents",
+  "per_page": 100,
+  "prev_page_url": null,
+  "to": 5,
+  "total": 5
+}

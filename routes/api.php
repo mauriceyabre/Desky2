@@ -1,10 +1,12 @@
 <?php
 
+use App\Http\Controllers\Api\V1\AttendanceController;
 use App\Http\Controllers\Api\V1\Auth\LoginController;
 use App\Http\Controllers\Api\V1\Auth\LogoutController;
 use App\Http\Controllers\Api\V1\Auth\PasswordUpdateController;
 use App\Http\Controllers\Api\V1\Auth\ProfileController;
 use App\Http\Controllers\Api\V1\CustomerController;
+use App\Http\Controllers\Api\V1\MemberController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -24,14 +26,28 @@ Route::middleware('api')->prefix('v1')->namespace('App\Http\Controllers\Api\V1')
         Route::get('/customers', [CustomerController::class, 'index'])->name('index');
     });
 
+    // GUEST ROUTES
     Route::group(['prefix' => 'auth'], function (){
         Route::post('/login', LoginController::class);
-        Route::post('logout', LogoutController::class)->middleware('auth:sanctum');
+        Route::post('/logout', LogoutController::class)->middleware('auth:sanctum');
+        Route::get('/user', [ProfileController::class, 'user'])->middleware('auth:sanctum');
     });
 
+    // AUTH ROUTES
     Route::middleware(['auth:sanctum'])->group(function () {
         Route::get('profile', [ProfileController::class, 'show']);
         Route::put('profile', [ProfileController::class, 'update']);
         Route::put('password', PasswordUpdateController::class);
+
+
+        // MEMBERS ROUTES
+        Route::prefix('members')->controller(MemberController::class)->group(function () {
+            Route::get('/{id}', 'get');
+        });
+
+        // ATTENDANCES ROUTES
+        Route::prefix('attendances')->controller(AttendanceController::class)->group(function () {
+            Route::get('/', 'index');
+        });
     });
 });

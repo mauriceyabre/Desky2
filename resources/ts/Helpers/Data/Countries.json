@@ -1,0 +1,1754 @@
+{
+  "data": [
+    {
+      "name": "Italia",
+      "settings_name": "Italia",
+      "iso": "IT",
+      "fiscal_iso": "IT",
+      "uic": "086"
+    },
+    {
+      "name": "Afghanistan",
+      "settings_name": "Afghanistan",
+      "iso": "AF",
+      "fiscal_iso": "AF",
+      "uic": "002"
+    },
+    {
+      "name": "Albania",
+      "settings_name": "Albania",
+      "iso": "AL",
+      "fiscal_iso": "AL",
+      "uic": "087"
+    },
+    {
+      "name": "Algeria",
+      "settings_name": "Algeria",
+      "iso": "DZ",
+      "fiscal_iso": "DZ",
+      "uic": "003"
+    },
+    {
+      "name": "Andorra",
+      "settings_name": "Andorra",
+      "iso": "AD",
+      "fiscal_iso": "AD",
+      "uic": "004"
+    },
+    {
+      "name": "Angola",
+      "settings_name": "Angola",
+      "iso": "AO",
+      "fiscal_iso": "AO",
+      "uic": "133"
+    },
+    {
+      "name": "Anguilla",
+      "settings_name": "Anguilla",
+      "iso": "AI",
+      "fiscal_iso": "AI",
+      "uic": "209"
+    },
+    {
+      "name": "Antartide",
+      "settings_name": "Antarctica",
+      "iso": "AQ",
+      "fiscal_iso": "AQ",
+      "uic": "180"
+    },
+    {
+      "name": "Antigua e Barbuda",
+      "settings_name": "Antigua and Barbuda",
+      "iso": "AG",
+      "fiscal_iso": "AG",
+      "uic": "197"
+    },
+    {
+      "name": "Antille Olandesi",
+      "settings_name": "Netherlands Antilles",
+      "iso": "AN",
+      "fiscal_iso": "AN",
+      "uic": "251"
+    },
+    {
+      "name": "Arabia Saudita",
+      "settings_name": "Saudi Arabia",
+      "iso": "SA",
+      "fiscal_iso": "SA",
+      "uic": "005"
+    },
+    {
+      "name": "Argentina",
+      "settings_name": "Argentina",
+      "iso": "AR",
+      "fiscal_iso": "AR",
+      "uic": "006"
+    },
+    {
+      "name": "Armenia",
+      "settings_name": "Armenia",
+      "iso": "AM",
+      "fiscal_iso": "AM",
+      "uic": "266"
+    },
+    {
+      "name": "Aruba",
+      "settings_name": "Aruba",
+      "iso": "AW",
+      "fiscal_iso": "AW",
+      "uic": "212"
+    },
+    {
+      "name": "Australia",
+      "settings_name": "Australia",
+      "iso": "AU",
+      "fiscal_iso": "AU",
+      "uic": "007"
+    },
+    {
+      "name": "Austria",
+      "settings_name": "Austria",
+      "iso": "AT",
+      "fiscal_iso": "AT",
+      "uic": "008"
+    },
+    {
+      "name": "Azerbaigian",
+      "settings_name": "Azerbaijan",
+      "iso": "AZ",
+      "fiscal_iso": "AZ",
+      "uic": "268"
+    },
+    {
+      "name": "Bahamas",
+      "settings_name": "Bahamas",
+      "iso": "BS",
+      "fiscal_iso": "BS",
+      "uic": "160"
+    },
+    {
+      "name": "Bahrain",
+      "settings_name": "Bahrain",
+      "iso": "BH",
+      "fiscal_iso": "BH",
+      "uic": "169"
+    },
+    {
+      "name": "Bangladesh",
+      "settings_name": "Bangladesh",
+      "iso": "BD",
+      "fiscal_iso": "BD",
+      "uic": "130"
+    },
+    {
+      "name": "Barbados",
+      "settings_name": "Barbados",
+      "iso": "BB",
+      "fiscal_iso": "BB",
+      "uic": "118"
+    },
+    {
+      "name": "Belgio",
+      "settings_name": "Belgium",
+      "iso": "BE",
+      "fiscal_iso": "BE",
+      "uic": "009"
+    },
+    {
+      "name": "Belize",
+      "settings_name": "Belize",
+      "iso": "BZ",
+      "fiscal_iso": "BZ",
+      "uic": "198"
+    },
+    {
+      "name": "Benin",
+      "settings_name": "Benin",
+      "iso": "BJ",
+      "fiscal_iso": "BJ",
+      "uic": "158"
+    },
+    {
+      "name": "Bermuda",
+      "settings_name": "Bermuda",
+      "iso": "BM",
+      "fiscal_iso": "BM",
+      "uic": "207"
+    },
+    {
+      "name": "Bhutan",
+      "settings_name": "Bhutan",
+      "iso": "BT",
+      "fiscal_iso": "BT",
+      "uic": "097"
+    },
+    {
+      "name": "Bielorussia",
+      "settings_name": "Belarus",
+      "iso": "BY",
+      "fiscal_iso": "BY",
+      "uic": "264"
+    },
+    {
+      "name": "Bolivia",
+      "settings_name": "Bolivia",
+      "iso": "BO",
+      "fiscal_iso": "BO",
+      "uic": "010"
+    },
+    {
+      "name": "Bosnia ed Erzegovina",
+      "settings_name": "Bosnia and Herzegovina",
+      "iso": "BA",
+      "fiscal_iso": "BA",
+      "uic": "274"
+    },
+    {
+      "name": "Botswana",
+      "settings_name": "Botswana",
+      "iso": "BW",
+      "fiscal_iso": "BW",
+      "uic": "098"
+    },
+    {
+      "name": "Brasile",
+      "settings_name": "Brazil",
+      "iso": "BR",
+      "fiscal_iso": "BR",
+      "uic": "011"
+    },
+    {
+      "name": "Brunei",
+      "settings_name": "Brunei",
+      "iso": "BN",
+      "fiscal_iso": "BN",
+      "uic": "125"
+    },
+    {
+      "name": "Bulgaria",
+      "settings_name": "Bulgaria",
+      "iso": "BG",
+      "fiscal_iso": "BG",
+      "uic": "012"
+    },
+    {
+      "name": "Burkina Faso",
+      "settings_name": "Burkina Faso",
+      "iso": "BF",
+      "fiscal_iso": "BF",
+      "uic": "142"
+    },
+    {
+      "name": "Burundi",
+      "settings_name": "Burundi",
+      "iso": "BI",
+      "fiscal_iso": "BI",
+      "uic": "025"
+    },
+    {
+      "name": "Cambogia",
+      "settings_name": "Cambodia",
+      "iso": "KH",
+      "fiscal_iso": "KH",
+      "uic": "135"
+    },
+    {
+      "name": "Camerun",
+      "settings_name": "Cameroon",
+      "iso": "CM",
+      "fiscal_iso": "CM",
+      "uic": "119"
+    },
+    {
+      "name": "Canada",
+      "settings_name": "Canada",
+      "iso": "CA",
+      "fiscal_iso": "CA",
+      "uic": "013"
+    },
+    {
+      "name": "Capo Verde",
+      "settings_name": "Cape Verde",
+      "iso": "CV",
+      "fiscal_iso": "CV",
+      "uic": "188"
+    },
+    {
+      "name": "Ciad",
+      "settings_name": "Chad",
+      "iso": "TD",
+      "fiscal_iso": "TD",
+      "uic": "144"
+    },
+    {
+      "name": "Cile",
+      "settings_name": "Chile",
+      "iso": "CL",
+      "fiscal_iso": "CL",
+      "uic": "015"
+    },
+    {
+      "name": "Cina",
+      "settings_name": "China",
+      "iso": "CN",
+      "fiscal_iso": "CN",
+      "uic": "016"
+    },
+    {
+      "name": "Cipro",
+      "settings_name": "Cyprus",
+      "iso": "CY",
+      "fiscal_iso": "CY",
+      "uic": "101"
+    },
+    {
+      "name": "Città del Vaticano",
+      "settings_name": "Vatican City",
+      "iso": "VA",
+      "fiscal_iso": "VA",
+      "uic": "093"
+    },
+    {
+      "name": "Colombia",
+      "settings_name": "Colombia",
+      "iso": "CO",
+      "fiscal_iso": "CO",
+      "uic": "017"
+    },
+    {
+      "name": "Comore",
+      "settings_name": "Comore",
+      "iso": "KM",
+      "fiscal_iso": "KM",
+      "uic": "176"
+    },
+    {
+      "name": "Corea del Nord",
+      "settings_name": "North Korea",
+      "iso": "KP",
+      "fiscal_iso": "KP",
+      "uic": "074"
+    },
+    {
+      "name": "Corea del Sud",
+      "settings_name": "South Korea",
+      "iso": "KR",
+      "fiscal_iso": "KR",
+      "uic": "084"
+    },
+    {
+      "name": "Costa Rica",
+      "settings_name": "Costa Rica",
+      "iso": "CR",
+      "fiscal_iso": "CR",
+      "uic": "019"
+    },
+    {
+      "name": "Costa d'Avorio",
+      "settings_name": "Ivory Coast",
+      "iso": "CI",
+      "fiscal_iso": "CI",
+      "uic": "146"
+    },
+    {
+      "name": "Croazia",
+      "settings_name": "Croatia",
+      "iso": "HR",
+      "fiscal_iso": "HR",
+      "uic": "261"
+    },
+    {
+      "name": "Cuba",
+      "settings_name": "Cuba",
+      "iso": "CU",
+      "fiscal_iso": "CU",
+      "uic": "020"
+    },
+    {
+      "name": "Danimarca",
+      "settings_name": "Denmark",
+      "iso": "DK",
+      "fiscal_iso": "DK",
+      "uic": "021"
+    },
+    {
+      "name": "Dominica",
+      "settings_name": "Dominica",
+      "iso": "DM",
+      "fiscal_iso": "DM",
+      "uic": "192"
+    },
+    {
+      "name": "Ecuador",
+      "settings_name": "Ecuador",
+      "iso": "EC",
+      "fiscal_iso": "EC",
+      "uic": "024"
+    },
+    {
+      "name": "Egitto",
+      "settings_name": "Egypt",
+      "iso": "EG",
+      "fiscal_iso": "EG",
+      "uic": "023"
+    },
+    {
+      "name": "El Salvador",
+      "settings_name": "El Salvador",
+      "iso": "SV",
+      "fiscal_iso": "SV",
+      "uic": "064"
+    },
+    {
+      "name": "Emirati Arabi Uniti",
+      "settings_name": "United Arab Emirates",
+      "iso": "AE",
+      "fiscal_iso": "AE",
+      "uic": "796",
+      "aliases": [
+        "uae"
+      ]
+    },
+    {
+      "name": "Eritrea",
+      "settings_name": "Eritrea",
+      "iso": "ER",
+      "fiscal_iso": "ER",
+      "uic": "277"
+    },
+    {
+      "name": "Estonia",
+      "settings_name": "Estonia",
+      "iso": "EE",
+      "fiscal_iso": "EE",
+      "uic": "257"
+    },
+    {
+      "name": "Etiopia",
+      "settings_name": "Ethiopia",
+      "iso": "ET",
+      "fiscal_iso": "ET",
+      "uic": "026"
+    },
+    {
+      "name": "Fiji",
+      "settings_name": "Fiji",
+      "iso": "FJ",
+      "fiscal_iso": "FJ",
+      "uic": "161"
+    },
+    {
+      "name": "Filippine",
+      "settings_name": "Philippines",
+      "iso": "PH",
+      "fiscal_iso": "PH",
+      "uic": "027"
+    },
+    {
+      "name": "Finlandia",
+      "settings_name": "Finland",
+      "iso": "FI",
+      "fiscal_iso": "FI",
+      "uic": "028"
+    },
+    {
+      "name": "Francia",
+      "settings_name": "France",
+      "iso": "FR",
+      "fiscal_iso": "FR",
+      "uic": "029"
+    },
+    {
+      "name": "Gabon",
+      "settings_name": "Gabon",
+      "iso": "GA",
+      "fiscal_iso": "GA",
+      "uic": "157"
+    },
+    {
+      "name": "Gambia",
+      "settings_name": "Gambia",
+      "iso": "GM",
+      "fiscal_iso": "GM",
+      "uic": "164"
+    },
+    {
+      "name": "Georgia",
+      "settings_name": "Georgia",
+      "iso": "GE",
+      "fiscal_iso": "GE",
+      "uic": "267"
+    },
+    {
+      "name": "Georgia del Sud e isole Sandwich",
+      "settings_name": "South Georgia and the Sandwich Islands",
+      "iso": "GS",
+      "fiscal_iso": "GS",
+      "uic": "283"
+    },
+    {
+      "name": "Germania",
+      "settings_name": "Germany",
+      "iso": "DE",
+      "fiscal_iso": "DE",
+      "uic": "094"
+    },
+    {
+      "name": "Ghana",
+      "settings_name": "Ghana",
+      "iso": "GH",
+      "fiscal_iso": "GH",
+      "uic": "112"
+    },
+    {
+      "name": "Giamaica",
+      "settings_name": "Jamaica",
+      "iso": "JM",
+      "fiscal_iso": "JM",
+      "uic": "082"
+    },
+    {
+      "name": "Giappone",
+      "settings_name": "Japan",
+      "iso": "JP",
+      "fiscal_iso": "JP",
+      "uic": "088"
+    },
+    {
+      "name": "Gibilterra",
+      "settings_name": "Gibraltar",
+      "iso": "GI",
+      "fiscal_iso": "GI",
+      "uic": "102"
+    },
+    {
+      "name": "Gibuti",
+      "settings_name": "Djibouti",
+      "iso": "DJ",
+      "fiscal_iso": "DJ",
+      "uic": "113"
+    },
+    {
+      "name": "Giordania",
+      "settings_name": "Jordan",
+      "iso": "JO",
+      "fiscal_iso": "JO",
+      "uic": "122"
+    },
+    {
+      "name": "Grecia",
+      "settings_name": "Greece",
+      "iso": "GR",
+      "fiscal_iso": "EL",
+      "uic": "032"
+    },
+    {
+      "name": "Grenada",
+      "settings_name": "Grenada",
+      "iso": "GD",
+      "fiscal_iso": "GD",
+      "uic": "156"
+    },
+    {
+      "name": "Groenlandia",
+      "settings_name": "Greenland",
+      "iso": "GL",
+      "fiscal_iso": "GL",
+      "uic": "200"
+    },
+    {
+      "name": "Guadalupa",
+      "settings_name": "Guadeloupe",
+      "iso": "GP",
+      "fiscal_iso": "GP",
+      "uic": "214"
+    },
+    {
+      "name": "Guam",
+      "settings_name": "Guam",
+      "iso": "GU",
+      "fiscal_iso": "GU",
+      "uic": "154"
+    },
+    {
+      "name": "Guatemala",
+      "settings_name": "Guatemala",
+      "iso": "GT",
+      "fiscal_iso": "GT",
+      "uic": "033"
+    },
+    {
+      "name": "Guernsey - Channel Islands",
+      "settings_name": "Guernsey - Channel Islands",
+      "iso": "GG",
+      "fiscal_iso": "GG",
+      "uic": "201"
+    },
+    {
+      "name": "Guinea",
+      "settings_name": "Guinea",
+      "iso": "GN",
+      "fiscal_iso": "GN",
+      "uic": "137"
+    },
+    {
+      "name": "Guinea Equatoriale",
+      "settings_name": "Equatorial Guinea",
+      "iso": "GQ",
+      "fiscal_iso": "GQ",
+      "uic": "167"
+    },
+    {
+      "name": "Guinea-Bissau",
+      "settings_name": "Guinea-Bissau",
+      "iso": "GW",
+      "fiscal_iso": "GW",
+      "uic": "185"
+    },
+    {
+      "name": "Guyana",
+      "settings_name": "Guyana",
+      "iso": "GY",
+      "fiscal_iso": "GY",
+      "uic": "159"
+    },
+    {
+      "name": "Guyana Francese",
+      "settings_name": "French Guiana",
+      "iso": "GF",
+      "fiscal_iso": "GF",
+      "uic": "123"
+    },
+    {
+      "name": "Haiti",
+      "settings_name": "Haiti",
+      "iso": "HT",
+      "fiscal_iso": "HT",
+      "uic": "034"
+    },
+    {
+      "name": "Heard Island e McDonald Islands",
+      "settings_name": "Heard Island and McDonald Islands",
+      "iso": "HM",
+      "fiscal_iso": "HM",
+      "uic": "284"
+    },
+    {
+      "name": "Honduras",
+      "settings_name": "Honduras",
+      "iso": "HN",
+      "fiscal_iso": "HN",
+      "uic": "035"
+    },
+    {
+      "name": "Hong Kong",
+      "settings_name": "Hong Kong",
+      "iso": "HK",
+      "fiscal_iso": "HK",
+      "uic": "103"
+    },
+    {
+      "name": "India",
+      "settings_name": "India",
+      "iso": "IN",
+      "fiscal_iso": "IN",
+      "uic": "114"
+    },
+    {
+      "name": "Indonesia",
+      "settings_name": "Indonesia",
+      "iso": "ID",
+      "fiscal_iso": "ID",
+      "uic": "129"
+    },
+    {
+      "name": "Iran",
+      "settings_name": "Iran",
+      "iso": "IR",
+      "fiscal_iso": "IR",
+      "uic": "039"
+    },
+    {
+      "name": "Iraq",
+      "settings_name": "Iraq",
+      "iso": "IQ",
+      "fiscal_iso": "IQ",
+      "uic": "038"
+    },
+    {
+      "name": "Irlanda",
+      "settings_name": "Ireland",
+      "iso": "IE",
+      "fiscal_iso": "IE",
+      "uic": "040"
+    },
+    {
+      "name": "Islanda",
+      "settings_name": "Iceland",
+      "iso": "IS",
+      "fiscal_iso": "IS",
+      "uic": "041"
+    },
+    {
+      "name": "Isola Bouvet",
+      "settings_name": "Bouvet Island",
+      "iso": "BV",
+      "fiscal_iso": "BV",
+      "uic": "280"
+    },
+    {
+      "name": "Isola Christmas",
+      "settings_name": "Christmas Island",
+      "iso": "CX",
+      "fiscal_iso": "CX",
+      "uic": "282"
+    },
+    {
+      "name": "Isola di Man",
+      "settings_name": "Isle of Man",
+      "iso": "IM",
+      "fiscal_iso": "IM",
+      "uic": "203"
+    },
+    {
+      "name": "Isola Norfolk",
+      "settings_name": "Norfolk Island",
+      "iso": "NF",
+      "fiscal_iso": "NF",
+      "uic": "285"
+    },
+    {
+      "name": "Isole Canarie (Spagna)",
+      "settings_name": "Canary Islands",
+      "iso": "IC",
+      "fiscal_iso": "ES",
+      "uic": "100"
+    },
+    {
+      "name": "Isole Cayman",
+      "settings_name": "Cayman Islands",
+      "iso": "KY",
+      "fiscal_iso": "KY",
+      "uic": "211"
+    },
+    {
+      "name": "Isole Cocos e Keeling",
+      "settings_name": "Cocos and Keeling Islands",
+      "iso": "CC",
+      "fiscal_iso": "CC",
+      "uic": "281"
+    },
+    {
+      "name": "Isole Cook",
+      "settings_name": "Cook Islands",
+      "iso": "CK",
+      "fiscal_iso": "CK",
+      "uic": "237"
+    },
+    {
+      "name": "Isole Falkland",
+      "settings_name": "Falkland Islands",
+      "iso": "FK",
+      "fiscal_iso": "FK",
+      "uic": "190"
+    },
+    {
+      "name": "Isole Fær Øer",
+      "settings_name": "Fær Øer Islands",
+      "iso": "FO",
+      "fiscal_iso": "FO",
+      "uic": "204"
+    },
+    {
+      "name": "Isole Marianne Settentrionali",
+      "settings_name": "Northern Mariana Islands",
+      "iso": "MP",
+      "fiscal_iso": "MP",
+      "uic": "219"
+    },
+    {
+      "name": "Isole Marshall",
+      "settings_name": "Marshall Islands",
+      "iso": "MH",
+      "fiscal_iso": "MH",
+      "uic": "217"
+    },
+    {
+      "name": "Isole Minori Esterne degli USA",
+      "settings_name": "US Minor Outlying Islands",
+      "iso": "UM",
+      "fiscal_iso": "UM",
+      "uic": "252"
+    },
+    {
+      "name": "Isole Pitcairn",
+      "settings_name": "Pitcairn Islands",
+      "iso": "PN",
+      "fiscal_iso": "PN",
+      "uic": "175"
+    },
+    {
+      "name": "Isole Salomone",
+      "settings_name": "Solomon Islands",
+      "iso": "SB",
+      "fiscal_iso": "SB",
+      "uic": "191"
+    },
+    {
+      "name": "Isole Vergini Americane",
+      "settings_name": "US Virgin Islands",
+      "iso": "VI",
+      "fiscal_iso": "VI",
+      "uic": "221"
+    },
+    {
+      "name": "Isole Vergini Britanniche",
+      "settings_name": "British Virgin Islands",
+      "iso": "VG",
+      "fiscal_iso": "VG",
+      "uic": "249"
+    },
+    {
+      "name": "Isole Åland",
+      "settings_name": "Åland Islands",
+      "iso": "AX",
+      "fiscal_iso": "AX",
+      "uic": "000"
+    },
+    {
+      "name": "Israele",
+      "settings_name": "Israel",
+      "iso": "IL",
+      "fiscal_iso": "IL",
+      "uic": "182"
+    },
+    {
+      "name": "Jersey - Channel Islands",
+      "settings_name": "Jersey - Channel Islands",
+      "iso": "JE",
+      "fiscal_iso": "JE",
+      "uic": "202"
+    },
+    {
+      "name": "Kazakistan",
+      "settings_name": "Kazakhstan",
+      "iso": "KZ",
+      "fiscal_iso": "KZ",
+      "uic": "269"
+    },
+    {
+      "name": "Kenia",
+      "settings_name": "Kenya",
+      "iso": "KE",
+      "fiscal_iso": "KE",
+      "uic": "116"
+    },
+    {
+      "name": "Kirghizistan",
+      "settings_name": "Kyrgyzstan",
+      "iso": "KG",
+      "fiscal_iso": "KG",
+      "uic": "270"
+    },
+    {
+      "name": "Kiribati",
+      "settings_name": "Kiribati",
+      "iso": "KI",
+      "fiscal_iso": "KI",
+      "uic": "194"
+    },
+    {
+      "name": "Kosovo",
+      "settings_name": "Kosovo",
+      "iso": "XK",
+      "fiscal_iso": "XK",
+      "uic": "291"
+    },
+    {
+      "name": "Kuwait",
+      "settings_name": "Kuwait",
+      "iso": "KW",
+      "fiscal_iso": "KW",
+      "uic": "126"
+    },
+    {
+      "name": "Laos",
+      "settings_name": "Laos",
+      "iso": "LA",
+      "fiscal_iso": "LA",
+      "uic": "136"
+    },
+    {
+      "name": "Lesotho",
+      "settings_name": "Lesotho",
+      "iso": "LS",
+      "fiscal_iso": "LS",
+      "uic": "089"
+    },
+    {
+      "name": "Lettonia",
+      "settings_name": "Latvia",
+      "iso": "LV",
+      "fiscal_iso": "LV",
+      "uic": "258"
+    },
+    {
+      "name": "Libano",
+      "settings_name": "Lebanon",
+      "iso": "LB",
+      "fiscal_iso": "LB",
+      "uic": "095"
+    },
+    {
+      "name": "Liberia",
+      "settings_name": "Liberia",
+      "iso": "LR",
+      "fiscal_iso": "LR",
+      "uic": "044"
+    },
+    {
+      "name": "Libia",
+      "settings_name": "Libya",
+      "iso": "LY",
+      "fiscal_iso": "LY",
+      "uic": "045"
+    },
+    {
+      "name": "Liechtenstein",
+      "settings_name": "Liechtenstein",
+      "iso": "LI",
+      "fiscal_iso": "LI",
+      "uic": "090"
+    },
+    {
+      "name": "Lituania",
+      "settings_name": "Lithuania",
+      "iso": "LT",
+      "fiscal_iso": "LT",
+      "uic": "259"
+    },
+    {
+      "name": "Lussemburgo",
+      "settings_name": "Luxembourg",
+      "iso": "LU",
+      "fiscal_iso": "LU",
+      "uic": "092"
+    },
+    {
+      "name": "Macao",
+      "settings_name": "Macao",
+      "iso": "MO",
+      "fiscal_iso": "MO",
+      "uic": "059"
+    },
+    {
+      "name": "Macedonia",
+      "settings_name": "Macedonia",
+      "iso": "MK",
+      "fiscal_iso": "MK",
+      "uic": "278"
+    },
+    {
+      "name": "Macedonia del Nord",
+      "settings_name": "North Macedonia",
+      "iso": "MK",
+      "fiscal_iso": "MK",
+      "uic": "278"
+    },
+    {
+      "name": "Madagascar",
+      "settings_name": "Madagascar",
+      "iso": "MG",
+      "fiscal_iso": "MG",
+      "uic": "104"
+    },
+    {
+      "name": "Malawi",
+      "settings_name": "Malawi",
+      "iso": "MW",
+      "fiscal_iso": "MW",
+      "uic": "056"
+    },
+    {
+      "name": "Malaysia",
+      "settings_name": "Malaysia",
+      "iso": "MY",
+      "fiscal_iso": "MY",
+      "uic": "106"
+    },
+    {
+      "name": "Maldive",
+      "settings_name": "Maldives",
+      "iso": "MV",
+      "fiscal_iso": "MV",
+      "uic": "127"
+    },
+    {
+      "name": "Mali",
+      "settings_name": "Mali",
+      "iso": "ML",
+      "fiscal_iso": "ML",
+      "uic": "149"
+    },
+    {
+      "name": "Malta",
+      "settings_name": "Malta",
+      "iso": "MT",
+      "fiscal_iso": "MT",
+      "uic": "105"
+    },
+    {
+      "name": "Marocco",
+      "settings_name": "Morocco",
+      "iso": "MA",
+      "fiscal_iso": "MA",
+      "uic": "107"
+    },
+    {
+      "name": "Martinica",
+      "settings_name": "Martinique",
+      "iso": "MQ",
+      "fiscal_iso": "MQ",
+      "uic": "213"
+    },
+    {
+      "name": "Mauritania",
+      "settings_name": "Mauritania",
+      "iso": "MR",
+      "fiscal_iso": "MR",
+      "uic": "141"
+    },
+    {
+      "name": "Mauritius",
+      "settings_name": "Mauritius",
+      "iso": "MU",
+      "fiscal_iso": "MU",
+      "uic": "128"
+    },
+    {
+      "name": "Mayotte",
+      "settings_name": "Mayotte",
+      "iso": "YT",
+      "fiscal_iso": "YT",
+      "uic": "226"
+    },
+    {
+      "name": "Messico",
+      "settings_name": "Mexico",
+      "iso": "MX",
+      "fiscal_iso": "MX",
+      "uic": "046"
+    },
+    {
+      "name": "Micronesia",
+      "settings_name": "Micronesia",
+      "iso": "FM",
+      "fiscal_iso": "FM",
+      "uic": "215"
+    },
+    {
+      "name": "Moldavia",
+      "settings_name": "Moldova",
+      "iso": "MD",
+      "fiscal_iso": "MD",
+      "uic": "265"
+    },
+    {
+      "name": "Monaco",
+      "settings_name": "Monaco",
+      "iso": "MC",
+      "fiscal_iso": "MC",
+      "uic": "091"
+    },
+    {
+      "name": "Mongolia",
+      "settings_name": "Mongolia",
+      "iso": "MN",
+      "fiscal_iso": "MN",
+      "uic": "110"
+    },
+    {
+      "name": "Montenegro",
+      "settings_name": "Montenegro",
+      "iso": "ME",
+      "fiscal_iso": "ME",
+      "uic": "290"
+    },
+    {
+      "name": "Montserrat",
+      "settings_name": "Montserrat",
+      "iso": "MS",
+      "fiscal_iso": "MS",
+      "uic": "208"
+    },
+    {
+      "name": "Mozambico",
+      "settings_name": "Mozambique",
+      "iso": "MZ",
+      "fiscal_iso": "MZ",
+      "uic": "134"
+    },
+    {
+      "name": "Myanmar",
+      "settings_name": "Myanmar",
+      "iso": "MM",
+      "fiscal_iso": "MM",
+      "uic": "083"
+    },
+    {
+      "name": "Namibia",
+      "settings_name": "Namibia",
+      "iso": "NA",
+      "fiscal_iso": "NA",
+      "uic": "206"
+    },
+    {
+      "name": "Nauru",
+      "settings_name": "Nauru",
+      "iso": "NR",
+      "fiscal_iso": "NR",
+      "uic": "109"
+    },
+    {
+      "name": "Nepal",
+      "settings_name": "Nepal",
+      "iso": "NP",
+      "fiscal_iso": "NP",
+      "uic": "115"
+    },
+    {
+      "name": "Nicaragua",
+      "settings_name": "Nicaragua",
+      "iso": "NI",
+      "fiscal_iso": "NI",
+      "uic": "047"
+    },
+    {
+      "name": "Niger",
+      "settings_name": "Niger",
+      "iso": "NE",
+      "fiscal_iso": "NE",
+      "uic": "150"
+    },
+    {
+      "name": "Nigeria",
+      "settings_name": "Nigeria",
+      "iso": "NG",
+      "fiscal_iso": "NG",
+      "uic": "117"
+    },
+    {
+      "name": "Niue",
+      "settings_name": "Niue",
+      "iso": "NU",
+      "fiscal_iso": "NU",
+      "uic": "205"
+    },
+    {
+      "name": "Norvegia",
+      "settings_name": "Norway",
+      "iso": "NO",
+      "fiscal_iso": "NO",
+      "uic": "048"
+    },
+    {
+      "name": "Nuova Caledonia",
+      "settings_name": "New Caledonia",
+      "iso": "NC",
+      "fiscal_iso": "NC",
+      "uic": "253"
+    },
+    {
+      "name": "Nuova Zelanda",
+      "settings_name": "New Zeland",
+      "iso": "NZ",
+      "fiscal_iso": "NZ",
+      "uic": "049"
+    },
+    {
+      "name": "Oman",
+      "settings_name": "Oman",
+      "iso": "OM",
+      "fiscal_iso": "OM",
+      "uic": "163"
+    },
+    {
+      "name": "Paesi Bassi",
+      "settings_name": "Netherlands",
+      "iso": "NL",
+      "fiscal_iso": "NL",
+      "uic": "050"
+    },
+    {
+      "name": "Pakistan",
+      "settings_name": "Pakistan",
+      "iso": "PK",
+      "fiscal_iso": "PK",
+      "uic": "036"
+    },
+    {
+      "name": "Palau",
+      "settings_name": "Palau",
+      "iso": "PW",
+      "fiscal_iso": "PW",
+      "uic": "216"
+    },
+    {
+      "name": "Panama",
+      "settings_name": "Panama",
+      "iso": "PA",
+      "fiscal_iso": "PA",
+      "uic": "051"
+    },
+    {
+      "name": "Papua Nuova Guinea",
+      "settings_name": "Papua New Guinea",
+      "iso": "PG",
+      "fiscal_iso": "PG",
+      "uic": "186"
+    },
+    {
+      "name": "Paraguay",
+      "settings_name": "Paraguay",
+      "iso": "PY",
+      "fiscal_iso": "PY",
+      "uic": "052"
+    },
+    {
+      "name": "Perù",
+      "settings_name": "Peru",
+      "iso": "PE",
+      "fiscal_iso": "PE",
+      "uic": "053"
+    },
+    {
+      "name": "Polinesia Francese",
+      "settings_name": "French Polynesia",
+      "iso": "PF",
+      "fiscal_iso": "PF",
+      "uic": "225"
+    },
+    {
+      "name": "Polonia",
+      "settings_name": "Poland",
+      "iso": "PL",
+      "fiscal_iso": "PL",
+      "uic": "054"
+    },
+    {
+      "name": "Porto Rico",
+      "settings_name": "Puerto Rico",
+      "iso": "PR",
+      "fiscal_iso": "PR",
+      "uic": "220"
+    },
+    {
+      "name": "Portogallo",
+      "settings_name": "Portugal",
+      "iso": "PT",
+      "fiscal_iso": "PT",
+      "uic": "055"
+    },
+    {
+      "name": "Qatar",
+      "settings_name": "Qatar",
+      "iso": "QA",
+      "fiscal_iso": "QA",
+      "uic": "168"
+    },
+    {
+      "name": "Regno Unito",
+      "settings_name": "United Kingdom",
+      "iso": "GB",
+      "fiscal_iso": "GB",
+      "uic": "031"
+    },
+    {
+      "name": "Repubblica Ceca",
+      "settings_name": "Czech Republic",
+      "iso": "CZ",
+      "fiscal_iso": "CZ",
+      "uic": "275"
+    },
+    {
+      "name": "Repubblica Centrafricana",
+      "settings_name": "Central African Republic",
+      "iso": "CF",
+      "fiscal_iso": "CF",
+      "uic": "143"
+    },
+    {
+      "name": "Repubblica Democratica del Congo",
+      "settings_name": "Democratic Republic of the Congo",
+      "iso": "CD",
+      "fiscal_iso": "CD",
+      "uic": "018"
+    },
+    {
+      "name": "Repubblica Dominicana",
+      "settings_name": "Dominican Republic",
+      "iso": "DO",
+      "fiscal_iso": "DO",
+      "uic": "063"
+    },
+    {
+      "name": "Repubblica del Congo",
+      "settings_name": "Republic of the Congo",
+      "iso": "CG",
+      "fiscal_iso": "CG",
+      "uic": "145"
+    },
+    {
+      "name": "Riunione",
+      "settings_name": "La Réunion",
+      "iso": "RE",
+      "fiscal_iso": "RE",
+      "uic": "247"
+    },
+    {
+      "name": "Romania",
+      "settings_name": "Romania",
+      "iso": "RO",
+      "fiscal_iso": "RO",
+      "uic": "061"
+    },
+    {
+      "name": "Ruanda",
+      "settings_name": "Rwanda",
+      "iso": "RW",
+      "fiscal_iso": "RW",
+      "uic": "151"
+    },
+    {
+      "name": "Russia",
+      "settings_name": "Russia",
+      "iso": "RU",
+      "fiscal_iso": "RU",
+      "uic": "262"
+    },
+    {
+      "name": "Sahara Occidentale",
+      "settings_name": "Western Sahara",
+      "iso": "EH",
+      "fiscal_iso": "EH",
+      "uic": "166"
+    },
+    {
+      "name": "Saint Barthelemy",
+      "settings_name": "Saint Barthelemy",
+      "iso": "BL",
+      "fiscal_iso": "BL",
+      "uic": "293"
+    },
+    {
+      "name": "Saint Kitts e Nevis",
+      "settings_name": "Saint Kitts and Nevis",
+      "iso": "KN",
+      "fiscal_iso": "KN",
+      "uic": "195"
+    },
+    {
+      "name": "Saint Pierre e Miquelon",
+      "settings_name": "Saint Pierre and Miquelon",
+      "iso": "PM",
+      "fiscal_iso": "PM",
+      "uic": "248"
+    },
+    {
+      "name": "Saint Vincent e Grenadine",
+      "settings_name": "Saint Vincent and the Grenadines",
+      "iso": "VC",
+      "fiscal_iso": "VC",
+      "uic": "196"
+    },
+    {
+      "name": "Samoa",
+      "settings_name": "Samoa",
+      "iso": "WS",
+      "fiscal_iso": "WS",
+      "uic": "131"
+    },
+    {
+      "name": "Samoa Americane",
+      "settings_name": "American Samoa",
+      "iso": "AS",
+      "fiscal_iso": "AS",
+      "uic": "148"
+    },
+    {
+      "name": "San Marino",
+      "settings_name": "San Marino",
+      "iso": "SM",
+      "fiscal_iso": "SM",
+      "uic": "037"
+    },
+    {
+      "name": "Sant'Elena",
+      "settings_name": "St. Helena",
+      "iso": "SH",
+      "fiscal_iso": "SH",
+      "uic": "254"
+    },
+    {
+      "name": "Santa Lucia",
+      "settings_name": "Saint Lucia",
+      "iso": "LC",
+      "fiscal_iso": "LC",
+      "uic": "199"
+    },
+    {
+      "name": "Senegal",
+      "settings_name": "Senegal",
+      "iso": "SN",
+      "fiscal_iso": "SN",
+      "uic": "152"
+    },
+    {
+      "name": "Serbia",
+      "settings_name": "Serbia",
+      "iso": "RS",
+      "fiscal_iso": "RS",
+      "uic": "289"
+    },
+    {
+      "name": "Seychelles",
+      "settings_name": "Seychelles",
+      "iso": "SC",
+      "fiscal_iso": "SC",
+      "uic": "189"
+    },
+    {
+      "name": "Sierra Leone",
+      "settings_name": "Sierra Leone",
+      "iso": "SL",
+      "fiscal_iso": "SL",
+      "uic": "153"
+    },
+    {
+      "name": "Singapore",
+      "settings_name": "Singapore",
+      "iso": "SG",
+      "fiscal_iso": "SG",
+      "uic": "147"
+    },
+    {
+      "name": "Siria",
+      "settings_name": "Syria",
+      "iso": "SY",
+      "fiscal_iso": "SY",
+      "uic": "065"
+    },
+    {
+      "name": "Slovacchia",
+      "settings_name": "Slovakia",
+      "iso": "SK",
+      "fiscal_iso": "SK",
+      "uic": "276"
+    },
+    {
+      "name": "Slovenia",
+      "settings_name": "Slovenia",
+      "iso": "SI",
+      "fiscal_iso": "SI",
+      "uic": "260",
+      "aliases": [
+        "slovenija",
+        "slovenjia"
+      ]
+    },
+    {
+      "name": "Somalia",
+      "settings_name": "Somalia",
+      "iso": "SO",
+      "fiscal_iso": "SO",
+      "uic": "066"
+    },
+    {
+      "name": "Spagna",
+      "settings_name": "Spain",
+      "iso": "ES",
+      "fiscal_iso": "ES",
+      "uic": "067"
+    },
+    {
+      "name": "Sri Lanka",
+      "settings_name": "Sri Lanka",
+      "iso": "LK",
+      "fiscal_iso": "LK",
+      "uic": "085"
+    },
+    {
+      "name": "Stato di Palestina",
+      "settings_name": "State of Palestine",
+      "iso": "PS",
+      "fiscal_iso": "PS",
+      "uic": "279"
+    },
+    {
+      "name": "Stati Uniti",
+      "settings_name": "United States",
+      "iso": "US",
+      "fiscal_iso": "US",
+      "uic": "069"
+    },
+    {
+      "name": "Sudafrica",
+      "settings_name": "South Africa",
+      "iso": "ZA",
+      "fiscal_iso": "ZA",
+      "uic": "078"
+    },
+    {
+      "name": "Sud Sudan",
+      "settings_name": "South Sudan",
+      "iso": "SS",
+      "fiscal_iso": "SS",
+      "uic": "297"
+    },
+    {
+      "name": "Sudan",
+      "settings_name": "Sudan",
+      "iso": "SD",
+      "fiscal_iso": "SD",
+      "uic": "070"
+    },
+    {
+      "name": "Suriname",
+      "settings_name": "Suriname",
+      "iso": "SR",
+      "fiscal_iso": "SR",
+      "uic": "124"
+    },
+    {
+      "name": "Svalbard e Jan Mayen",
+      "settings_name": "Svalbard and Jan Mayen",
+      "iso": "SJ",
+      "fiscal_iso": "SJ",
+      "uic": "286"
+    },
+    {
+      "name": "Svezia",
+      "settings_name": "Sweden",
+      "iso": "SE",
+      "fiscal_iso": "SE",
+      "uic": "068"
+    },
+    {
+      "name": "Svizzera",
+      "settings_name": "Switzerland",
+      "iso": "CH",
+      "fiscal_iso": "CH",
+      "uic": "071"
+    },
+    {
+      "name": "Swaziland",
+      "settings_name": "Swaziland",
+      "iso": "SZ",
+      "fiscal_iso": "SZ",
+      "uic": "138"
+    },
+    {
+      "name": "São Tomé e Príncipe",
+      "settings_name": "São Tomé and Príncipe",
+      "iso": "ST",
+      "fiscal_iso": "ST",
+      "uic": "187"
+    },
+    {
+      "name": "Tagikistan",
+      "settings_name": "Tajikistan",
+      "iso": "TJ",
+      "fiscal_iso": "TJ",
+      "uic": "272"
+    },
+    {
+      "name": "Taiwan",
+      "settings_name": "Taiwan",
+      "iso": "TW",
+      "fiscal_iso": "TW",
+      "uic": "022"
+    },
+    {
+      "name": "Tanzania",
+      "settings_name": "Tanzania",
+      "iso": "TZ",
+      "fiscal_iso": "TZ",
+      "uic": "057"
+    },
+    {
+      "name": "Terre australi e ant. francesi",
+      "settings_name": "French southern and Antarctic lands",
+      "iso": "TF",
+      "fiscal_iso": "TF",
+      "uic": "183"
+    },
+    {
+      "name": "Terr. Britannico dell'Oc. Ind.",
+      "settings_name": "British Ocean Territory of the Indian Ocean",
+      "iso": "IO",
+      "fiscal_iso": "IO",
+      "uic": "245"
+    },
+    {
+      "name": "Thailandia",
+      "settings_name": "Thailand",
+      "iso": "TH",
+      "fiscal_iso": "TH",
+      "uic": "072"
+    },
+    {
+      "name": "Timor Est",
+      "settings_name": "East Timor",
+      "iso": "TL",
+      "fiscal_iso": "TL",
+      "uic": "287"
+    },
+    {
+      "name": "Togo",
+      "settings_name": "Togo",
+      "iso": "TG",
+      "fiscal_iso": "TG",
+      "uic": "155"
+    },
+    {
+      "name": "Tokelau",
+      "settings_name": "Tokelau",
+      "iso": "TK",
+      "fiscal_iso": "TK",
+      "uic": "236"
+    },
+    {
+      "name": "Tonga",
+      "settings_name": "Tonga",
+      "iso": "TO",
+      "fiscal_iso": "TO",
+      "uic": "162"
+    },
+    {
+      "name": "Trinidad e Tobago",
+      "settings_name": "Trinidad and Tobago",
+      "iso": "TT",
+      "fiscal_iso": "TT",
+      "uic": "120"
+    },
+    {
+      "name": "Tunisia",
+      "settings_name": "Tunisia",
+      "iso": "TN",
+      "fiscal_iso": "TN",
+      "uic": "075"
+    },
+    {
+      "name": "Turchia",
+      "settings_name": "Turkey",
+      "iso": "TR",
+      "fiscal_iso": "TR",
+      "uic": "076"
+    },
+    {
+      "name": "Turkmenistan",
+      "settings_name": "Turkmenistan",
+      "iso": "TM",
+      "fiscal_iso": "TM",
+      "uic": "273"
+    },
+    {
+      "name": "Turks e Caicos",
+      "settings_name": "Turks and Caicos",
+      "iso": "TC",
+      "fiscal_iso": "TC",
+      "uic": "210"
+    },
+    {
+      "name": "Tuvalu",
+      "settings_name": "Tuvalu",
+      "iso": "TV",
+      "fiscal_iso": "TV",
+      "uic": "193"
+    },
+    {
+      "name": "Ucraina",
+      "settings_name": "Ukraine",
+      "iso": "UA",
+      "fiscal_iso": "UA",
+      "uic": "263"
+    },
+    {
+      "name": "Uganda",
+      "settings_name": "Uganda",
+      "iso": "UG",
+      "fiscal_iso": "UG",
+      "uic": "132"
+    },
+    {
+      "name": "Ungheria",
+      "settings_name": "Hungary",
+      "iso": "HU",
+      "fiscal_iso": "HU",
+      "uic": "077"
+    },
+    {
+      "name": "Uruguay",
+      "settings_name": "Uruguay",
+      "iso": "UY",
+      "fiscal_iso": "UY",
+      "uic": "080"
+    },
+    {
+      "name": "Uzbekistan",
+      "settings_name": "Uzbekistan",
+      "iso": "UZ",
+      "fiscal_iso": "UZ",
+      "uic": "271"
+    },
+    {
+      "name": "Vanuatu",
+      "settings_name": "Vanuatu",
+      "iso": "VU",
+      "fiscal_iso": "VU",
+      "uic": "121"
+    },
+    {
+      "name": "Venezuela",
+      "settings_name": "Venezuela",
+      "iso": "VE",
+      "fiscal_iso": "VE",
+      "uic": "081"
+    },
+    {
+      "name": "Vietnam",
+      "settings_name": "Vietnam",
+      "iso": "VN",
+      "fiscal_iso": "VN",
+      "uic": "062"
+    },
+    {
+      "name": "Wallis e Futuna",
+      "settings_name": "Wallis and Futuna",
+      "iso": "WF",
+      "fiscal_iso": "WF",
+      "uic": "218"
+    },
+    {
+      "name": "Yemen",
+      "settings_name": "Yemen",
+      "iso": "YE",
+      "fiscal_iso": "YE",
+      "uic": "042"
+    },
+    {
+      "name": "Zambia",
+      "settings_name": "Zambia",
+      "iso": "ZM",
+      "fiscal_iso": "ZM",
+      "uic": "058"
+    },
+    {
+      "name": "Zimbabwe",
+      "settings_name": "Zimbabwe",
+      "iso": "ZW",
+      "fiscal_iso": "ZW",
+      "uic": "073"
+    }
+  ]
+}

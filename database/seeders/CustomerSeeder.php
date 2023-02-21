@@ -17,7 +17,7 @@ class CustomerSeeder extends Seeder {
         $customerTypes = CustomerType::values();
         $adminIds = User::admins()->pluck('id');
 
-        $clientsFile = file_get_contents(resource_path() . '/js/Helpers/Data/Clients.json');
+        $clientsFile = file_get_contents(resource_path() . '/ts/Helpers/Data/Clients.json');
         $clients = collect(json_decode($clientsFile))['data'];
 
         foreach ($clients as $client) {

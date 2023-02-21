@@ -3,18 +3,18 @@
         <div class="menu-item px-3">
             <div class="menu-content d-flex align-items-center px-3">
                 <div class="symbol symbol-50px me-5">
-                    <div class="symbol-label fs-3 fw-semibold">{{ user?.initials }}</div>
+                    <div class="symbol-label fs-3 fw-semibold">{{ auth.user?.initials }}</div>
                 </div>
                 <div class="d-flex flex-column">
-                    <div class="fw-bold d-flex align-items-center fs-5">{{ user?.name }}
+                    <div class="fw-bold d-flex align-items-center fs-5">{{ auth.user?.name }}
                     </div>
-                    <span class="fw-semibold text-muted fs-7">{{ user?.email }}</span>
+                    <span class="fw-semibold text-muted fs-7">{{ auth.user?.email }}</span>
                 </div>
             </div>
         </div>
         <div class="separator my-2"></div>
         <div class="menu-item px-5">
-            <RouterLink :to="'#'" class="menu-link px-5">
+            <RouterLink :to="{ name: 'profile.overview' }" class="menu-link px-5">
                 <i class="bi bi-person fs-4 me-4"></i>
                 Profilo
             </RouterLink>
@@ -41,7 +41,7 @@
             </RouterLink>
         </div>
         <div class="menu-item px-5">
-            <a role="button" @click.prevent="auth.logout()" class="menu-link px-5 text-danger">
+            <a role="button" @click.prevent="logout()" class="menu-link px-5 text-danger">
                 <i class="bi bi-box-arrow-right fs-4 me-4 text-danger"></i>
                 Esci
             </a>
@@ -49,8 +49,9 @@
     </div>
 </template>
 <script setup lang="ts">
-    import { computed, defineComponent } from "vue";
+    import { computed, defineComponent, watch } from "vue";
     import { useAuthStore } from "@Stores/useAuthStore";
+    import router from "../../Router/router";
     // import useAuth from "#Composables/useAuth";
     // import { usePage } from "@inertiajs/inertia-vue3";
     // import User from "@Models/User";
@@ -60,9 +61,8 @@
     const login = () => {
     }
     const logout = () => {
+        auth.logout().then(() => {
+            router.push({name: 'auth.login'})
+        })
     }
-
-    const user = computed(() => {
-        return {};
-    });
 </script>

@@ -12,7 +12,7 @@ window.axios.interceptors.response.use(
     (error) => {
         if (error.response?.status === 401) {
             const auth = useAuthStore();
-            auth.destroyTokenAndRedirectTo("auth.login");
+            auth.destroyToken("auth.login");
         }
 
         return Promise.reject(error);

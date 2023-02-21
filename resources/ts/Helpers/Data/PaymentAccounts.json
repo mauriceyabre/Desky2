@@ -1,0 +1,13 @@
+{
+  "data": [
+    {
+      "id": 842683,
+      "name": "INTESA SAN PAOLO S.P.A.",
+      "type": "bank",
+      "iban": "IT84R0306957571100000010507",
+      "sia": "",
+      "virtual": false,
+      "is_linked_to_ts_pay": false
+    }
+  ]
+}

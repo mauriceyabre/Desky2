@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Desky2.iml" filepath="$PROJECT_DIR$/.idea/Desky2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../Optimaze/.idea/Optimaze.iml" filepath="$PROJECT_DIR$/../Optimaze/.idea/Optimaze.iml" />
     </modules>
   </component>
 </project>

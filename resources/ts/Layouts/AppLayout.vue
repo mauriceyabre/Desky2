@@ -6,13 +6,14 @@
             <AppHeader />
             <div class="content d-flex flex-column flex-column-fluid p-0" id="kt_content">
                 <div id="kt_content_container" class="container-xxl">
-                    <RouterView />
+                    <RouterView v-slot="{ Component, route }">
+                        <div :key="route.name.split('.')[0]">
+                            <transition name="page" mode="out-in" :appear="true">
+                                <component :is="Component" />
+                            </transition>
+                        </div>
+                    </RouterView>
                 </div>
-                <!--                    <transition name="page" mode="out-in" @after-enter="onAfterEnter">
-                                        <div class="container-fluid h-100" id="kt_content_container" :key="componentKey">
-                                            <slot />
-                                        </div>
-                                    </transition>-->
             </div>
             <AppFooter />
         </div>
@@ -32,7 +33,7 @@
     import AppHeader from "@Layouts/Partials/AppHeader.vue";
     import AppHeaderMobile from "@Layouts/Partials/AppHeaderMobile.vue";
     import AppFooter from "@Layouts/Partials/AppFooter.vue";
-    import { nextTick, onMounted } from "vue";
+    import { onMounted } from "vue";
     import AppCore from "@Helpers/AppCore";
 
     const emit = defineEmits(['pageLoaded']);
@@ -41,21 +42,21 @@
         if (!!document.body.style.backgroundImage) {
             document.body.style.backgroundImage = 'none'
         }
-        AppCore().init()
+        KTComponents.init()
     })
 </script>
-<style>
+<style scoped>
     .page-enter-active {
-        transition: all 0.25s ease-out;
+        transition: all 0.5s ease-out;
     }
 
     .page-leave-active {
-        transition: all 0.25s cubic-bezier(1, 0.5, 0.8, 1);
+        transition: all 0.5s cubic-bezier(1, 0.5, 0.8, 1);
     }
 
     .page-enter-from,
     .page-leave-to {
-        transform: translateY(10px);
+        transform: translateY(12px);
         opacity: 0;
     }
 </style>

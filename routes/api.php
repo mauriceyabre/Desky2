@@ -46,8 +46,7 @@ Route::middleware('api')->prefix('v1')->namespace('App\Http\Controllers\Api\V1')
         });
 
         // ATTENDANCES ROUTES
-        Route::prefix('attendances')->controller(AttendanceController::class)->group(function () {
-            Route::get('/', 'index');
-        });
+        Route::apiResource('attendances', AttendanceController::class)->except('update');
+        Route::put('attendances/{id?}', [AttendanceController::class, 'update']);
     });
 });

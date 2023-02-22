@@ -1,28 +1,12 @@
 import isEqual from 'lodash/isEqual'
-import { computed, reactive, readonly, ref, watch } from 'vue'
+import { computed, reactive, ref, watch } from 'vue'
 import cloneDeep from 'lodash/cloneDeep'
 
-interface ADFormProps<TForm> {
-    isDirty: boolean
-    errors?: TForm
-    hasErrors: boolean
-    processing: boolean
-    progress: null | number
-    wasSuccessful: boolean
-    recentlySuccessful: boolean
-    setErrors(err: Object): void
-    data(): TForm
-    defaults(): TForm
-    clearErrors(): this
-    submit(method: 'get' | 'post' | 'put' | 'delete', url: string, params?: Object, data?: Object): Promise<any>
-}
-
-export type ADForm<TForm> = TForm & ADFormProps<TForm>
-
-export default function useForm<TForm>(args: TForm): ADForm<TForm> {
-    const data = args || {}
-    const defaults = cloneDeep(data)
+export default function useForm<TForm>(args: TForm): AppForm<TForm> {
+    const data = args ?? {}
+    let defaults = cloneDeep(data as TForm)
     const errorsData = ref({})
+    let transform = data => data
 
     let form = reactive({
         ...data,
@@ -33,11 +17,20 @@ export default function useForm<TForm>(args: TForm): ADForm<TForm> {
         progress: null,
         wasSuccessful: false,
         recentlySuccessful: false,
+        setDefaults(data?: TForm) {
+            const dataSet = data ?? this.data()
+            defaults = cloneDeep(dataSet)
+        },
         setErrors(err: Object) {
-            Object.entries(err).forEach(([key, value]) => {
-                errorsData.value[key] = value?.[0];
-                console.log(this.errors)
-            })
+            if (!!Object.keys(err).length) {
+                Object.entries(err).forEach(([key, value]) => {
+                    errorsData.value[key] = value;
+                    console.log(this.errors)
+                })
+                this.hasErrors = true
+            } else {
+
+            }
         },
         data() {
             return Object
@@ -45,10 +38,14 @@ export default function useForm<TForm>(args: TForm): ADForm<TForm> {
                 .reduce((carry, key) => {
                     carry[key] = this[key]
                     return carry
-                }, {})
+                }, {}) as TForm
         },
         defaults() {
-            return readonly(defaults) as TForm
+            return computed(() => defaults).value as TForm
+        },
+        transform(callback) {
+            transform = callback
+            return this
         },
         clearErrors(...fields) {
             errorsData.value = Object
@@ -61,29 +58,90 @@ export default function useForm<TForm>(args: TForm): ADForm<TForm> {
             this.hasErrors = Object.keys(errorsData.value).length > 0
             return this
         },
-        async submit(method: 'get'|'post'|'put'|'delete', url, params?: {
-            onBefore: (callback: (e?) => void) => void
-        }) {
+        async submit(method: 'get'|'post'|'put'|'delete', url: string, options : AppVisitOptions) {
             this.processing = true
+            const data = transform(this.data())
 
-            params?.onBefore( (callback)  => {
-                callback();
-            })
+            const _options = {
+                ...options,
+                onBefore: visit => {
+                    this.wasSuccessful = false
+                    this.recentlySuccessful = false
+
+                    if (options.onBefore) {
+                        return options.onBefore(visit)
+                    }
+                },
+                onSuccess: async page => {
+                    this.processing = false
+                    this.progress = null
+                    this.clearErrors()
+                    this.wasSuccessful = true
+                    this.recentlySuccessful = true
+
+                    const onSuccess = options.onSuccess ? options.onSuccess(page) : null
+                    this.isDirty = false
+                    return onSuccess
+                },
+                onError: errors => {
+                    this.processing = false
+                    this.progress = null
+                    // this.clearErrors().setError(errors)
+
+                    if (options.onError) {
+                        return options.onError(errors)
+                    }
+                },
+                onFinish: () => {
+                    this.processing = false
+                    this.progress = null
+
+                    if (options.onFinish) {
+                        return options.onFinish()
+                    }
+                },
+            }
+
+            _options?.onBefore(data)
 
             if (method === 'delete') {
-                return await axios.delete(url, { params }).finally(() => {
+                return await axios.delete(url).then((res) => {
+                    _options?.onSuccess(res.data)
+                })
+                    .catch(err => {
+                        _options?.onError(err)
+                    })
+                    .finally(() => {
                     this.processing = false
+                        _options.onFinish()
                 })
             }
-            return await axios[method](url, { ...this.data(), params: params })
+            return await axios[method](url, { ...data, params: _options })
+                .then((res) => {
+                    _options?.onSuccess(res)
+                })
                 .catch((err) => {
                     (!!err.response.data.errors) ? Object.entries(err.response.data.errors).forEach(([key, value]) => {
                         errorsData.value[key] = value?.[0];
                     }) : {}
+                    _options?.onError(err.response)
                 })
                 .finally(() => {
                 this.processing = false
+                    _options.onFinish()
             })
+        },
+        post(url: string, options: AppVisitOptions) {
+            this.submit('post', url, options)
+        },
+        put(url: string, options: AppVisitOptions) {
+            this.submit('put', url, options)
+        },
+        get(url: string, options: AppVisitOptions) {
+            this.submit('get', url, options)
+        },
+        delete(url: string, options: AppVisitOptions) {
+            this.submit('delete', url, options)
         }
     })
 
@@ -91,5 +149,5 @@ export default function useForm<TForm>(args: TForm): ADForm<TForm> {
         form.isDirty = !isEqual(form.data(), defaults)
     }, { immediate: true, deep: true })
 
-    return form as ADForm<TForm>
+    return form as AppForm<TForm>
 }

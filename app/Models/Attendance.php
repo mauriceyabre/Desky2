@@ -22,9 +22,8 @@ class Attendance extends Model {
         'created_at' => 'datetime',
         'updated_at' => 'datetime'
     ];
-    protected $with = ['presenceLogs'];
-    protected $appends = ['presence_duration', 'absence_duration', 'has_active_session'];
-
+    // protected $with = ['presenceLogs'];
+    // protected $appends = ['presence_duration', 'absence_duration', 'has_active_session'];
 
     // RELATIONS
     public function presenceLogs() : HasMany {
@@ -46,17 +45,14 @@ class Attendance extends Model {
 
     // ACCESSORS AND MUTATORS
     public function presenceDuration() : Attribute {
-        $result = (!!$this->presenceLogs->count()) ? $this->presenceLogs->sum('duration') : 0;
-        return Attribute::make(get: fn() => $result);
+        return Attribute::make(get: fn() => (!!$this->presenceLogs->count()) ? $this->presenceLogs->sum('duration') : 0);
     }
 
     public function absenceDuration() : Attribute {
-        $result = !!$this->absence ? 480 - $this->presenceDuration : 0;
-        return Attribute::make(get: fn() => $result);
+        return Attribute::make(get: fn() => !!$this->absence ? 480 - $this->presenceDuration : 0);
     }
 
     public function hasActiveSession() : Attribute {
-        $result = !!$this->latestPresenceLog?->is_active;
-        return Attribute::make(get: fn() => $result);
+        return Attribute::make(get: fn() => !!$this->latestPresenceLog?->is_active);
     }
 }

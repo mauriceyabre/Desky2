@@ -17,7 +17,7 @@ class MemberController extends Controller {
     }
 
     public function get(int $id) {
-        $user = User::findOrFail($id);
+        $user = User::with('address')->findOrFail($id);
         return response()->json(['user' => $user]);
     }
 

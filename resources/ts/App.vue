@@ -1,9 +1,6 @@
 <template>
     <RouterView />
 </template>
-<script setup lang="ts">
-
-</script>
 <style>
 	body,
 	body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown):not(.modal-open),

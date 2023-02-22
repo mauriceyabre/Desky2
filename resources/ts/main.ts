@@ -10,7 +10,6 @@ import { Italian } from "flatpickr/dist/l10n/it"
 
 import App from './App.vue'
 
-
 flatpickr.localize(Italian);
 
 const toastOptions: PluginOptions = {

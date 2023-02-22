@@ -43,9 +43,9 @@ const authRoutes: RouteRecordRaw = {
     beforeEnter: auth,
     children: [
         {
-            path: '/',
+            path: '',
             component: () => import('@Pages/App/Dashboard/Dashboard.vue'),
-            alias: ['/dashboard'],
+            alias: ['/dashboard', '/'],
             name: 'dashboard'
         },
         {
@@ -83,9 +83,7 @@ const router = createRouter({
 });
 
 router.beforeEach(async (to, from, next) => {
-    console.log('check store')
     const store = useAuthStore()
-    console.log(store.hasUser, store.check)
     if (store.check && !store.hasUser) {
         store.set(await store.fetch())
     }

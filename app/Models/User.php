@@ -48,7 +48,7 @@ class User extends Authenticatable {
         'hire_date' => 'date:Y-m-d'
     ];
 
-    protected $with = ['todayAttendance', 'role', 'activeSessionAttendance'];
+    protected $with = ['role', 'activeSessionAttendance'];
     protected $appends = ['is_admin'];
 
     protected static function booted(): void {

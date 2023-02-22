@@ -98,3 +98,43 @@ declare interface VatEntity {
     value?: number,
     description?: string
 }
+
+declare interface AppVisitOptions {
+    onBefore?(data?): any,
+    onStart?(event?): any,
+    onError?(error?): any,
+    onSuccess?(res?): any,
+    onFinish?(): any
+}
+
+declare interface AppFormProps<TForm> {
+    isDirty: boolean
+    errors?: TForm
+    hasErrors: boolean
+    processing: boolean
+    progress: null | number
+    wasSuccessful: boolean
+    recentlySuccessful: boolean
+
+    setErrors(err: Object): void
+
+    setError(field: keyof TForm, value: string): this
+
+    setDefaults(data?: TForm): void
+    setError(errors: Record<keyof TForm, string>): this
+    transform(callback: (data: TForm) => object): this
+    data(): TForm
+    defaults(): TForm
+    clearErrors(): this
+    submit(method: 'get' | 'post' | 'put' | 'delete', url: string, options?: AppVisitOptions): Promise<any>
+
+    post(url: string, options: AppVisitOptions)
+
+    put(url: string, options: AppVisitOptions)
+
+    get(url: string, options: AppVisitOptions)
+
+    delete(url: string, options: AppVisitOptions)
+}
+
+declare type AppForm<TForm> = TForm & AppFormProps<TForm>

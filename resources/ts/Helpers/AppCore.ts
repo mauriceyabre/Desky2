@@ -1,5 +1,3 @@
-import { nextTick } from "vue";
-
 export default function AppCore() {
     const COLORS: string[] = [
         'white',

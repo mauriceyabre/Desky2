@@ -7,6 +7,7 @@ use App\Http\Controllers\Api\V1\Auth\PasswordUpdateController;
 use App\Http\Controllers\Api\V1\Auth\ProfileController;
 use App\Http\Controllers\Api\V1\CustomerController;
 use App\Http\Controllers\Api\V1\MemberController;
+use App\Http\Controllers\Api\V1\ProjectController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -48,5 +49,9 @@ Route::middleware('api')->prefix('v1')->namespace('App\Http\Controllers\Api\V1')
         // ATTENDANCES ROUTES
         Route::apiResource('attendances', AttendanceController::class)->except('update');
         Route::put('attendances/{id?}', [AttendanceController::class, 'update']);
+
+        // PROJECTS ROUTES
+        Route::get('projects/dropdown', [ProjectController::class, 'dropdown']);
+        Route::apiResource('projects', ProjectController::class);
     });
 });

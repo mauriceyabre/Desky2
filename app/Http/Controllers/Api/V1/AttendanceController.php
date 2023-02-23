@@ -5,8 +5,8 @@ namespace App\Http\Controllers\Api\V1;
 use App\Http\Controllers\Controller;
 use App\Models\Attendance;
 use Carbon\Carbon;
-use Date;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Date;
 use Illuminate\Validation\Rule;
 use Symfony\Component\HttpFoundation\Response;
 use Throwable;
@@ -170,7 +170,7 @@ class AttendanceController extends Controller {
             }
 
             if ($request->has('absence')) {
-                if ($attendance->presenceDuration >= 480) {
+                if ($attendance->presenceDuration >= 480 && !!$request->input('absence')) {
                     abort(Response::HTTP_BAD_REQUEST, 'Non è possibile registrare un permesso quando hai lavorato almeno 8 ore.');
                 }
                 $attendance->updateOrFail(['absence' => $request->input('absence')]);
@@ -192,7 +192,7 @@ class AttendanceController extends Controller {
                 }
             }
 
-            return response()->json(['toast' => 'Presenza Aggiornata', 'attendance' => $attendance]);
+            return response()->json(['toast' => 'Presenza Aggiornata', 'attendance' => $attendance->load('projects', 'presenceLogs')]);
         }
         return response();
     }

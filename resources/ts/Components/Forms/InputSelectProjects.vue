@@ -76,9 +76,9 @@
 
     async function fetchProjects(search: string = '') {
         isLoading.value = true
-        return [] /*await axios.get(route('projects.fetch', { list: 'filterable', search, user_id: userId.value })).then((res) => {
-            return Object.values(res.data).map(item => new Project(item))
-        }).finally(() => isLoading.value = false)*/
+        return await axios.get('projects/dropdown', { params: { search, user_id: userId.value }}).then((res) => {
+            return Object.values(res.data.projects).map(item => new Project(item))
+        }).finally(() => isLoading.value = false)
     }
 
     watch(search, debounce( async (value) => {

@@ -2,6 +2,7 @@ import { AxiosInstance } from "axios";
 import { Moment } from "moment";
 import { Dropdown } from "bootstrap/js/dist/dropdown.d.ts";
 import { Modal } from "bootstrap/js/dist/modal.d.ts";
+import AppCore from "@Helpers/AppCore";
 export { Select2 } from "select2"
 
 declare global {
@@ -14,6 +15,7 @@ declare global {
         init()
     }
     const moment: typeof Moment
+    const appCore: typeof AppCore
 
     namespace bootstrap {
         const Modal: Modal

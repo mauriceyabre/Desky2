@@ -20,7 +20,7 @@
             </RouterLink>
         </div>
         <div class="menu-item px-5">
-            <RouterLink :to="'#'" class="menu-link px-5">
+            <RouterLink :to="{ name: 'profile.timesheet' }" class="menu-link px-5">
                 <i class="bi bi-calendar-week fs-4 me-4"></i>
                 Foglio Presenze
             </RouterLink>

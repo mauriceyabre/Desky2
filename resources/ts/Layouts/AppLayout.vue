@@ -45,7 +45,7 @@
         KTComponents.init()
     })
 </script>
-<style scoped>
+<style>
     .page-enter-active {
         transition: all 0.5s ease-out;
     }

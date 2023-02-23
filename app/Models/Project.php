@@ -51,9 +51,6 @@ class Project extends Model {
          'balance'
     ];
 
-    public $with = ['members:id,first_name,last_name', 'customer:id,name,email,phone,address,country_code', 'creator:id,first_name,last_name'];
-
-
     // RELATIONSHIPS
     public function members() : BelongsToMany {
         return $this->belongsToMany(User::class, 'project_user');

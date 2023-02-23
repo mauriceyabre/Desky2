@@ -11,6 +11,14 @@
 //use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
+// Clear application cache:
+Route::get('/clear-cache', function () {
+    Artisan::call('cache:clear');
+    Artisan::call('route:cache');
+    Artisan::call('config:cache');
+    Artisan::call('view:clear');
+});
+
 Route::get('/{any}', function (){
     return view('app');
 })->where('any', '.*');

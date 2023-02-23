@@ -56,7 +56,10 @@ const authRoutes: RouteRecordRaw = {
                     path: 'overview',
                     name: 'profile.overview',
                     alias: ['/profile'],
-                    component: () => import('@Pages/App/Members/MemberOverview.vue')
+                    component: () => import('@Pages/App/Members/MemberOverview.vue'),
+                    meta: {
+                        title: 'Profilo Utente'
+                    }
                 },
                 {
                     path: 'timesheet',
@@ -87,6 +90,16 @@ router.beforeEach(async (to, from, next) => {
     if (store.check && !store.hasUser) {
         store.set(await store.fetch())
     }
+
+    const title = to.meta.title as string
+    const titleFromParams = to.params.pageTitle
+    if (title) {
+        document.title = title
+    }
+    if (titleFromParams) {
+        document.title = `${ titleFromParams } - ${ document.title }`;
+    }
+
     next()
 })
 

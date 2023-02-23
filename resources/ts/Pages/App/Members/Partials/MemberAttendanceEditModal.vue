@@ -3,49 +3,52 @@
         <template #form="modalData">
             <div class="d-flex flex-row">
                 <div class="flex-row-fluid px-10 py-12">
-                    <div class="d-flex flex-column gap-3 gap-xxl-6">
-                        <div class="d-flex flex-center">
-                            <span class="fs-5 fw-normal">{{ modalTitle }}</span>
+                    <div v-if="!isLoading">
+                        <div class="d-flex flex-column gap-3 gap-xxl-6">
+                            <div class="d-flex flex-center">
+                                <span class="fs-5 fw-normal">{{ modalTitle }}</span>
+                            </div>
+                            <div class="row g-2 g-lg-4">
+                                <div class="col" v-if="(!form.hasAbsence) || (permitTime < 480)">
+                                    <div class="bg-gray-100 bg-opacity-70 rounded-2 px-6 py-5 position-relative">
+                                        <div class="m-0">
+                                            <span class="text-gray-700 fw-bolder d-block fs-2qx lh-1 ls-n1 mb-1">{{ ordinaryTime.toPrintedDuration() }}</span>
+                                            <span class="text-gray-500 fw-semibold fs-6">Ordinario</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col" v-if="!!overTime">
+                                    <div class="bg-light-info bg-opacity-70 rounded-2 px-6 py-5">
+                                        <div class="m-0">
+                                            <span class="text-info fw-bolder d-block fs-2qx lh-1 ls-n1 mb-1">{{ overTime.toPrintedDuration() }}</span>
+                                            <span class="text-info opacity-75 fw-semibold fs-6">Straordinario</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col" v-if="!!permitTime && form.hasAbsence">
+                                    <div class="bg-light-danger bg-opacity-70 rounded-2 px-6 py-5">
+                                        <div class="m-0">
+                                            <span class="text-danger fw-bolder d-block fs-2qx lh-1 ls-n1 mb-1">{{ permitTime.toPrintedDuration() }}</span>
+                                            <span class="text-danger opacity-75 fw-semibold fs-6">Assenza</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="rounded-2 px-6 py-5 position-relative" :class="(totalTime < 480) ? 'bg-light-danger' : 'bg-gray-100 bg-opacity-70'">
+                                        <div class="m-0">
+                                            <span class="fw-bolder d-block fs-2qx lh-1 ls-n1 mb-1" :class="(totalTime < 480) ? 'text-danger' : 'text-gray-700'">{{ totalTime.toPrintedDuration() }}
+                                            </span>
+                                            <span class="fw-semibold fs-6" :class="(totalTime < 480) ? 'text-danger' : 'text-gray-500'">Totale</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="row g-2 g-lg-4">
-                            <div class="col" v-if="(!form.hasAbsence) || (permitTime < 480)">
-                                <div class="bg-gray-100 bg-opacity-70 rounded-2 px-6 py-5 position-relative">
-                                    <div class="m-0">
-                                        <span class="text-gray-700 fw-bolder d-block fs-2qx lh-1 ls-n1 mb-1">{{ ordinaryTime.toPrintedDuration() }}</span>
-                                        <span class="text-gray-500 fw-semibold fs-6">Ordinario</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col" v-if="!!overTime">
-                                <div class="bg-gray-100 bg-opacity-70 rounded-2 px-6 py-5">
-                                    <div class="m-0">
-                                        <span class="text-gray-700 fw-bolder d-block fs-2qx lh-1 ls-n1 mb-1">{{ overTime.toPrintedDuration() }}</span>
-                                        <span class="text-gray-500 fw-semibold fs-6">Straordinario</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col" v-if="!!permitTime && form.hasAbsence">
-                                <div class="bg-gray-100 bg-opacity-70 rounded-2 px-6 py-5">
-                                    <div class="m-0">
-                                        <span class="text-gray-700 fw-bolder d-block fs-2qx lh-1 ls-n1 mb-1">{{ permitTime.toPrintedDuration() }}</span>
-                                        <span class="text-gray-500 fw-semibold fs-6">Assenza</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="rounded-2 px-6 py-5 position-relative" :class="(totalTime < 480) ? 'bg-light-danger' : 'bg-gray-100 bg-opacity-70'">
-                                    <div class="m-0">
-                                        <span class="fw-bolder d-block fs-2qx lh-1 ls-n1 mb-1" :class="(totalTime < 480) ? 'text-danger' : 'text-gray-700'">{{ totalTime.toPrintedDuration() }}</span>
-                                        <span class="fw-semibold fs-6" :class="(totalTime < 480) ? 'text-danger' : 'text-gray-500'">Totale</span>
-                                    </div>
-                                </div>
-                            </div>
+                        <div v-if="form.hasErrors" class="alert alert-danger d-flex align-items-center mb-0 py-2 px-4 mt-3">
+                            <ul class="m-0">
+                                <li v-for="(error, key) in form.errors" :key="key">{{ error }}</li>
+                            </ul>
                         </div>
-                    </div>
-                    <div v-if="form.hasErrors" class="alert alert-danger d-flex align-items-center mb-0 py-2 px-4 mt-3">
-                        <ul class="m-0">
-                            <li v-for="(error, key) in form.errors" :key="key">{{ error }}</li>
-                        </ul>
                     </div>
                     <AppBoxLoader v-if="isLoading" class="mt-xxl-6 mt-3" />
                     <div v-else>
@@ -146,7 +149,7 @@
                                                     </button>
                                                 </td>
                                             </tr>
-                                            <tr v-if="form.projects.length" class="text-success">
+                                            <tr v-if="form.projects.length" class="text-dark">
                                                 <td class="text-end" colspan="2">Totale:</td>
                                                 <td>{{ projectsTimeDedicated.toPrintedDuration() }}</td>
                                                 <td></td>
@@ -214,6 +217,8 @@
     import useForm from "@Composables/useForm";
     import useModal from "@Composables/useModal";
     import AppBoxLoader from "@Components/AppBoxLoader.vue";
+    import { useGlobalStore } from "@Stores/useGlobalStore";
+    import { useAttendancesStore } from "@Stores/useAttendancesStore";
 
     interface Props {
         date: string,
@@ -234,6 +239,9 @@
     const modal = useModal('attendance_modal')
     const tab = ref('attendance')
     const isLoading = ref(true)
+
+    const Global = useGlobalStore()
+    const attendancesStore = useAttendancesStore()
 
     const attendance = ref<Attendance|null>(null)
     const projects = computed(() => attendance.value?.projects ?? [])
@@ -287,23 +295,6 @@
         return (attendance.value) ? moment(attendance.value.date).format('dddd, DD MMM YYYY').capitalize() : moment(props.date).format('dddd, DD MMM YYYY').capitalize()
     })
 
-    // const formData = computed(() => {
-    //     return {
-    //         presences: presences.value ?? [],
-    //         absence: absence.value ?? null,
-    //         hasAbsence: !!absence.value,
-    //         projects: projects.value.length ? projects.value.map(project => {
-    //             return {
-    //                 id: project.id,
-    //                 name: project.name,
-    //                 customer_name: project.customer?.name,
-    //                 duration: project.pivot.duration,
-    //                 started_at: project.started_at
-    //             }
-    //         }) : [],
-    //     }
-    // })
-
     const form = useForm({
         presences: [] as FormattedPresence[],
         absence: null as string|null,
@@ -317,7 +308,22 @@
         }[]
     })
 
-    const initialValues = ref()
+    function setForm() {
+        form.presences = presences.value
+        form.absence = absence.value
+        form.hasAbsence = !!absence.value
+        form.projects = projects.value.length ? projects.value.map(project => {
+            return {
+                id: project.id,
+                name: project.name,
+                customer_name: project.customer?.name,
+                duration: project.pivot.duration,
+                started_at: project.started_at
+            }
+        }) : []
+
+        form.setDefaults()
+    }
 
     const totalOrdinaryTime = computed(() => {
         const sum = roundedSumPresences(form.presences);
@@ -368,6 +374,15 @@
         form.absence = value ? 'permit' : null
     })
 
+    watch(() => totalOrdinaryTime.value, value => {
+        if (value >= 480) {
+            if (form.hasAbsence) {
+                form.hasAbsence = false
+                form.absence = null
+            }
+        }
+    })
+
     function roundedSumPresences(presences: FormattedPresence[]): number {
         const total = presences.reduce((sum, prev) => {
             const previousValue = prev.ended_at ? moment(prev.ended_at, 'HH:mm').diff(moment(prev.started_at, 'HH:mm'), 'minute') : 0
@@ -390,8 +405,8 @@
 
     function addSession() {
         const prevSessionEnd = !!form.presences.length ? moment(form.presences[form.presences.length - 1].ended_at, 'HH:mm') : null;
-        const start = prevSessionEnd?.clone().add(1, 'hour') ?? moment('09:30', 'HH:mm');
-        const end = (start.clone().add(1, 'hour').isBefore(start)) ? moment('23:59', 'HH:mm') : start.clone().add(1, 'hour')
+        const start = prevSessionEnd?.clone().add(30, 'minutes') ?? moment('09:30', 'HH:mm');
+        const end = (start.clone().add(4, 'hours').isBefore(start)) ? moment('23:59', 'HH:mm') : start.clone().add(4, 'hours')
         const newObject = {
             index: form.presences?.length + 1 ?? 1,
             id: null,
@@ -401,12 +416,11 @@
         form.presences.push(newObject);
     }
 
-    function removeSession(id: string) {
-        const index = Number(id);
+    function removeSession(index: number) {
         if (index === 0) {
             form.presences.shift()
         } else {
-            form.presences.splice(index, index)
+            form.presences.splice(index, 1)
         }
     }
 
@@ -435,10 +449,6 @@
                 }
             }
 
-            if (totalOrdinaryTime.value >= 480) {
-                toEditAbsence = null
-            }
-
             const toSyncProjects = (JSON.stringify(form.defaults().projects) !== JSON.stringify(data.projects)) ? data.projects.map(item => {
                 return {
                     id: item.id,
@@ -456,18 +466,19 @@
                 projects: toSyncProjects
             }
         }).put( 'attendances/' + (attendance.value?.id ?? '') , {
-            onBefore(data?): any {
-                console.log('Before', data)
+            onBefore() {
             },
-            onSuccess(res?): any {
+            async onSuccess(res?) {
                 attendance.value = new Attendance(res.data.attendance)
-                console.log('toast')
+                Global.pushToast('success', res.data.toast)
+
+                setForm()
+                await attendancesStore.load(props.user_id, props.date)
             },
             onError(error?): any {
                 form.setErrors(error.data.errors)
             },
-            onFinish(): any {
-                console.log('Finish')
+            onFinish() {
             }
         })
     }
@@ -480,38 +491,45 @@
         form.projects = form.projects.filter(item => item.id !== projectId)
     }
 
-    onMounted( async () => {
+    onMounted(  () => {
         modal.open()
         modal.onClosed(() => {
             emits('modal_closed')
-            console.log('Closed')
         })
-        if (props.attendance_id) {
-            isLoading.value = true
-            await axios.get('attendances/' + props.attendance_id, { params: { with: ['projects'] } }).then((res) => {
-                attendance.value = new Attendance(res.data.attendance)
+        modal.onOpened(async() => {
+            if (props.attendance_id) {
+                isLoading.value = true
+                await axios.get('attendances/' + props.attendance_id, { params: { with: ['projects'] } }).then((res) => {
+                    attendance.value = new Attendance(res.data.attendance)
 
-                form.presences = presences.value ?? []
-                form.absence = absence.value ?? null
-                form.hasAbsence = !!absence.value
-                form.projects = projects.value.length ? projects.value.map(project => {
-                    return {
-                        id: project.id,
-                        name: project.name,
-                        customer_name: project.customer?.name,
-                        duration: project.pivot.duration,
-                        started_at: project.started_at
-                    }
-                }) : []
+                    setForm()
 
-                form.setDefaults()
-
-                console.log(form, initialValues.value)
-            }).finally(() => {
+                }).finally(() => {
+                    isLoading.value = false
+                })
+            } else {
                 isLoading.value = false
-            })
-        } else {
-            isLoading.value = false
-        }
+            }
+        })
+
     })
 </script>
+<style>
+	.list-move, /* apply transition to moving elements */
+	.list-enter-active,
+	.list-leave-active {
+		transition: all 0.5s ease;
+		}
+
+	.list-enter-from,
+	.list-leave-to {
+		opacity: 0;
+		transform: translateX(30px);
+		}
+
+	/* ensure leaving items are taken out of layout flow so that moving
+       animations can be calculated correctly. */
+	.list-leave-active {
+		position: absolute;
+		}
+</style>

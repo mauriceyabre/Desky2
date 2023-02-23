@@ -15,10 +15,10 @@
                                 <div class="col-lg-9">
                                     <div class="row g-3">
                                         <div class="col-lg-6">
-                                            <AppInput :field-form="form" field-name="first_name" v-model="form.first_name" />
+                                            <InputText :form="form" name="first_name" v-model="form.first_name" />
                                         </div>
                                         <div class="col-lg-6">
-                                            <AppInput :field-form="form" field-name="last_name" v-model="form.last_name" />
+                                            <InputText :form="form" name="last_name" v-model="form.last_name" />
                                         </div>
                                     </div>
                                 </div>
@@ -28,7 +28,7 @@
                                     <span class="required">Paese</span>
                                 </label>
                                 <div class="col-lg-9 fv-row fv-plugins-icon-container">
-                                    <AppInputSelect2 :items="countries" :field-form="form" field-name="address.country_code" id="country_code" placeholder="Seleziona un paese..." v-model="form.address.country_code"
+                                    <InputSelect2 :options="countries" :form="form" name="address.country_code" id="country_code" placeholder="Seleziona un paese..." v-model="form.address.country_code"
                                             clearable />
                                 </div>
                             </div>
@@ -59,7 +59,7 @@
                                     <span>Mansione</span>
                                 </label>
                                 <div class="col-lg-9 fv-row">
-                                    <AppInput :field-form="form" field-name="job" field-type="text" placeholder="es. 3D Artist" v-model="form.job" />
+                                    <InputText :form="form" name="job" field-type="text" placeholder="es. 3D Artist" v-model="form.job" />
                                 </div>
                             </div>
                             <div class="row mb-6">
@@ -67,7 +67,7 @@
                                     <span>Telefono</span>
                                 </label>
                                 <div class="col-lg-9 fv-row">
-                                    <AppInput :field-form="form" field-name="phone" field-type="tel" placeholder="es. 3201234567" v-model="form.phone" />
+                                    <InputText :form="form" name="phone" field-type="tel" placeholder="es. 3201234567" v-model="form.phone" />
                                 </div>
                             </div>
                             <div class="row">
@@ -75,7 +75,7 @@
                                     <span>Compleanno</span>
                                 </label>
                                 <div class="col-lg-9 fv-row">
-                                    <AppInputDate :field-form="form" field-name="birthday" v-model="form.birthday" />
+                                    <InputDate :form="form" name="birthday" v-model="form.birthday" />
                                 </div>
                             </div>
                         </div>
@@ -86,7 +86,7 @@
                                     <span>Codice Fiscale</span>
                                 </label>
                                 <div class="col-lg-9 fv-row">
-                                    <AppInput :field-form="form" field-name="tax_id" field-type="tel" placeholder="es. KTVNGY77T30Y514A" v-model="form.tax_id" />
+                                    <InputText :form="form" name="tax_id" placeholder="es. KTVNGY77T30Y514A" v-model="form.tax_id" />
                                 </div>
                             </div>
                             <div class="row mb-6">
@@ -94,7 +94,7 @@
                                     <span>Partita Iva</span>
                                 </label>
                                 <div class="col-lg-9 fv-row">
-                                    <AppInput :field-form="form" field-name="vat_id" field-type="tel" placeholder="es. IT85458800571" v-model="form.vat_id" />
+                                    <InputText :form="form" name="vat_id" placeholder="es. IT85458800571" v-model="form.vat_id" />
                                 </div>
                             </div>
                             <div class="row mb-6">
@@ -102,7 +102,7 @@
                                     <span>IBAN</span>
                                 </label>
                                 <div class="col-lg-9 fv-row">
-                                    <AppInput :field-form="form" field-name="iban" field-type="tel" placeholder="es. IT29V8096100147J4HK47CRBD59" v-model="form.iban" />
+                                    <InputText :form="form" name="iban" placeholder="es. IT29V8096100147J4HK47CRBD59" v-model="form.iban" />
                                 </div>
                             </div>
                         </div>
@@ -113,7 +113,7 @@
                                     <span>Data di assunzione</span>
                                 </label>
                                 <div class="col-lg-9 fv-row">
-                                    <!--<AppInputDate :field-form="form" field-name="hire_date" v-model="form.hire_date" :disabled="!$page.props.auth.user.is_admin" />-->
+                                    <InputDate :form="form" name="hire_date" v-model="form.hire_date" :disabled="!user?.is_admin" />
                                 </div>
                             </div>
                         </div>
@@ -147,7 +147,7 @@
                             <tbody class="fs-6 fw-bold text-gray-600">
                                 <tr>
                                     <td>Email</td>
-                                    <td>{{ user.email }}</td>
+                                    <td>{{ user?.email }}</td>
                                     <td class="text-end">
                                         <button type="button" class="btn btn-icon btn-active-light-primary w-30px h-30px ms-auto" @click="isEmailModalOpen = true">
                                             <i class="bi bi-pencil-fill text-primary" />
@@ -179,22 +179,31 @@
 </template>
 <script setup lang="ts">
     import CountryModel from "@Models/Country";
-    import User from "@Models/User";
-    import AppInputSelect2 from "@Components/AppInputSelect2.vue";
+    // import User from "@Models/User";
+    // import AppInputSelect2 from "@Components/AppInputSelect2.vue";
     import { useToast } from 'vue-toastification';
-    import AppInput from "@Components/AppInput.vue";
-    import AppInputDate from "@Components/AppInputDate.vue";
-    import InputText from "@Components/form/InputText.vue";
-    import { computed, ref } from "vue";
+    // import AppInput from "@Components/AppInput.vue";
+    // import AppInputDate from "@Components/AppInputDate.vue";
+    // import InputText from "@Components/form/InputText.vue";
+    import { computed, nextTick, onMounted, ref, watch } from "vue";
     // import MemberModalEditPassword from "@Pages/App/Members/Partials/MemberModalEditPassword.vue";
     // import MemberModalEditEmail from "@Pages/App/Members/Partials/MemberModalEditEmail.vue";
-    import cloneDeep from "lodash/cloneDeep";
+    // import cloneDeep from "lodash/cloneDeep";
     import useForm from "@Composables/useForm";
+    // import InputSelect from "@Components/Forms/InputSelect.vue";
+    import InputText from "@Components/Forms/InputText.vue";
+    import InputDate from "@Components/Forms/InputDate.vue";
+    import { useUserStore } from "@Stores/useUserStore";
+    import User from "@Models/User";
+    import InputSelect2 from "@Components/Forms/InputSelect2.vue";
 
-    interface Props {
-        user: User,
-    }
-    const props = defineProps<Props>();
+    // interface Props {
+    //     user: User
+    // }
+    //
+    // const props = defineProps<Props>()
+
+    const userStore = useUserStore()
 
     const toast = useToast()
     const countries = CountryModel.getAllForSelect()
@@ -203,35 +212,60 @@
     const isEmailModalOpen = ref(false)
 
     const user = computed(() => {
-        return props.user;
+        return userStore.user;
     })
 
     const form = useForm({
-        first_name: user.value.first_name,
-        last_name: user.value.last_name,
+        first_name: user.value?.first_name,
+        last_name: user.value?.last_name,
 
-        job: user.value.job,
+        job: user.value?.job,
 
-        iban: user.value.iban,
-        tax_id: user.value.tax_id,
-        vat_id: user.value.vat_id,
+        iban: user.value?.iban,
+        tax_id: user.value?.tax_id,
+        vat_id: user.value?.vat_id,
 
-        hire_date: user.value.hire_date,
+        hire_date: user.value?.hire_date,
 
         address: {
-            id: user.value.address?.addressable_id,
-            street: user.value.address?.street,
-            postcode: user.value.address?.postcode,
-            city: user.value.address?.city,
-            province: user.value.address?.province,
-            country_code: user.value.address?.country_code,
+            id: user.value?.address?.addressable_id,
+            street: user.value?.address?.street,
+            postcode: user.value?.address?.postcode,
+            city: user.value?.address?.city,
+            province: user.value?.address?.province,
+            country_code: user.value?.address?.country_code,
         },
 
-        phone: user.value.phone,
-        birthday: user.value.birthday,
+        phone: user.value?.phone,
+        birthday: user.value?.birthday,
     })
 
-    const initialValues = cloneDeep(form.data())
+    // const form = useForm({
+    //     first_name: '',
+    //     last_name: '',
+    //
+    //     job: '',
+    //
+    //     iban: '',
+    //     tax_id: '',
+    //     vat_id: '',
+    //
+    //     hire_date: '',
+    //
+    //     address: {
+    //         id: '',
+    //         street: '',
+    //         postcode: '',
+    //         city: '',
+    //         province: '',
+    //         country_code: '',
+    //     },
+    //
+    //     phone: '',
+    //     birthday: '',
+    // })
+
+    // const initialValues = cloneDeep(form.data())
 
     function submitDetails() {
         // form
@@ -272,4 +306,68 @@
         // form.clearErrors();
     }
 
+    // watch(user, value => {
+    //     console.log(value)
+    //
+    //     Object.keys(form.data()).forEach(key => {
+    //         if (key === 'address') {
+    //             form.address[key] = value?.address?.[key]
+    //             return
+    //         }
+    //         form[key] = value?.[key]
+    //     })
+
+        // form.first_name =
+        // form. = useForm({
+        //     first_name: value?.first_name,
+        //     last_name: value?.last_name,
+        //
+        //     job: value?.job,
+        //
+        //     iban: value?.iban,
+        //     tax_id: value?.tax_id,
+        //     vat_id: value?.vat_id,
+        //
+        //     hire_date: value?.hire_date,
+        //
+        //     address: {
+        //         id: value?.address?.addressable_id,
+        //         street: value?.address?.street,
+        //         postcode: value?.address?.postcode,
+        //         city: value?.address?.city,
+        //         province: value?.address?.province,
+        //         country_code: value?.address?.country_code,
+        //     },
+        //
+        //     phone: value?.phone,
+        //     birthday: value?.birthday,
+        // })
+    // })
+
+    onMounted(async() => {
+        // form = useForm({
+        //     first_name: user.value?.first_name,
+        //     last_name: user.value?.last_name,
+        //
+        //     job: user.value?.job,
+        //
+        //     iban: user.value?.iban,
+        //     tax_id: user.value?.tax_id,
+        //     vat_id: user.value?.vat_id,
+        //
+        //     hire_date: user.value?.hire_date,
+        //
+        //     address: {
+        //         id: user.value?.address?.addressable_id,
+        //         street: user.value?.address?.street,
+        //         postcode: user.value?.address?.postcode,
+        //         city: user.value?.address?.city,
+        //         province: user.value?.address?.province,
+        //         country_code: user.value?.address?.country_code,
+        //     },
+        //
+        //     phone: user.value?.phone,
+        //     birthday: user.value?.birthday,
+        // })
+    })
 </script>

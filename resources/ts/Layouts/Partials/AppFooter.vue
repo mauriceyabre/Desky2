@@ -1,5 +1,5 @@
 <template>
-    <div class="footer py-4 d-flex flex-lg-column" id="kt_footer">
+    <div class="footer py-4 d-flex flex-lg-column min-h-75px justify-content-center" id="kt_footer">
         <div class="container-xxl d-flex flex-column flex-md-row flex-stack">
             <div class="text-dark order-2 order-md-1">
                 <span class="text-gray-400 fw-semibold me-1">Creato da</span>

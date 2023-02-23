@@ -195,10 +195,11 @@
     }
 
     onMounted(async () => {
-        if (authStore.hasUser) {
-            userStore.set(await userStore.fetch(authStore.user!.id).then((res) => {
-                /*console.log(res)*/ return res }))
-        }
+        // if (authStore.hasUser) {
+        //     userStore.set(await userStore.fetch(authStore.user!.id).then((res) => {
+        //        return res
+        //     }))
+        // }
        /* console.log(store.user)*/
     })
 

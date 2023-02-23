@@ -4,7 +4,7 @@
         <div class="wrapper d-flex flex-column flex-row-fluid" id="kt_wrapper" ref="contentContainer">
             <AppHeaderMobile />
             <AppHeader />
-            <div class="content d-flex flex-column flex-column-fluid p-0" id="kt_content">
+            <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
                 <div id="kt_content_container" class="container-xxl">
                     <RouterView v-slot="{ Component, route }">
                         <div :key="route.name.split('.')[0]">

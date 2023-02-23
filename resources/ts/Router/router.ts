@@ -4,6 +4,7 @@ import Login from "@Pages/Auth/Login.vue";
 import Register from "@Pages/Auth/Register.vue";
 import AppLayout from "@Layouts/AppLayout.vue";
 import { useAuthStore } from "@Stores/useAuthStore";
+import { useUserStore } from "@Stores/useUserStore";
 
 async function auth(to, from, next) {
     if (!localStorage.getItem("access_token")) {
@@ -51,6 +52,13 @@ const authRoutes: RouteRecordRaw = {
         {
             path: 'profile',
             component: () => import('@Pages/App/Members/Partials/MemberShowLayout.vue'),
+            beforeEnter: async () => {
+                if (useAuthStore().hasUser) {
+                    useUserStore().set(await useUserStore().fetch(useAuthStore().user!.id).then((res) => {
+                        return res
+                    }))
+                }
+            },
             children: [
                 {
                     path: 'overview',
@@ -58,19 +66,25 @@ const authRoutes: RouteRecordRaw = {
                     alias: ['/profile'],
                     component: () => import('@Pages/App/Members/MemberOverview.vue'),
                     meta: {
-                        title: 'Profilo Utente'
+                        title: 'Profilo'
                     }
                 },
                 {
                     path: 'timesheet',
                     name: 'profile.timesheet',
                     props: route => ({ date: route.query.date }),
-                    component: () => import('@Pages/App/Members/MemberTimesheet.vue')
+                    component: () => import('@Pages/App/Members/MemberTimesheet.vue'),
+                    meta: {
+                        title: 'Foglio Presenze'
+                    }
                 },
                 {
                     path: 'settings',
                     name: 'profile.settings',
-                    component: () => import('@Pages/App/Members/MemberSettings.vue')
+                    component: () => import('@Pages/App/Members/MemberSettings.vue'),
+                    meta: {
+                        title: 'Impostazioni'
+                    }
                 }
             ]
         }

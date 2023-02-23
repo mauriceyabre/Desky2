@@ -29,5 +29,5 @@ export const useUserStore = defineStore("userStore", () => {
         fetch,
         load,
         isLoading,
-        user: computed(() => user.value ) };
+        user: computed(() => user.value as User|null ) };
 });

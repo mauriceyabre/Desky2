@@ -132,6 +132,7 @@
     import { useUserStore } from "@Stores/useUserStore";
     import { useAttendancesStore } from "@Stores/useAttendancesStore";
     import { useAuthStore } from "@Stores/useAuthStore";
+    import debounce from "lodash.debounce";
 
     interface Props {
         date: String
@@ -215,10 +216,12 @@
         windows?.print();
     }
 
-    watch(theDate, async (value, oldValue) => {
+    watch(theDate,  (value, oldValue) => {
         if (value.valueOf() !== oldValue.valueOf()) {
             isLoading.value = false
-            await attendancesStore.load(user.value!.id, value)
+            debounce(async () => {
+                await attendancesStore.load(user.value!.id, value)
+            }, 500)()
         }
     })
 

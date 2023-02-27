@@ -43,7 +43,8 @@ Route::middleware('api')->prefix('v1')->namespace('App\Http\Controllers\Api\V1')
 
         // MEMBERS ROUTES
         Route::prefix('members')->controller(MemberController::class)->group(function () {
-            Route::get('/{id}', 'get');
+            Route::get('/{id}', [MemberController::class, 'show']);
+            Route::put('/{id}', [MemberController::class, 'update']);
         });
 
         // ATTENDANCES ROUTES

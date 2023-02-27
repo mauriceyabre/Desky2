@@ -1,28 +1,32 @@
 <template>
     <div v-bind="$attrs">
         <InputLabel v-if="label" :required="required">{{ label }}</InputLabel>
-        <input :value="modelValue" type="text" :name="name" class="form-control form-control-solid" :class="[{'is-invalid': (form.errors?.[name])}, size]" @input="$emit('update:modelValue', $event.target.value)" :placeholder="placeholder" @focus="form.clearErrors(name)" />
+        <input :value="modelValue" type="url" :name="name" class="form-control form-control-solid" :class="[{'is-invalid': (form.errors?.[name])}, size]" v-bind="$attrs" @input="$emit('update:modelValue', $event.target.value)" :placeholder="placeholder" @focus="form.clearErrors(name)" />
         <div :class="(form.errors?.[name]) ? 'invalid-feedback' : ''" v-if="form.errors?.[name]">
             {{ form.errors?.[name] }}
         </div>
     </div>
 </template>
 <script lang="ts">
-    import InputLabel from "@Components/Forms/InputLabel.vue";
+    import { InertiaForm } from "@inertiajs/inertia-vue3";
+    import InputLabel from "@Components/Inputs/InputLabel.vue";
     import { defineComponent } from "vue";
 
     export default defineComponent({
-        name: "InputText",
+        name: "InputUrl",
         components: {InputLabel},
         props: {
-            modelValue: [String, Number],
+            modelValue: String,
             name: {
                 type: String,
                 required: true
             },
-            placeholder: String,
+            placeholder: {
+                type: String,
+                default: 'es. https://sitoweb.it'
+            },
             form: {
-                type: Object as AppForm<any>,
+                type: Object as InertiaForm<any>,
                 required: true
             },
             required: Boolean,

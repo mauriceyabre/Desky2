@@ -14,9 +14,9 @@
     </div>
 </template>
 <script lang="ts">
-    import InputLabel from "@Components/Forms/InputLabel.vue";
+    import InputLabel from "@Components/Inputs/InputLabel.vue";
     import { defineComponent } from "vue";
-    import { ADForm } from "@Composables/useForm";
+    import { AppForm } from "@Composables/useForm";
 
     export default defineComponent({
         name: "InputPassword",
@@ -34,7 +34,7 @@
             },
             placeholder: String,
             form: {
-                type: Object as ADForm<any>,
+                type: Object as AppForm<any>,
                 required: true
             },
             required: Boolean,

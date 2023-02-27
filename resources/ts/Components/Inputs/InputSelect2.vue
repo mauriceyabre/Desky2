@@ -12,7 +12,7 @@
 </template>
 <script lang="ts">
     import { defineComponent, nextTick, PropType, ref } from "vue";
-    import InputLabel from "@Components/Forms/InputLabel.vue";
+    import InputLabel from "@Components/Inputs/InputLabel.vue";
 
     export default defineComponent({
         name: "InputSelect2",

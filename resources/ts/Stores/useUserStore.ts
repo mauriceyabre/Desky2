@@ -2,6 +2,7 @@ import { computed, ref } from "vue"
 import { defineStore } from "pinia"
 import User from "@Models/User"
 import Attendance from "@Models/Attendance";
+import { useAuthStore } from "@Stores/useAuthStore";
 
 export const useUserStore = defineStore("userStore", () => {
     const isLoading = ref(false)
@@ -24,10 +25,28 @@ export const useUserStore = defineStore("userStore", () => {
         set(await fetch(id))
     }
 
+    function pushToAuthStore() {
+        if (!!user.value) {
+            useAuthStore().sync(user.value)
+        } else {
+            console.log('No User Found to Push')
+        }
+    }
+
+    function getFromAuthStore() {
+        if (!!useAuthStore().user) {
+            user.value = useAuthStore().user
+        } else {
+            console.log('No User Found to Push')
+        }
+    }
+
     return {
         set,
         fetch,
         load,
+        pushToAuthStore,
+        getFromAuthStore,
         isLoading,
         user: computed(() => user.value as User|null ) };
 });

@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useAuthStore } from "@Stores/useAuthStore";
+import DeskyCore from "@Helpers/DeskyCore";
 
 window.axios = axios;
 
@@ -25,3 +26,5 @@ if (localStorage.getItem("access_token")) {
         "Authorization"
         ] = `Bearer ${ localStorage.getItem("access_token") }`;
 }
+
+window.DESKY = DeskyCore()

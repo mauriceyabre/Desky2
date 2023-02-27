@@ -211,9 +211,9 @@
     import AppModal from "@Components/AppModal.vue";
     import { computed, onMounted, ref, watch } from "vue";
     import Attendance from "@Models/Attendance";
-    import InputTime from "@Components/Forms/InputTime.vue";
-    import InputSelect from "@Components/Forms/InputSelect.vue";
-    import InputSelectProjects from "@Components/Forms/InputSelectProjects.vue";
+    import InputTime from "@Components/Inputs/InputTime.vue";
+    import InputSelect from "@Components/Inputs/InputSelect.vue";
+    import InputSelectProjects from "@Components/Inputs/InputSelectProjects.vue";
     import useForm from "@Composables/useForm";
     import useModal from "@Composables/useModal";
     import AppBoxLoader from "@Components/AppBoxLoader.vue";
@@ -470,7 +470,7 @@
             },
             async onSuccess(res?) {
                 attendance.value = new Attendance(res.data.attendance)
-                Global.pushToast('success', res.data.toast)
+                DESKY.toast('success', res.data.toast)
 
                 setForm()
                 await attendancesStore.load(props.user_id, props.date)

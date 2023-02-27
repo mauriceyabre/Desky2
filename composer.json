@@ -14,7 +14,7 @@
         "laravel/sanctum": "^v2.15.1",
         "laravel/tinker": "^v2.7.2",
         "pusher/pusher-php-server": "^7.2.1",
-        "tightenco/ziggy": "^v1.5.0"
+        "tightenco/ziggy": "^1.5"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.8",

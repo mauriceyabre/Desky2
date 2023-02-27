@@ -1,5 +1,5 @@
 <template>
-    <input :name="name" id="kt_datepicker"
+    <input :name="name"
            class="form-control form-control-solid cursor-pointer"
            :placeholder="placeholder"
            ref="input"

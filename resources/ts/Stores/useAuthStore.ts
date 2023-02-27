@@ -31,6 +31,10 @@ export const useAuthStore = defineStore("authStore", () => {
         })
     }
 
+    function sync(item: User) {
+        user.value = item
+    }
+
     async function login(credentials: {email: string, password: string, remember?: boolean}) {
         isLoading.value = true
         return await axios.post('auth/login', credentials).then((res) => {
@@ -75,6 +79,7 @@ export const useAuthStore = defineStore("authStore", () => {
         logout,
         set,
         fetch,
+        sync,
         hasUser,
         check,
         destroyToken,

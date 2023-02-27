@@ -23,7 +23,12 @@ class UpdateUserRequest extends FormRequest
             'address.postcode' => 'alpha_num|min:4|max:10|sometimes|nullable',
 
             'phone' => 'sometimes|regex:/^([0-9\s\-\+\(\)]*)$/|min:9|nullable',
-            'birthday' => 'sometimes|date_format:Y-m-d|nullable'
+            'birthday' => 'sometimes|date_format:Y-m-d|nullable',
+            'description' => 'string|sometimes|nullable',
+            'iban' => 'string|sometimes|digits:34|nullable',
+            'tax_id' => 'string|sometimes|digits:16|nullable',
+            'vat_id' => 'string|sometimes|max:12|min:5|nullable',
+            'hire_date' => 'date|date_format:Y-m-d|sometimes|nullable'
         ];
     }
 

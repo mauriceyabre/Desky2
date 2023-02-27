@@ -33,7 +33,7 @@ class User extends Authenticatable {
         'iban',
         'tax_id',
         'vat_id',
-        'last_login',
+        //'last_login',
         'hire_date'
     ];
 

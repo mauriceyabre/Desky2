@@ -45,6 +45,15 @@ export default class Address {
         }
     }
 
+    get values() {
+        return Object.entries(this)
+            .filter(item => ['street', 'city', 'postcode', 'province', 'state'].includes(item[0]))
+            .reduce((item, [key, value]) => {
+                item[key] = value
+                return item
+            }, {});
+    }
+
     get countryName(): string | null {
         return !!this?.country_code ? Country.getName(this.country_code) : null
     }

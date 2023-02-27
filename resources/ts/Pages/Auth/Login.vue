@@ -46,8 +46,8 @@
 <script setup lang="ts">
     import { ref } from "vue";
     import useForm from "@Composables/useForm";
-    import InputBase from "@Components/Forms/InputBase.vue";
-    import InputPassword from "@Components/Forms/InputPassword.vue";
+    import InputBase from "@Components/Inputs/InputBase.vue";
+    import InputPassword from "@Components/Inputs/InputPassword.vue";
     import { useAuthStore } from "@Stores/useAuthStore";
     import router from "../../Router/router";
 

@@ -40,7 +40,7 @@ export default class Attendance {
     }
 
     get sessionsCount(): number {
-        return this.presences?.length ?? 0
+        return !!(this.presences?.length) ? this.presences.length : 0
     }
 
     get isLatestPresenceActive(): boolean {

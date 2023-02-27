@@ -28,8 +28,7 @@
                                     <span class="required">Paese</span>
                                 </label>
                                 <div class="col-lg-9 fv-row fv-plugins-icon-container">
-                                    <InputSelect2 :options="countries" :form="form" name="address.country_code" id="country_code" placeholder="Seleziona un paese..." v-model="form.address.country_code"
-                                            clearable />
+                                    <InputSelect2 :options="countries" :form="form" name="address.country_code" id="country_code" placeholder="Seleziona un paese..." v-model="form.address.country_code" />
                                 </div>
                             </div>
                             <div class="row mb-6" v-if="form.address.country_code === 'IT'">
@@ -173,35 +172,21 @@
         </div>
     </div>
     <teleport to="body">
-        <!--<MemberModalEditEmail :key="'email-form'" :selected_member="user" v-if="isEmailModalOpen" @modal_closed="isEmailModalOpen = false" />
-        <MemberModalEditPassword :key="'password-form'" v-if="isPasswordModalOpen" :selected_member="user" @modal_closed="isPasswordModalOpen = false" />-->
+        <EditMemberEmailModal :key="'email-form'" :selected_member="user" v-if="isEmailModalOpen" @modal_closed="isEmailModalOpen = false" />
+        <EditMemberPasswordModal :key="'password-form'" v-if="isPasswordModalOpen" :selected_member="user" @modal_closed="isPasswordModalOpen = false" />
     </teleport>
 </template>
 <script setup lang="ts">
     import CountryModel from "@Models/Country";
-    // import User from "@Models/User";
-    // import AppInputSelect2 from "@Components/AppInputSelect2.vue";
     import { useToast } from 'vue-toastification';
-    // import AppInput from "@Components/AppInput.vue";
-    // import AppInputDate from "@Components/AppInputDate.vue";
-    // import InputText from "@Components/form/InputText.vue";
-    import { computed, nextTick, onMounted, ref, watch } from "vue";
-    // import MemberModalEditPassword from "@Pages/App/Members/Partials/MemberModalEditPassword.vue";
-    // import MemberModalEditEmail from "@Pages/App/Members/Partials/MemberModalEditEmail.vue";
-    // import cloneDeep from "lodash/cloneDeep";
+    import { computed, onMounted, ref, watch } from "vue";
     import useForm from "@Composables/useForm";
-    // import InputSelect from "@Components/Forms/InputSelect.vue";
-    import InputText from "@Components/Forms/InputText.vue";
-    import InputDate from "@Components/Forms/InputDate.vue";
+    import InputText from "@Components/Inputs/InputText.vue";
+    import InputDate from "@Components/Inputs/InputDate.vue";
     import { useUserStore } from "@Stores/useUserStore";
-    import User from "@Models/User";
-    import InputSelect2 from "@Components/Forms/InputSelect2.vue";
-
-    // interface Props {
-    //     user: User
-    // }
-    //
-    // const props = defineProps<Props>()
+    import InputSelect2 from "@Components/Inputs/InputSelect2.vue";
+    import EditMemberPasswordModal from "@Pages/App/Members/Partials/EditMemberPasswordModal.vue";
+    import EditMemberEmailModal from "@Pages/App/Members/Partials/EditMemberEmailModal.vue";
 
     const userStore = useUserStore()
 
@@ -240,109 +225,64 @@
         birthday: user.value?.birthday,
     })
 
-    // const form = useForm({
-    //     first_name: '',
-    //     last_name: '',
-    //
-    //     job: '',
-    //
-    //     iban: '',
-    //     tax_id: '',
-    //     vat_id: '',
-    //
-    //     hire_date: '',
-    //
-    //     address: {
-    //         id: '',
-    //         street: '',
-    //         postcode: '',
-    //         city: '',
-    //         province: '',
-    //         country_code: '',
-    //     },
-    //
-    //     phone: '',
-    //     birthday: '',
-    // })
+    form.setDefaults()
 
-    // const initialValues = cloneDeep(form.data())
+    watch(() => form.address.country_code, (value, oldValue) => {
+        if (value !== oldValue && value !== 'IT') {
+            form.address.street = ''
+            form.address.postcode = ''
+            form.address.city = ''
+            form.address.province = ''
+        }
+    })
 
     function submitDetails() {
-        // form
-        //     .transform((data) => {
-        //         let toEditDetails = {}
-        //         let toEditAddress = {}
-        //         Object.keys(data).forEach(key => {
-        //             if (key !== 'address') {
-        //                 if (data[key] !== initialValues[key]) {
-        //                     toEditDetails[key] = data[key]
-        //                 }
-        //             } else {
-        //                 Object.keys(data['address']).forEach(addKey => {
-        //                     if (data['address'][addKey] !== initialValues['address'][addKey]) {
-        //                         toEditAddress[addKey] = data['address'][addKey];
-        //                     }
-        //                 })
-        //             }
-        //         })
-        //
-        //         if (!!Object.keys(toEditAddress).length) {
-        //             toEditAddress['id'] = data['address']['id'] ?? null
-        //         }
-        //
-        //         return {
-        //             ...toEditDetails,
-        //             address: !!Object.keys(toEditAddress).length ? toEditAddress : undefined
-        //         }
-        //     })
-        //     .put(route('user.update', user.value.id), {
-        //         preserveScroll: true,
-        //         preserveState: true
-        //     })
+        form
+            .transform((data) => {
+                let toEditDetails = {}
+                let toEditAddress = {}
+                Object.keys(data).forEach(key => {
+                    if (key !== 'address') {
+                        if (data[key] !== form.defaults()[key]) {
+                            toEditDetails[key] = data[key]
+                        }
+                    } else {
+                        Object.keys(data['address']).forEach(addKey => {
+                            if (data['address'][addKey] !== form.defaults()['address'][addKey]) {
+                                toEditAddress[addKey] = data['address'][addKey];
+                            }
+                        })
+                    }
+                })
+
+                if (!!Object.keys(toEditAddress).length) {
+                    toEditAddress['id'] = data['address']['id'] ?? null
+                }
+
+                return {
+                    ...toEditDetails,
+                    address: !!Object.keys(toEditAddress).length ? toEditAddress : undefined
+                }
+            })
+            .put('members/' + user.value?.id, {
+                onBefore(data): any {
+                    console.log(data)
+                    return;
+                },
+                onSuccess(res): any {
+                    DESKY.toast('success', res.data.toast)
+                    userStore.set(res.data.user)
+                    userStore.pushToAuthStore()
+
+                    form.setDefaults()
+                }
+            })
     }
 
     function resetDetails() {
         // form.reset();
         // form.clearErrors();
     }
-
-    // watch(user, value => {
-    //     console.log(value)
-    //
-    //     Object.keys(form.data()).forEach(key => {
-    //         if (key === 'address') {
-    //             form.address[key] = value?.address?.[key]
-    //             return
-    //         }
-    //         form[key] = value?.[key]
-    //     })
-
-        // form.first_name =
-        // form. = useForm({
-        //     first_name: value?.first_name,
-        //     last_name: value?.last_name,
-        //
-        //     job: value?.job,
-        //
-        //     iban: value?.iban,
-        //     tax_id: value?.tax_id,
-        //     vat_id: value?.vat_id,
-        //
-        //     hire_date: value?.hire_date,
-        //
-        //     address: {
-        //         id: value?.address?.addressable_id,
-        //         street: value?.address?.street,
-        //         postcode: value?.address?.postcode,
-        //         city: value?.address?.city,
-        //         province: value?.address?.province,
-        //         country_code: value?.address?.country_code,
-        //     },
-        //
-        //     phone: value?.phone,
-        //     birthday: value?.birthday,
-        // })
-    // })
 
     onMounted(async() => {
         // form = useForm({

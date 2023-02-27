@@ -38,7 +38,7 @@ export default class User {
     projects?: Project[]
     attendances?: Attendance[]
     latest_attendance?: Attendance
-    today_attendance?: Attendance
+    // today_attendance?: Attendance
     active_session_attendance?: Attendance
 
     constructor(user: any) {
@@ -75,12 +75,16 @@ export default class User {
         this.projects = !!user.projects ? Object.values(user.projects).map(project => new Project(project)) : []
         this.attendances = !!user.attendances ? Object.values(user.attendances).map(item => new Attendance(item)) : []
         this.latest_attendance = !!user.latest_attendance ? new Attendance(user.latest_attendance) : undefined
-        this.today_attendance = !!user.today_attendance ? new Attendance(user.today_attendance) : undefined
+        // this.today_attendance = !!user.today_attendance ? new Attendance(user.today_attendance) : undefined
         this.active_session_attendance = !!user.active_session_attendance ? new Attendance(user.active_session_attendance) : undefined
     }
 
     get isArchived(): boolean {
         return !!this.deleted_at
+    }
+
+    get age(): number|undefined {
+        return !!(this.birthday) ? moment().diff(moment(this.birthday), 'years') : undefined
     }
 
     get roleName(): string {
@@ -134,7 +138,7 @@ export default class User {
     }
 
     get hasAddress(): boolean {
-        return (this.address) ? !!Object.values(this.address).filter(val => !!val).length : false;
+        return (!!this.address) ? !!Object.keys(this.address?.values).filter(key => key !== 'country_code' && !!this.address?.[key]).length : false;
     }
 
     get plainAddress(): string | null | undefined {
@@ -177,18 +181,18 @@ export default class User {
     }
 
     get hasTodayAttendance(): boolean {
-        return !!this.today_attendance
+        return !!(this.latest_attendance && moment(this.latest_attendance.date).isSame(moment(), 'day'))
     }
 
     get todayAttendance(): Attendance|undefined {
-        return this.today_attendance
+        return this.hasTodayAttendance ? this.latest_attendance! : undefined
     }
     get hasActiveSession(): boolean {
-        return !!(this.active_session_attendance && this.active_session_attendance?.hasActiveSession)
+        return !!(this.latest_attendance && this.latest_attendance?.hasActiveSession)
     }
 
     get activeSession(): PresenceLog | null {
-        return this.active_session_attendance?.activeSession ?? null;
+        return this.latest_attendance?.activeSession ?? null;
     }
 
     get todayPresenceDuration(): number {

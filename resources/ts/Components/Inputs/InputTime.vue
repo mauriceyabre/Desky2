@@ -8,7 +8,7 @@
     </div>
 </template>
 <script lang="ts">
-    import InputLabel from "@Components/Forms/InputLabel.vue";
+    import InputLabel from "@Components/Inputs/InputLabel.vue";
     import { defineComponent, PropType } from "vue";
 
     export default defineComponent({
